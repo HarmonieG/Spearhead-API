@@ -1,0 +1,7 @@
+# Ignore everything by default
+*
+
+# Keep only publication files
+!.gitignore
+!README.md
+!spearheads.json

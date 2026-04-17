@@ -1,0 +1,3064 @@
+[
+  {
+    "id": "bleak-host",
+    "name": "Bleak Host",
+    "faction": "Maggotkin of Nurgle",
+    "generalId": "spoilpox-scrivener",
+    "unitComposition": [
+      {
+        "unitId": "spoilpox-scrivener",
+        "count": 1
+      },
+      {
+        "unitId": "pusgoyle-blightlord",
+        "count": 2
+      },
+      {
+        "unitId": "putrid-blightkings",
+        "count": 1
+      },
+      {
+        "unitId": "plaguebearers",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "DISEASED",
+        "timing": "Passive",
+        "effect": "Each time an attack made by a friendly model scores a critical hit, you receive 1 disease point, to a maximum of 7.",
+        "isPassive": true
+      },
+      {
+        "name": "NURGLE’S EMBRACE",
+        "timing": "End of Any Turn",
+        "effect": "Spend any number of your disease points. For each disease point you spend, pick an enemy unit that is in combat with any of your units and roll a dice. On a 5+, inflict 1 mortal damage on that unit."
+      },
+      {
+        "name": "DAEMONIC SUMMONING",
+        "timing": "Your Movement Phase",
+        "description": "One of your Pusgoyle Blightlords and one of your Plaguebearers units are not set up during deployment. From the third battle round onwards, they can use this ability.",
+        "effect": "Set up this unit anywhere on the battlefield more than 6\" from all enemy units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "LOCUS OF FECUNDITY",
+        "timing": "Once Per Phase, Your Hero Phase",
+        "declare": "Pick a friendly unit.",
+        "effect": "Heal (D3) that unit."
+      },
+      {
+        "name": "INFESTED WITH WONDERS",
+        "timing": "Passive",
+        "effect": "Each time a friendly model is slain, before it is removed from play, you can pick an enemy unit within 1\" of it and roll a dice. On a 4+, inflict 1 mortal damage on that unit."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SUMMONER OF PLAGUEBEARERS",
+        "timing": "End of Any Turn",
+        "declare": "Pick a friendly Plaguebearers unit wholly within 14\" of your general.",
+        "effect": "Return 1 slain model to that unit."
+      },
+      {
+        "name": "GARDENER OF NURGLE",
+        "timing": "Your Movement Phase",
+        "declare": "If your general is contesting an objective not contested by any enemy models, roll a dice.",
+        "effect": "On a 3+, that objective is considered by you to be desecrated. Friendly units have Ward (4+) while they are contesting a desecrated objective."
+      },
+      {
+        "name": "PESTILENT BREATH",
+        "timing": "Your Shooting Phase",
+        "declare": "Pick an enemy unit within 7\" of your general and roll a dice for each model in that unit.",
+        "effect": "For each 5+, inflict 1 mortal damage on that unit."
+      },
+      {
+        "name": "GIFT OF FEBRILE FRENZY",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "Until the end of the phase, add 1 to the Attacks characteristic of melee weapons used by friendly units while they are wholly within 7\" of your general."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 28
+  },
+  {
+    "id": "bloodcrave-hunt",
+    "name": "Bloodcrave Hunt",
+    "faction": "Soulblight Gravelords",
+    "generalId": "vampire-lord",
+    "unitComposition": [
+      {
+        "unitId": "vampire-lord",
+        "count": 1
+      },
+      {
+        "unitId": "deathrattle-skeletons",
+        "count": 2
+      },
+      {
+        "unitId": "blood-knights",
+        "count": 1
+      },
+      {
+        "unitId": "vargheists",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "DEATH’S DESCENT",
+        "timing": "Your Movement Phase",
+        "description": "Your Vargheists unit is not set up during deployment. From the third battle round onwards, it can use the Swoop Down ability.",
+        "effect": "Set up this unit anywhere on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "THE HUNGER",
+        "timing": "Passive",
+        "effect": "Each time a friendly VAMPIRE unit uses a FIGHT ability, after all of its attacks have been resolved, Heal (X) that VAMPIRE unit where X is the number of damage points allocated by those attacks.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "ENDLESS LEGIONS",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick a friendly Deathrattle Skeletons unit that has been destroyed.",
+        "effect": "You can set up a replacement unit with D6 models in friendly territory more than 6\" from enemy units."
+      },
+      {
+        "name": "RUINOUS CHARGERS",
+        "timing": "Any Charge Phase",
+        "declare": "Pick your Blood Knights unit to use this ability if it charged this turn.",
+        "effect": "Inflict D3 mortal damage on each enemy unit it passed across during that CHARGE ability."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "GRAVE-SAND SHARD",
+        "timing": "Once Per Battle, Reaction",
+        "declare": "You declared the ‘Skeleton Legion’ ability for a unit within 9\" of your general.",
+        "effect": "Add 1 to each legion roll made for that unit."
+      },
+      {
+        "name": "CLOUD OF BATS",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "effect": "Remove your general from the battlefield and set them up again anywhere on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "AURA OF NIGHT",
+        "timing": "Passive",
+        "effect": "Ignore negative modifiers to save rolls for shooting attacks that target your general.",
+        "isPassive": true
+      },
+      {
+        "name": "SPIRIT GALE",
+        "timing": "Your Hero Phase",
+        "declare": "Make a casting roll of 2D6.",
+        "effect": "On a 7+, inflict 1 mortal damage on each enemy unit on the battlefield."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 29
+  },
+  {
+    "id": "fusil-platoon",
+    "name": "Fusil-Platoon",
+    "faction": "Cities of Sigmar",
+    "generalId": "fusil-major-ogor-warhulk",
+    "unitComposition": [
+      {
+        "unitId": "fusil-major-ogor-warhulk",
+        "count": 1
+      },
+      {
+        "unitId": "alchemite-warforger",
+        "count": 1
+      },
+      {
+        "unitId": "freeguild-fusiliers",
+        "count": 2
+      },
+      {
+        "unitId": "wildercorps-hunters",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FORTIFY POSITION",
+        "timing": "Passive",
+        "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target friendly CASTELITE units if they did not use a MOVE ability in the same turn.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "WELL PROVISIONED",
+        "timing": "Once Per Turn (Army), Your Shooting Phase",
+        "declare": "Pick a friendly non-HERO unit to be the target.",
+        "effect": "Roll a dice. On a 3+, add 1 to wound rolls for that unit’s shooting attacks for the rest of the phase."
+      },
+      {
+        "name": "RESPECTED LEADER",
+        "timing": "Once Per Battle, Deployment Phase",
+        "effect": "Friendly Wildercorps Hunters units gain the REINFORCEMENTS keyword."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "ADEPT TACTICIAN",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick 2 friendly Freeguild Fusiliers units that have been destroyed and have not already been replaced.",
+        "effect": "Set up a single replacement Freeguild Fusiliers unit with 10 models more than 6\" from all enemy units."
+      },
+      {
+        "name": "SHIELD BASH",
+        "timing": "Once Per Turn, Your Movement Phase",
+        "declare": "Pick an enemy INFANTRY, WAR MACHINE or CAVALRY unit in combat with your general to be the target.",
+        "effect": "Roll a dice. On a 3+, the target must immediately use the ‘Retreat’ ability as if it were the enemy movement phase."
+      },
+      {
+        "name": "BRACE!",
+        "timing": "Passive",
+        "effect": "Your general has WARD (5+).",
+        "isPassive": true
+      },
+      {
+        "name": "POINT-BLANK VOLLEY",
+        "timing": "Once Per Turn, Enemy Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general to be the target.",
+        "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 33
+  },
+  {
+    "id": "deathrattle-tomb-host",
+    "name": "Deathrattle Tomb Host",
+    "faction": "Soulblight Gravelords",
+    "generalId": "wight-king",
+    "unitComposition": [
+      {
+        "unitId": "wight-king",
+        "count": 1
+      },
+      {
+        "unitId": "barrow-guard",
+        "count": 1
+      },
+      {
+        "unitId": "barrow-knights",
+        "count": 1
+      },
+      {
+        "unitId": "deathrattle-skeletons-tomb-host",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "THE UNQUIET DEAD",
+        "timing": "Your Movement Phase",
+        "description": "One of your Deathrattle Skeletons units is not set up during deployment. From the third battle round onwards, it can use the Rising Dead ability.",
+        "effect": "Set up this unit anywhere on the battlefield wholly within 3\" of a battlefield edge and more than 6\" from all enemy units."
+      },
+      {
+        "name": "AURA OF ANTIQUITY",
+        "timing": "Once Per Turn (Army), Your Combat Phase",
+        "declare": "Pick an enemy unit in combat with any friendly units to be the target.",
+        "effect": "Roll a dice. On a 3+, subtract 1 from the Rend characteristic of the target’s melee weapons until the start of your next turn."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "OVERWHELMING HORDES",
+        "timing": "Passive",
+        "effect": "Add 1 to wound rolls for combat attacks made by friendly non-HERO units that target a unit that has fewer models than the attacking unit.",
+        "isPassive": true
+      },
+      {
+        "name": "DEATHMARCH",
+        "timing": "Once Per Turn (Army), Your Hero Phase",
+        "declare": "Pick a friendly non-HERO unit that is not in combat to be the target.",
+        "effect": "For the rest of the turn, add 1\" to the target’s Move characteristic and add 3 to its control score."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SHYISHAN BLADE",
+        "timing": "Passive",
+        "effect": "The Rend characteristic of your general’s Baleful Tomb Blade is 2.",
+        "isPassive": true
+      },
+      {
+        "name": "STOLEN ANIMUS",
+        "timing": "Passive",
+        "effect": "Each time your general scores a critical hit, Heal (2) your general after the ATTACK ability has been resolved.",
+        "isPassive": true
+      },
+      {
+        "name": "PROPELLED BY HATE",
+        "timing": "Your Charge Phase",
+        "declare": "Pick another friendly unit wholly within 12\" of your general to be the target.",
+        "effect": "You can re-roll charge rolls for the target for the rest of the turn."
+      },
+      {
+        "name": "SOUL-DRAIN PENDANT",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general to be the target.",
+        "effect": "Roll a dice. On a 2+, the target has STRIKE-LAST for the rest of the turn."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 56
+  },
+  {
+    "id": "fangs-of-the-blood-god",
+    "name": "Fangs of the Blood God",
+    "faction": "Blades of Khorne",
+    "generalId": "karanak",
+    "unitComposition": [
+      {
+        "unitId": "karanak",
+        "count": 1
+      },
+      {
+        "unitId": "flesh-hounds",
+        "count": 2
+      },
+      {
+        "unitId": "claws-of-karanak",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "THE QUARRY",
+        "timing": "Start of Battle Round",
+        "effect": "If no enemy units are the quarry, pick an enemy unit to be the quarry (you can pick an enemy unit in reserve)."
+      },
+      {
+        "name": "BLOOD-DRENCHED",
+        "timing": "Once Per Turn, End of Any Turn",
+        "declare": "Pick a friendly unit that slew any enemy models using a FIGHT ability this turn to be the target.",
+        "effect": "For the rest of the battle, the target’s melee weapons have Crit (Mortal)."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "THE SCENT OF BLOOD",
+        "timing": "Passive",
+        "effect": "Add 1 to hit rolls and add 1 to wound rolls for combat attacks that target an enemy unit that had any damage points allocated to it this turn.",
+        "isPassive": true
+      },
+      {
+        "name": "SAVAGERY UPON SAVAGERY",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick a friendly unit in combat to be the target.",
+        "effect": "For the rest of the turn, add 1 to the Attacks characteristic of the target’s melee weapons. If the target is a HERO, add D3 to the Attacks characteristic of its melee weapons instead."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SUSTAINED BY GORE",
+        "timing": "End of Any Turn",
+        "effect": "Heal (D3) your general."
+      },
+      {
+        "name": "EVASIVE HUNTER",
+        "timing": "Passive",
+        "effect": "Subtract 1 from hit rolls and wound rolls for shooting attacks that target your general.",
+        "isPassive": true
+      },
+      {
+        "name": "KILLING POUNCE",
+        "timing": "Once Per Battle, Any Charge Phase",
+        "effect": "For the rest of the turn, when making charge rolls for your general, you can roll an additional dice, to a maximum of 3, but if you do, they must finish that charge in combat with the quarry."
+      },
+      {
+        "name": "FURIOUS BITES",
+        "timing": "End of Any Turn",
+        "effect": "If your general is in combat with the quarry, inflict D3 mortal damage on the quarry."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 19
+  },
+  {
+    "id": "soulraid-hunt",
+    "name": "Soulraid Hunt",
+    "faction": "Idoneth Deepkin",
+    "generalId": "isharann-soulscryer",
+    "unitComposition": [
+      {
+        "unitId": "isharann-soulscryer",
+        "count": 1
+      },
+      {
+        "unitId": "akhelian-morrsarr-guard",
+        "count": 1
+      },
+      {
+        "unitId": "akhelian-allopex",
+        "count": 1
+      },
+      {
+        "unitId": "namarti-thralls",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "TIDES OF DEATH (ROUND 1: LOW TIDE)",
+        "timing": "Battle Round 1",
+        "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+        "isPassive": true
+      },
+      {
+        "name": "TIDES OF DEATH (ROUND 2: FLOOD TIDE)",
+        "timing": "Battle Round 2",
+        "effect": "This unit can use a RUN ability and still use SHOOT and/or CHARGE abilities later in the turn."
+      },
+      {
+        "name": "TIDES OF DEATH (ROUND 3: HIGH TIDE)",
+        "timing": "Battle Round 3",
+        "effect": "This unit has STRIKE-FIRST.",
+        "isPassive": true
+      },
+      {
+        "name": "TIDES OF DEATH (ROUND 4: EBB TIDE)",
+        "timing": "Battle Round 4",
+        "effect": "This unit can use a RETREAT ability and still use SHOOT and/or CHARGE abilities later in the turn."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "WAY OF THE CRESTING WAVE",
+        "timing": "Passive",
+        "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly Namarti Thralls units that charged in the same turn.",
+        "isPassive": true
+      },
+      {
+        "name": "ETHERSEA PREDATORS",
+        "timing": "Once Per Turn (Army), End of Any Turn",
+        "effect": "Pick a friendly CAVALRY unit that used a FIGHT ability this turn. Heal (D3) that unit."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "ARCH-RITUALIST",
+        "timing": "Passive",
+        "effect": "Add 1 to rolls for your general’s ‘Ritual of the Creeping Mist’ ability.",
+        "isPassive": true
+      },
+      {
+        "name": "STEELSHELL ARMOUR",
+        "timing": "Passive",
+        "effect": "Ignore all modifiers to save rolls for your general (positive and negative).",
+        "isPassive": true
+      },
+      {
+        "name": "MIND FLARE",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general.",
+        "effect": "Until the end of the phase, attacks made by that unit only score hits on unmodified hit rolls of 6."
+      },
+      {
+        "name": "DELICIOUS MORSELS",
+        "timing": "Your Hero Phase",
+        "effect": "Heal (1) each friendly CAVALRY unit within your general’s combat range."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 25
+  },
+  {
+    "id": "akhelian-tide-guard",
+    "name": "Akhelian Tide Guard",
+    "faction": "Idoneth Deepkin",
+    "generalId": "akhelian-king-tide",
+    "unitComposition": [
+      {
+        "unitId": "akhelian-king-tide",
+        "count": 1
+      },
+      {
+        "unitId": "akhelian-morrsarr-guard-tide",
+        "count": 1
+      },
+      {
+        "unitId": "akhelian-ishlaen-guard-tide",
+        "count": 1
+      },
+      {
+        "unitId": "namarti-reavers-tide",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "ROYAL IMPERATIVE",
+        "timing": "Once Per Battle (Army), Any Combat Phase",
+        "effect": "You can only use this ability in the third battle round. Pick 1 of the following effects to apply for the rest of the battle round: Into Them!: Friendly units have STRIKE-FIRST. Strike Sure: Friendly units’ melee weapons have Crit (Mortal)."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "THE SPEAR OF ASPHOREN",
+        "timing": "Once Per Turn (Army), Any Charge Phase",
+        "declare": "Pick a friendly unit that is not in combat to use this ability.",
+        "effect": "Add 1 to charge rolls for that unit for the rest of the turn."
+      },
+      {
+        "name": "THE SHIELD OF ULCHISS",
+        "timing": "Once Per Turn (Army), Your Movement Phase",
+        "declare": "Pick a friendly unit in combat to use this ability.",
+        "effect": "For the rest of the turn, each time that unit uses a RETREAT ability, no mortal damage is inflicted on it."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "DUTIFUL SOULS",
+        "timing": "Once Per Battle, Your Hero Phase",
+        "declare": "Pick a friendly unit wholly within 12\" of your general to be the target.",
+        "effect": "You can return 1 slain model to the target unit. If the target is an INFANTRY unit, you can return D3 slain models to it instead."
+      },
+      {
+        "name": "SHIMMERING AMULET",
+        "timing": "Passive",
+        "effect": "Your general has Ward (5+).",
+        "isPassive": true
+      },
+      {
+        "name": "VOLTAIC CHARGE",
+        "timing": "Passive",
+        "effect": "Your general’s Akhelian Royal Weapons have Charge (+1 Damage).",
+        "isPassive": true
+      },
+      {
+        "name": "SOUL STEALER",
+        "timing": "End of Any Turn",
+        "effect": "If your general is in combat, Heal (D3) your general."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 17
+  },
+  {
+    "id": "castelite-company",
+    "name": "Castelite Company",
+    "faction": "Cities of Sigmar",
+    "generalId": "freeguild-cavalier-marshal",
+    "unitComposition": [
+      {
+        "unitId": "freeguild-cavalier-marshal",
+        "count": 1
+      },
+      {
+        "unitId": "freeguild-steelhelms",
+        "count": 2
+      },
+      {
+        "unitId": "freeguild-cavaliers",
+        "count": 1
+      },
+      {
+        "unitId": "ironweld-great-cannon",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "THE OFFICER’S ORDER",
+        "timing": "Once Per Battle Round, Start of Battle Round",
+        "declare": "Pick a battle tactic card in your hand and place it face-down separately next to your other battle tactic cards.",
+        "effect": "When you use the command on that card, it is not discarded but returns to your hand."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "FOR SIGMAR, CHARGE!",
+        "timing": "Passive",
+        "effect": "Friendly CAVALRY units have STRIKE-FIRST if they charged in the same turn.",
+        "isPassive": true
+      },
+      {
+        "name": "IRONWELD DISCIPLINE",
+        "timing": "Once Per Turn, Enemy Shooting Phase",
+        "declare": "Pick your Ironweld Great Cannon to use this ability.",
+        "effect": "Roll a dice. On a 3+, it can use the ‘Shoot’ ability as if it were your shooting phase."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "FLASK OF LETHISIAN DARKWATER",
+        "timing": "Once Per Battle, Start of Any Turn",
+        "effect": "Heal (D6) your general."
+      },
+      {
+        "name": "HEIRLOOM BLADE",
+        "timing": "Passive",
+        "effect": "Add 1 to the Rend characteristic of your general’s Master-forged Longsword.",
+        "isPassive": true
+      },
+      {
+        "name": "BRAZIER OF HOLY FLAME",
+        "timing": "End of Any Turn",
+        "declare": "Pick a friendly Freeguild Steelhelms unit within your general’s combat range.",
+        "effect": "You can return up to D3 slain models to that unit."
+      },
+      {
+        "name": "GLIMMERING",
+        "timing": "Passive",
+        "effect": "Each phase, you can re-roll 1 hit roll, or 1 wound roll, or 1 save roll made for your general.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 27
+  },
+  {
+    "id": "blades-of-the-lurid-dream",
+    "name": "Blades of the Lurid Dream",
+    "faction": "Hedonites of Slaanesh",
+    "generalId": "shardspeaker-of-slaanesh",
+    "unitComposition": [
+      {
+        "unitId": "shardspeaker-of-slaanesh",
+        "count": 1
+      },
+      {
+        "unitId": "blissbarb-archers",
+        "count": 2
+      },
+      {
+        "unitId": "slickblade-seekers",
+        "count": 1
+      },
+      {
+        "unitId": "slaangor-fiendbloods",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "TEMPTATIONS OF SLAANESH",
+        "timing": "Start of Battle Round",
+        "effect": "You receive 6 temptation dice. Offer them on failed enemy rolls. If accepted, roll becomes 6 and you gain D6 depravity points. If rejected, enemy unit takes D3 mortal damage."
+      },
+      {
+        "name": "DEPRAVITY ABILITIES (12+ DP: TANTALISING TORMENT)",
+        "timing": "Passive",
+        "effect": "This unit can use a RUN ability and still use CHARGE abilities later in the turn.",
+        "isPassive": true
+      },
+      {
+        "name": "DEPRAVITY ABILITIES (18+ DP: SADISTIC SPITE)",
+        "timing": "Passive",
+        "effect": "This unit’s melee weapons have CRIT (MORTAL).",
+        "isPassive": true
+      },
+      {
+        "name": "DEPRAVITY ABILITIES (24+ DP: OBLIVIOUS INDULGENCE)",
+        "timing": "Passive",
+        "effect": "This unit has WARD (5+).",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "UNPARALLELED SPEED",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick a friendly unit to use this ability.",
+        "effect": "That unit has STRIKE-FIRST this phase."
+      },
+      {
+        "name": "LOCUS OF DIVERSION",
+        "timing": "Once Per Turn, Your Movement Phase",
+        "declare": "Pick a friendly unit to use this ability.",
+        "effect": "For the rest of the turn, that unit can use a RETREAT ability and still use SHOOT and/or CHARGE abilities later in the turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SCEPTRE OF DOMINATION",
+        "timing": "Any Combat Phase",
+        "declare": "Roll a dice for each enemy unit in combat with your general.",
+        "effect": "On a 5+, the unit being rolled for has STRIKE-LAST this phase."
+      },
+      {
+        "name": "TWISTED MIRROR",
+        "timing": "Once Per Turn, Your Shooting Phase",
+        "declare": "Pick an enemy unit within 9\" of your general and roll a dice.",
+        "effect": "On a 4+, subtract 1 from save rolls for that unit until the start of your next turn."
+      },
+      {
+        "name": "CACOPHONIC CHOIR",
+        "timing": "Your Hero Phase",
+        "declare": "Make a casting roll of 2D6.",
+        "effect": "On a 6+, make a cacophony roll of D6. Inflict D3 mortal damage on each enemy unit within 6\" of your general that has a Control characteristic less than the cacophony roll."
+      },
+      {
+        "name": "PENDANT OF SLAANESH",
+        "timing": "Your Hero Phase",
+        "effect": "Heal (D3) your general."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 29
+  },
+  {
+    "id": "darkoath-raiders",
+    "name": "Darkoath Raiders",
+    "faction": "Slaves to Darkness",
+    "generalId": "darkoath-warqueen",
+    "unitComposition": [
+      {
+        "unitId": "darkoath-warqueen",
+        "count": 1
+      },
+      {
+        "unitId": "darkoath-savagers",
+        "count": 1
+      },
+      {
+        "unitId": "darkoath-fellriders",
+        "count": 1
+      },
+      {
+        "unitId": "darkoath-marauders",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "OATHS OF DARKNESS",
+        "timing": "Once Per Turn (Army), Your Hero Phase",
+        "effect": "You can reveal 1 battle tactic card in your hand to your opponent. If you do so, that battle tactic card becomes your oath for the rest of the turn. If you score the battle tactic on your oath this turn, your oath is fulfilled. Instead of discarding the card, it is placed to one side but you can still use the command on it."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "RAGE OF ARKHAR",
+        "timing": "Once Per Turn (Army), Any Combat Phase",
+        "declare": "Pick a friendly unit in combat to be the target.",
+        "effect": "For the rest of the turn, add 1 to the Attacks and Rend characteristics of the target’s melee weapons (does not affect Companion weapons)."
+      },
+      {
+        "name": "FEARLESS INVADERS",
+        "timing": "Once Per Turn (Army), Your Movement Phase",
+        "declare": "Pick a friendly unit in combat to be the target.",
+        "effect": "If the target uses a RETREAT ability this turn, no mortal damage is inflicted on it and it can still use CHARGE abilities later in the turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "BLOODTHIRSTY BLADE",
+        "timing": "Passive",
+        "effect": "The Rend characteristic of your general’s Rune-etched Axe is 2.",
+        "isPassive": true
+      },
+      {
+        "name": "GODSHADOW TALISMAN",
+        "timing": "Passive",
+        "effect": "Your general has Ward (4+).",
+        "isPassive": true
+      },
+      {
+        "name": "CHAMPION OF RAIDS",
+        "timing": "Your Charge Phase",
+        "declare": "Pick another friendly unit wholly within 12\" of your general to be the target.",
+        "effect": "The target can re-roll charge rolls for the rest of the turn."
+      },
+      {
+        "name": "FELL RITUALIST",
+        "timing": "Passive",
+        "effect": "Each time you draw battle tactic cards, if your general is on the battlefield, you can choose to draw 1 additional battle tactic card, then put 1 of your battle tactic cards in your hand back at the bottom of your battle tactic deck.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 26
+  },
+  {
+    "id": "scrapglutt",
+    "name": "Scrapglutt",
+    "faction": "Ogor Mawtribes",
+    "generalId": "mantrappers",
+    "unitComposition": [
+      {
+        "unitId": "mantrappers",
+        "count": 1
+      },
+      {
+        "unitId": "ironguts",
+        "count": 3
+      },
+      {
+        "unitId": "gnoblars",
+        "count": 1
+      },
+      {
+        "unitId": "gnoblar-scraplauncher",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "BETTER LATE THAN NEVER",
+        "timing": "Passive",
+        "effect": "A unit of Ironguts with 4 models is not set up during the deployment phase. Instead, in the third battle round, that unit can use the ‘Let’s Get Stuck In’ ability.",
+        "isPassive": true
+      },
+      {
+        "name": "LET’S GET STUCK IN",
+        "timing": "Your Movement Phase",
+        "effect": "Set up this unit wholly within friendly territory, wholly within 6\" of the battlefield edge, and not in combat."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "IT’S A HARD LIFE",
+        "timing": "Any Hero Phase",
+        "declare": "Pick a friendly Gnoblars unit within your general’s combat range to be the target.",
+        "effect": "Roll a D3. On a 2+, Heal (X) your general where X is an amount equal to the roll, and 1 model in that Gnoblars unit is slain."
+      },
+      {
+        "name": "FRENZIED ARTILLERY",
+        "timing": "Passive",
+        "effect": "If the unmodified charge roll for a friendly Gnoblar Scraplauncher is 6+, add 3 to the Attacks characteristic of the target’s Companion weapons for the rest of the turn.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SAVAGE INSTINCTS",
+        "timing": "Reaction: You declared a FIGHT ability for your general",
+        "effect": "Pick a friendly unit that has not used a FIGHT ability this turn and is within your general’s combat range to be the target. The target can be picked to use a FIGHT ability immediately after the FIGHT ability used by your general has been resolved."
+      },
+      {
+        "name": "NASTY TRAP",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick an enemy unit within 12\" of your general to be the target.",
+        "effect": "Give the target your general’s Trap token. While the target has a Trap token, each time the target is picked to use a MOVE or CHARGE ability, roll a dice. On a 4+, that MOVE or CHARGE ability has no effect and the target’s Trap token is removed."
+      },
+      {
+        "name": "MASSIVE BULK",
+        "timing": "Passive",
+        "effect": "Add 2 to the Health characteristic of your general.",
+        "isPassive": true
+      },
+      {
+        "name": "VETERAN HUNTER",
+        "timing": "Once Per Battle, Any Hero Phase",
+        "declare": "Pick an enemy unit within 12\" of your general to be the target.",
+        "effect": "For the rest of the turn, add 1 to the Rend characteristic of your general’s combat attacks that target that unit."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 34
+  },
+  {
+    "id": "glittering-phalanx",
+    "name": "Glittering Phalanx",
+    "faction": "Lumineth Realm-lords",
+    "generalId": "scinari-cathallar",
+    "unitComposition": [
+      {
+        "unitId": "scinari-cathallar",
+        "count": 1
+      },
+      {
+        "unitId": "vanari-auralan-sentinels",
+        "count": 2
+      },
+      {
+        "unitId": "vanari-auralan-wardens",
+        "count": 1
+      },
+      {
+        "unitId": "vanari-bladelords",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FACETS OF WAR",
+        "timing": "Once Per Battle Round, Start of Battle Round",
+        "effect": "You must use this ability at the start of the battle round. Pick 1 FACET OF WAR ability. That FACET OF WAR ability can be used this battle round but the other cannot."
+      },
+      {
+        "name": "SHINING COMPANY",
+        "timing": "Passive",
+        "effect": "Subtract 1 from hit rolls for attacks that target friendly units.",
+        "isPassive": true,
+        "keywords": [
+          "FACET OF WAR"
+        ]
+      },
+      {
+        "name": "POWER OF HYSH",
+        "timing": "Once Per Turn (Army), Your Hero Phase",
+        "declare": "Pick a friendly unit.",
+        "effect": "Roll a dice. On a 2+, until the start of your next turn, attacks made by that unit score critical hits on unmodified hit rolls of 5+.",
+        "keywords": [
+          "FACET OF WAR"
+        ]
+      },
+      {
+        "name": "LIGHTNING REACTIONS",
+        "timing": "Passive",
+        "effect": "When players are alternating picking units to use a FIGHT ability, when it is your turn to pick a unit, you can pick 2 units instead of 1. Resolve the second FIGHT ability immediately after the first.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "ARCANE PROWESS",
+        "timing": "Passive",
+        "effect": "Add 1 to casting rolls for your general.",
+        "isPassive": true
+      },
+      {
+        "name": "HEIGHTENED REFLEXES",
+        "timing": "Passive",
+        "effect": "Add 1 to save rolls for friendly units that use a FIGHT ability immediately after another friendly unit because of the ‘Lightning Reactions’ ability, until the end of the phase.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "OVERWHELMING HEAT",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible enemy unit within 24\" of your general, then make a casting roll of 2D6.",
+        "effect": "On a 7+, halve the Move characteristic of that unit until the start of your next turn and roll a dice. If the roll equals or exceeds that unit’s Save characteristic, inflict D3 mortal damage on it."
+      },
+      {
+        "name": "PROTECTION OF HYSH",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target, then make a casting roll of 2D6.",
+        "effect": "On a 7+, the target has WARD (5+) until the start of your next turn."
+      },
+      {
+        "name": "WAYSTONE",
+        "timing": "Your Movement Phase",
+        "effect": "Remove your general from the battlefield and set them up again anywhere on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "SPEED OF HYSH",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 18\" of your general, then make a casting roll of 2D6.",
+        "effect": "On a 5+, double the Move characteristic of that unit until the start of your next turn."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 36
+  },
+  {
+    "id": "snarlpack-huntaz",
+    "name": "Snarlpack Huntaz",
+    "faction": "Gloomspite Gitz",
+    "generalId": "snarlboss",
+    "unitComposition": [
+      {
+        "unitId": "snarlboss",
+        "count": 1
+      },
+      {
+        "unitId": "wolfgit-retinue",
+        "count": 1
+      },
+      {
+        "unitId": "snarlpack-cavalry",
+        "count": 2
+      },
+      {
+        "unitId": "sunsteala-wheelas",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FAST AS FRAZZLEGIT",
+        "timing": "Passive",
+        "effect": "Friendly units can use CHARGE abilities even if they used a RETREAT ability in the same turn. In addition, no mortal damage is inflicted on friendly units by RETREAT abilities.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "FLANKIN’ FORCE",
+        "timing": "Once Per Battle, Start of First Battle Round",
+        "effect": "Pick up to 2 friendly units. Remove them from the battlefield and set them up again anywhere on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "FRAZZLEBOOM",
+        "timing": "Passive",
+        "effect": "Each time a friendly WAR MACHINE is destroyed, before removing it from play, pick an enemy unit within 3\" of that WAR MACHINE and roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "KUNNIN’ AS A SNARLFANG",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly units while they are wholly within 12\" of the bearer."
+      },
+      {
+        "name": "GLARE OF FRAZZLEGIT",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general to be the target.",
+        "effect": "Subtract 1 from hit rolls for attacks made by the target for the rest of the turn."
+      },
+      {
+        "name": "SUNSTEALA SHARD",
+        "timing": "Once Per Battle, Enemy Shooting Phase",
+        "effect": "For the rest of the turn, friendly units cannot be targeted by shooting attacks while they are wholly within 6\" of this unit, unless the attacking unit is in combat with the target unit."
+      },
+      {
+        "name": "DEVIOUS BACKSTABBA",
+        "timing": "End of Any Turn",
+        "declare": "Pick an enemy HERO in combat with this unit to be the target.",
+        "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 12
+  },
+  {
+    "id": "heartflayer-troupe",
+    "name": "Heartflayer Troupe",
+    "faction": "Daughters of Khaine",
+    "generalId": "melusai-ironscale",
+    "unitComposition": [
+      {
+        "unitId": "melusai-ironscale",
+        "count": 1
+      },
+      {
+        "unitId": "blood-stalkers",
+        "count": 1
+      },
+      {
+        "unitId": "doomfire-warlocks",
+        "count": 1
+      },
+      {
+        "unitId": "witch-aelves",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "BLOOD RITES",
+        "timing": "Passive",
+        "effect": "At the start of each battle round, all friendly units gain a Blood Rites passive ability. Units keep all Blood Rites abilities gained in previous rounds.\nRound 1: QUICKENING BLOODLUST (Add 1 to run rolls).\nRound 2: HEADLONG FURY (Add 1 to charge rolls).\nRound 3: ZEALOT’S RAGE (Add 1 to hit rolls for combat attacks).\nRound 4: SLAUGHTERER’S STRENGTH (Add 1 to wound rolls for combat attacks).",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "MURDEROUS EPIPHANY",
+        "timing": "Once Per Battle, Your Hero Phase",
+        "effect": "All friendly units gain the Blood Rites passive ability they would have gained at the start of the next battle round (they keep this ability for the rest of the battle, but they do not gain it for a second time at the start of the next battle round)."
+      },
+      {
+        "name": "BLESSING OF KHAINE",
+        "timing": "Any Combat Phase",
+        "declare": "Pick a friendly unit wholly within 12\" of your general. You cannot pick your general.",
+        "effect": "Add 1 to ward rolls for that unit this phase."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "BATHED IN BLOOD",
+        "timing": "Passive",
+        "effect": "Each time a model is slain by your general, Heal (1) your general.",
+        "isPassive": true
+      },
+      {
+        "name": "FUELLED BY REVENGE",
+        "timing": "Passive",
+        "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly Blood Stalkers units while they are wholly within 12\" of your general.",
+        "isPassive": true
+      },
+      {
+        "name": "FLASK OF SHADEMIST",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "Until the end of the phase, subtract 1 from hit rolls for attacks that target friendly units while they are wholly within 12\" of your general."
+      },
+      {
+        "name": "ZEALOUS ORATOR",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a friendly unit wholly within 9\" of your general that is not in combat. Roll a dice for each slain model from that unit.",
+        "effect": "For each 5+, you can return 1 slain model to that unit."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 31
+  },
+  {
+    "id": "cursed-shacklehorde",
+    "name": "Cursed Shacklehorde",
+    "faction": "Nighthaunt",
+    "generalId": "spirit-torment",
+    "unitComposition": [
+      {
+        "unitId": "spirit-torment",
+        "count": 1
+      },
+      {
+        "unitId": "chainghasts",
+        "count": 1
+      },
+      {
+        "unitId": "bladegheist-revenants",
+        "count": 2
+      },
+      {
+        "unitId": "dreadscythe-harridans",
+        "count": 2
+      },
+      {
+        "unitId": "dreadblade-harrows",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "ETHEREAL",
+        "timing": "Passive",
+        "effect": "Ignore negative modifiers to save rolls for friendly units.",
+        "isPassive": true
+      },
+      {
+        "name": "SPECTRAL PROCESSION",
+        "timing": "Your Movement Phase",
+        "description": "1 of your Bladegheist Revenants units and 1 of your Dreadscythe Harridans units start the battle in reserve. From the second battle round onwards, you can use the following ability:",
+        "effect": "CACKLING ARRIVAL: Once Per Turn (Army). Declare: Pick 1 of your units in reserve. Effect: Set up that unit anywhere on the battlefield more than 6\" from all enemy units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "DISCORPORATE",
+        "timing": "Any Hero Phase",
+        "declare": "Pick a friendly unit to be the target.",
+        "effect": "Roll a dice. On a 3+, add 1 to save rolls for the target for the rest of the turn."
+      },
+      {
+        "name": "MOUNTING DREAD",
+        "timing": "Once Per Turn (Army), End of Any Turn",
+        "declare": "Pick a friendly unit to be the target.",
+        "effect": "Roll a dice. On a 2+, subtract the current battle round number from the control scores of enemy units while they are in combat with the target."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "UNHOLY VISAGE",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible enemy unit within 6\" of your general to be the target.",
+        "effect": "Roll a dice. On a 3+, the target must immediately use a Retreat ability as if it were the enemy movement phase."
+      },
+      {
+        "name": "TALES OF HORROR",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy Infantry or Cavalry unit within 6\" of your general to be the target.",
+        "effect": "For the rest of the battle, if the target is replaced using the ‘Call for Reinforcements’ ability, halve the number of models in the replacement unit, rounding up."
+      },
+      {
+        "name": "DEATHLY POSSESSOR",
+        "timing": "Any Combat Phase",
+        "declare": "Pick an enemy HERO within 12\" of your general to be the target, then pick another enemy unit within the target’s combat range to be the victim.",
+        "effect": "Roll a D3. On a 2+, pick one: Inflict mortal damage on the target equal to the roll; Inflict mortal damage on the victim equal to the roll."
+      },
+      {
+        "name": "SPECTRAL HOWL",
+        "timing": "Once Per Battle, Any Hero Phase",
+        "declare": "Pick an enemy unit within 12\" of your general to be the target.",
+        "effect": "For the rest of the turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 7,
+    "totalModels": 45
+  },
+  {
+    "id": "helforge-host",
+    "name": "Helforge Host",
+    "faction": "Helsmiths of Hashut",
+    "generalId": "war-despot",
+    "unitComposition": [
+      {
+        "unitId": "war-despot",
+        "count": 1
+      },
+      {
+        "unitId": "dominator-engine",
+        "count": 1
+      },
+      {
+        "unitId": "tormentor-bombard",
+        "count": 1
+      },
+      {
+        "unitId": "infernal-cohort",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "HARNESS DAEMONIC POWER",
+        "timing": "Once Per Turn (Army), Your Hero Phase",
+        "effect": "You must use this ability at the start of each of your hero phases. Remove all daemonic power points from each friendly unit. Then, gain a number of daemonic power points equal to the current battle round number plus 1. Then, allocate your daemonic power points to friendly units. Each unit can have a maximum of 3 daemonic power points. Then, all unallocated daemonic power points are lost."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "GRINDING ADVANCE",
+        "timing": "Once Per Battle, Deployment Phase",
+        "declare": "Pick up to 2 friendly Infernal Cohort units to be the targets.",
+        "effect": "Each target can immediately move up to 3\" but cannot use Charge abilities in the first battle round."
+      },
+      {
+        "name": "SUPPRESSIVE BOMBARDMENT",
+        "timing": "Once Per Turn, Your Shooting Phase",
+        "declare": "Pick an enemy Infantry unit that had any damage points allocated to it this turn as a result of shooting attacks made by a friendly Tormentor Bombard to be the target.",
+        "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SCROLL OF PETRIFICATION",
+        "timing": "Once Per Battle, Any Hero Phase",
+        "effect": "For the rest of the turn, your general has Ward (2+) but cannot use abilities or be picked to be the target of friendly abilities."
+      },
+      {
+        "name": "CHALICE OF DARKNESS",
+        "timing": "Once Per Battle, Your Shooting Phase",
+        "declare": "Pick a visible enemy unit within 12\" of your general to be the target.",
+        "effect": "Inflict D3 mortal damage on the target."
+      },
+      {
+        "name": "TALISMAN OF OBSIDIAN",
+        "timing": "Passive",
+        "effect": "Ignore the first damage point allocated to your general in each phase.",
+        "isPassive": true
+      },
+      {
+        "name": "AMULET OF BURNING HATE",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "For the rest of the turn, your general’s attacks score critical hits on unmodified hit rolls of 5+."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 23
+  },
+  {
+    "id": "bad-moon-madmob",
+    "name": "Bad Moon Madmob",
+    "faction": "Gloomspite Gitz",
+    "generalId": "loonboss",
+    "unitComposition": [
+      {
+        "unitId": "loonboss",
+        "count": 1
+      },
+      {
+        "unitId": "moonclan-stabbas",
+        "count": 2
+      },
+      {
+        "unitId": "squig-hoppers",
+        "count": 2
+      },
+      {
+        "unitId": "rockgut-troggoths",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "UNDER THE LIGHT OF THE BAD MOON",
+        "timing": "Once Per Battle, Start of the First Battle Round",
+        "declare": "Pick a territory (either friendly territory or enemy territory) to be under the Light of the Bad Moon.",
+        "effect": "The territory picked remains under the Light of the Bad Moon in the first and second battle rounds. In the third and fourth battle rounds, the other territory is under the Light of the Bad Moon. While a friendly unit is wholly within the territory that is under the Light of the Bad Moon, the appropriate effect below applies to it: Frothing Zealots: If the unit is a Moonclan Stabbas unit, add 3 to its control score. Lunar Squigs: If the unit is a Squig Hoppers unit, no mortal damage is inflicted on it when it uses Retreat abilities. Moonlit Hide: If the unit is a Rockgut Troggoths unit, add 1 to save rolls for it."
+      },
+      {
+        "name": "SQUIGALANCHE",
+        "timing": "Your Movement Phase",
+        "description": "One of your units of Squig Hoppers is not set up during the deployment phase. Instead, from the third battle round onwards, they can use this ability.",
+        "effect": "Set up this unit wholly within your territory, wholly within 3\" of a battlefield edge and more than 6\" from all enemy units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "THE LUNATIC HORDES",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a friendly Moonclan Stabbas unit to use this ability.",
+        "effect": "You can return up to D3 slain models to that unit."
+      },
+      {
+        "name": "THE HAND OF GORK",
+        "timing": "Once Per Battle (Army), Your Movement Phase",
+        "declare": "Pick a friendly unit that is not in combat to use this ability.",
+        "effect": "Remove that unit from the battlefield and set it up again more than 9\" from all enemy units."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "FIGHT ANOTHER DAY",
+        "timing": "End of Any Turn",
+        "declare": "Pick your general to use this ability if they used a Fight ability this turn.",
+        "effect": "Your general can make a 2D6\" move but cannot end that move in combat."
+      },
+      {
+        "name": "THE CLAMMY COWL",
+        "timing": "Passive",
+        "effect": "Subtract 1 from hit rolls for attacks that target your general.",
+        "isPassive": true
+      },
+      {
+        "name": "HALLUCINOGENIC FUNGUS BREW",
+        "timing": "Passive",
+        "effect": "Your general has Ward (4+) in the first battle round, Ward (5+) in the second battle round, and Ward (6+) in the third and fourth battle rounds.",
+        "isPassive": true
+      },
+      {
+        "name": "NIGHTSHADE MUSHROOM",
+        "timing": "Once Per Battle, Enemy Movement Phase",
+        "declare": "Pick a friendly unit within your general’s combat range.",
+        "effect": "That unit cannot be targeted by shooting attacks in the next shooting phase."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 54
+  },
+  {
+    "id": "bloodbound-gore-pilgrims",
+    "name": "Bloodbound Gore Pilgrims",
+    "faction": "Blades of Khorne",
+    "generalId": "slaughterpriest",
+    "unitComposition": [
+      {
+        "unitId": "slaughterpriest",
+        "count": 1
+      },
+      {
+        "unitId": "blood-warriors",
+        "count": 2
+      },
+      {
+        "unitId": "bloodreavers",
+        "count": 1
+      },
+      {
+        "unitId": "mighty-skullcrushers",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "THE BLOOD TITHE",
+        "timing": "Passive",
+        "effect": "Each time a unit is destroyed during the battle, you receive 1 blood tithe point.",
+        "isPassive": true
+      },
+      {
+        "name": "MURDERLUST",
+        "timing": "Once Per Turn, Any Hero Phase",
+        "declare": "Spend 1 blood tithe point and pick up to D3 friendly units.",
+        "effect": "Each of those units can move D6\" (roll for each)."
+      },
+      {
+        "name": "HEADS MUST ROLL",
+        "timing": "Once Per Turn, Any Hero Phase",
+        "declare": "Spend 3 blood tithe points and pick up to 3 friendly units.",
+        "effect": "Add 1 to the Rend characteristic of those units’ melee weapons until the start of your next turn."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "FAVOURED OF KHORNE",
+        "timing": "Once Per Turn, Start of Your Turn",
+        "effect": "Roll a dice. On a 2+, you receive 1 blood tithe point."
+      },
+      {
+        "name": "BLOOD-WOKEN RUNES",
+        "timing": "Passive",
+        "effect": "Friendly units have Ward (5+) if they have used a Fight ability in the same phase.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "RESANGUINATION",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 16\" of your general, then make a chanting roll of D6.",
+        "effect": "On a 3+, Heal (D3) that unit."
+      },
+      {
+        "name": "UNHOLY FLAMES",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 16\" of your general, then make a chanting roll of D6.",
+        "effect": "On a 4+, add 1 to the Rend characteristic of that unit’s melee weapons until the start of your next turn."
+      },
+      {
+        "name": "HEADHUNTER",
+        "timing": "Any Combat Phase",
+        "declare": "Pick an enemy Hero in combat with your general.",
+        "effect": "Your general has Strike-first this phase, but all attacks made by them this phase must target that enemy Hero."
+      },
+      {
+        "name": "THE CRIMSON PLATE",
+        "timing": "Passive",
+        "effect": "Your general has Ward (5+).",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 24
+  },
+  {
+    "id": "fluxblade-coven",
+    "name": "Fluxblade Coven",
+    "faction": "Disciples of Tzeentch",
+    "generalId": "magister-on-disc",
+    "unitComposition": [
+      {
+        "unitId": "magister-on-disc",
+        "count": 1
+      },
+      {
+        "unitId": "flamers-of-tzeentch",
+        "count": 1
+      },
+      {
+        "unitId": "screamers-of-tzeentch",
+        "count": 1
+      },
+      {
+        "unitId": "tzaangors",
+        "count": 2
+      },
+      {
+        "unitId": "kairic-acolytes",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "MASTERS OF DESTINY",
+        "timing": "Once Per Battle, Start of the First Battle Round",
+        "effect": "Roll 9 dice and put them to one side. These are your destiny dice. During the battle, instead of rolling the dice for 1 of the rolls from the list opposite, you can pick one of your destiny dice and use it as the roll. Once a destiny dice has been used, it is discarded. The following rolls can be replaced with destiny dice: Casting rolls, Run rolls, Charge rolls, Hit rolls, Wound rolls, Save rolls."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "TRANSIENT FORMS",
+        "timing": "Passive",
+        "effect": "Roll a dice each time a friendly Kairic Acolytes model is slain in the combat phase. On a 4+, you can return 1 slain model to a friendly Tzaangors unit within 9\" of the slain model.",
+        "isPassive": true
+      },
+      {
+        "name": "ETERNAL CONFLAGRATION",
+        "timing": "Passive",
+        "effect": "Add 1 to the Rend characteristic of ranged weapons used by friendly Flamers of Tzeentch units.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SHIELD OF FATE",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 18\" of your general, then make a casting roll of 2D6.",
+        "effect": "On a 6+, until the start of your next turn, that unit has Ward (6+). If that unit already has a ward save, add 1 to ward rolls for that unit until the start of your next turn instead."
+      },
+      {
+        "name": "GLIMPSE THE FUTURE",
+        "timing": "Your Hero Phase",
+        "declare": "If you have fewer than 6 destiny dice, make a casting roll of 2D6.",
+        "effect": "On a 7+, you can roll a dice and add it to your destiny dice."
+      },
+      {
+        "name": "DAEMONHEART",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit within 1\" of your general.",
+        "effect": "Inflict an amount of mortal damage on that unit equal to the number of the current battle round."
+      },
+      {
+        "name": "TIMESLIP PENDANT",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit within 9\" of your general.",
+        "effect": "That unit has Strike-last this phase."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 37
+  },
+  {
+    "id": "grundstok-trailblazers",
+    "name": "Grundstok Trailblazers",
+    "faction": "Kharadron Overlords",
+    "generalId": "endrinmaster-dirigible",
+    "unitComposition": [
+      {
+        "unitId": "endrinmaster-dirigible",
+        "count": 1
+      },
+      {
+        "unitId": "grundstok-thunderers",
+        "count": 1
+      },
+      {
+        "unitId": "grundstok-gunhauler",
+        "count": 1
+      },
+      {
+        "unitId": "endrinriggers",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "GUNHAULER ESCORT",
+        "timing": "Passive",
+        "effect": "Subtract 1 from hit rolls for attacks that target friendly Kharadron Overlords Infantry units while they are wholly within 6\" of a friendly Grundstok Gunhauler.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "RAPID RELOCATION",
+        "timing": "Once Per Battle (Army), Your Movement Phase",
+        "declare": "Pick a friendly unit with FLY to be the target.",
+        "effect": "Remove the target from the battlefield and set it up again anywhere on the battlefield more than 6\" from all enemy units. The target cannot use Charge abilities this turn."
+      },
+      {
+        "name": "PROPELLER DOWNDRAUGHT",
+        "timing": "Passive",
+        "effect": "Subtract 1 from charge rolls for enemy units while they are within 9\" of a friendly Grundstok Gunhauler.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "EMERGENCY FUEL INJECTION PODS",
+        "timing": "Once Per Battle (Army), Any Combat Phase",
+        "effect": "Your general has Strike-first for the rest of the turn."
+      },
+      {
+        "name": "PROSPECTOR AND PIONEER",
+        "timing": "Passive",
+        "effect": "Add 2 to your general’s control score.",
+        "isPassive": true
+      },
+      {
+        "name": "CELESTIUM-BURST BOMBLETS",
+        "timing": "Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general to be the target.",
+        "effect": "Roll a dice. On a 3+, ward rolls cannot be made for the target for the rest of the turn."
+      },
+      {
+        "name": "EXTRACTION FAIL-SAFES",
+        "timing": "Passive",
+        "effect": "Subtract 1 from the number of damage points inflicted on this unit when it uses a Retreat ability.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 10
+  },
+  {
+    "id": "skyhammer-task-force",
+    "name": "Skyhammer Task Force",
+    "faction": "Kharadron Overlords",
+    "generalId": "arkanaut-admiral",
+    "unitComposition": [
+      {
+        "unitId": "arkanaut-admiral",
+        "count": 1
+      },
+      {
+        "unitId": "arkanaut-company",
+        "count": 2
+      },
+      {
+        "unitId": "skywardens",
+        "count": 1
+      },
+      {
+        "unitId": "arkanaut-frigate",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "PLY THE SKIES",
+        "timing": "Reaction: You declared a non-Charge Move ability for an Arkanaut Frigate",
+        "effect": "Pick a friendly INFANTRY unit that is wholly within the combat range of that Arkanaut Frigate and not in combat to be transported. Remove that INFANTRY unit from the battlefield. Then, when the Arkanaut Frigate ends its move, set up the INFANTRY unit on the battlefield again, wholly within the combat range of the Arkanaut Frigate and not in combat. A unit cannot use Charge abilities if it was transported in the same turn."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "ASSAULT BOAT",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick a friendly unit that was transported this turn to use this ability.",
+        "effect": "That unit can still use Charge abilities later in the turn."
+      },
+      {
+        "name": "DISENGAGE",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick a friendly Arkanaut Frigate to use this ability.",
+        "effect": "If that unit uses a RETREAT ability this phase, no mortal damage is inflicted on it and it can still use SHOOT abilities later in the turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "MASTERWROUGHT ARMOUR",
+        "timing": "Passive",
+        "effect": "Your general has WARD (6+).",
+        "isPassive": true
+      },
+      {
+        "name": "FLASK OF VINTAGE GOROGNA",
+        "timing": "Once Per Battle, Any Hero Phase",
+        "effect": "Heal (D6) your general."
+      },
+      {
+        "name": "THERE’S NO REWARD WITHOUT RISK",
+        "timing": "Once Per Battle, Reaction: You declared a CHARGE ability for a unit wholly within 12\" of your general",
+        "effect": "You can re-roll the charge roll for that CHARGE ability."
+      },
+      {
+        "name": "LEAVE NO DUARDIN BEHIND",
+        "timing": "Once Per Battle, Your Hero Phase",
+        "declare": "Pick a friendly Arkanaut Company unit wholly within 12\" of your general and roll a dice for each slain model from that unit.",
+        "effect": "For each 4+, you can return 1 slain model to that unit."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 25
+  },
+  {
+    "id": "sunblooded-prowlers",
+    "name": "Sunblooded Prowlers",
+    "faction": "Seraphon",
+    "generalId": "sunblood-pack",
+    "unitComposition": [
+      {
+        "unitId": "sunblood-pack",
+        "count": 1
+      },
+      {
+        "unitId": "saurus-warriors",
+        "count": 2
+      },
+      {
+        "unitId": "hunters-of-huanchi",
+        "count": 2
+      },
+      {
+        "unitId": "terrawings",
+        "count": 1
+      },
+      {
+        "unitId": "spawn-of-chotec",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "HIDDEN HUNTERS",
+        "timing": "Your Movement Phase",
+        "description": "Your 2 Hunters of Huanchi units and the Spawn of Chotec are not set up during the deployment phase. Instead, from the third battle round onwards, they can use the following ability:",
+        "effect": "CHAMELEON AMBUSH: Set up this unit anywhere on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "VENGEANCE OF AZYR",
+        "timing": "End of Any Turn",
+        "declare": "Pick each enemy unit in combat with a friendly Saurus unit to be the targets.",
+        "effect": "Roll a dice for each target. On a 4+, inflict 1 mortal damage on the target."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "SCALED AEGIS",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a friendly Saurus unit to be the target.",
+        "effect": "Roll a dice. On a 3+, that unit has Ward (6+) until the start of your next turn."
+      },
+      {
+        "name": "FOLLOWERS OF HUANCHI",
+        "timing": "Your Shooting Phase",
+        "declare": "Pick a friendly Skink unit to be the target.",
+        "effect": "Roll a dice. On a 3+, the target’s ranged weapons have Crit (Auto-wound) for the rest of the turn, including Companion weapons."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "INSTINCTIVE COMMANDER",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general and not in combat to be the target.",
+        "effect": "Roll a dice. On a 3+, the target can immediately use the ‘Normal Move’ ability as if it were your movement phase."
+      },
+      {
+        "name": "SAVAGE MAULING",
+        "timing": "Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general to be the target.",
+        "effect": "Ward rolls cannot be made for the target for the rest of the turn."
+      },
+      {
+        "name": "VENOMITE SWARM",
+        "timing": "Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general to be the target.",
+        "effect": "If your general’s Venomites token is on the battlefield, roll a D3. On a 1, remove that token from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      },
+      {
+        "name": "BLESSED BY THE OLD ONES",
+        "timing": "End of Any Turn",
+        "declare": "Your general must use this ability if it has been destroyed. Roll a dice.",
+        "effect": "On a 2+, you can set up a replacement unit with 1 Sunblood model anywhere on the battlefield more than 6\" from all enemy units."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 7,
+    "totalModels": 45
+  },
+  {
+    "id": "bitterbark-copse",
+    "name": "Bitterbark Copse",
+    "faction": "Sylvaneth",
+    "generalId": "branchwych",
+    "unitComposition": [
+      {
+        "unitId": "branchwych",
+        "count": 1
+      },
+      {
+        "unitId": "tree-revenants",
+        "count": 1
+      },
+      {
+        "unitId": "kurnoth-hunters",
+        "count": 1
+      },
+      {
+        "unitId": "treelord",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "LEY LINES",
+        "timing": "Once Per Turn, End of Any Turn",
+        "effect": "Heal (1) each friendly unit that is within 3\" of any terrain features."
+      },
+      {
+        "name": "STRIKE AND FADE",
+        "timing": "Once Per Turn, End of Any Turn",
+        "declare": "Pick a friendly unit that used a FIGHT ability this turn and is within 3\" of any terrain features, then roll a dice.",
+        "effect": "On a 2+, remove that unit from the battlefield and set it up again so that each model in the unit is within 3\" of any terrain features and more than 6\" from all enemy units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "VENGEFUL SPIRITS OF THE LAND",
+        "timing": "Once Per Turn, End of Any Turn",
+        "declare": "Pick an enemy unit that is contesting an objective and roll a dice.",
+        "effect": "On a 4+, inflict D3 mortal damage on that enemy unit."
+      },
+      {
+        "name": "WALKERS OF THE HIDDEN PATHS",
+        "timing": "Once Per Turn, Your Movement Phase",
+        "declare": "Pick a friendly unit that is within 3\" of any terrain features and not in combat.",
+        "effect": "Remove that unit from the battlefield and set it up again more than 6\" from all enemy units. That unit cannot use MOVE abilities for the rest of the phase."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "REGROWTH",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 18\" of your general to be the target, then make a casting roll of 2D6.",
+        "effect": "On a 5+, Heal (D6) the target."
+      },
+      {
+        "name": "TREESONG",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target, then make a casting roll of 2D6.",
+        "effect": "On a 7+, add 1 to the Rend characteristic of the target unit’s melee weapons until the start of your next turn."
+      },
+      {
+        "name": "GNARLED WARRIOR",
+        "timing": "Passive",
+        "effect": "Ignore negative modifiers to save rolls for your general.",
+        "isPassive": true
+      },
+      {
+        "name": "SEED OF REBIRTH",
+        "timing": "Passive",
+        "effect": "If your general would be destroyed, before removing them from play, roll a dice. On a 3+, your general is not destroyed and any remaining damage points inflicted on them have no effect. Then, Heal (1) your general. This unit cannot use this ability again for the rest of the battle.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 10
+  },
+  {
+    "id": "spitewing-flight",
+    "name": "Spitewing Flight",
+    "faction": "Sylvaneth",
+    "generalId": "arch-revenant",
+    "unitComposition": [
+      {
+        "unitId": "arch-revenant",
+        "count": 1
+      },
+      {
+        "unitId": "gossamid-archers",
+        "count": 1
+      },
+      {
+        "unitId": "spiterider-lancers",
+        "count": 1
+      },
+      {
+        "unitId": "revenant-seekers",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "TARGET OF VENGEANCE",
+        "timing": "Once Per Battle Round (Army), Start of Battle Round",
+        "declare": "If there is no enemy quarry on the battlefield, pick an enemy unit on the battlefield to be the target.",
+        "effect": "The target is the quarry for the rest of the battle."
+      },
+      {
+        "name": "AIRBORNE COHESION",
+        "timing": "Passive",
+        "effect": "Friendly units have a coherency range of 2\".",
+        "isPassive": true
+      },
+      {
+        "name": "SONG OF THE HUNT",
+        "timing": "Passive",
+        "effect": "You gain 1 chord each time an enemy quarry is destroyed. The following cumulative effects apply depending on the number of chords you have: 1 chord: Simple: Add 1 to run rolls and charge rolls for friendly units while they are within 9\" of the enemy quarry. 2 chords: Tuneful: Add 1 to hit rolls for friendly units’ attacks while they are within 9\" of the enemy quarry. 3+ chords: Melodic: Add 1 to wound rolls for friendly units’ attacks while they are within 9\" of the enemy quarry.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "LEAVES ON THE WIND",
+        "timing": "Once Per Battle (Army), End of Any Turn",
+        "declare": "Pick a friendly unit that is in combat to be the target.",
+        "effect": "The target can immediately use the ‘Retreat’ ability as if it were your movement phase and no mortal damage is inflicted on it if it does so."
+      },
+      {
+        "name": "LIFEBRINGERS",
+        "timing": "Once Per Turn (Army), End of Any Turn",
+        "effect": "Heal (D3) each friendly unit."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "HEAD OF THE HUNT",
+        "timing": "Passive",
+        "effect": "Add 1 to the Rend characteristic of your general’s melee weapons while the enemy quarry is within 9\" of and visible to them.",
+        "isPassive": true
+      },
+      {
+        "name": "BOLD SPIRIT",
+        "timing": "Once Per Battle (Army), Any Hero Phase",
+        "effect": "For the rest of the turn, add 1 to wound rolls for friendly units’ combat attacks while they are within your general’s combat range."
+      },
+      {
+        "name": "ZEPHYRKIN",
+        "timing": "Reaction: You declared a Fight ability for your general",
+        "effect": "If your general charged this turn, they can move up to 2D6\" after that Fight ability has been resolved. They cannot end that move in combat."
+      },
+      {
+        "name": "CUNNING PURSUER",
+        "timing": "Passive",
+        "effect": "While your general is in combat, add 1 to charge rolls for friendly units wholly within 12\" of them. Add 2 instead while your general is in combat with the quarry.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 12
+  },
+  {
+    "id": "kavalos-vanguard",
+    "name": "Kavalos Vanguard",
+    "faction": "Ossiarch Bonereapers",
+    "generalId": "liege-kavalos",
+    "unitComposition": [
+      {
+        "unitId": "liege-kavalos",
+        "count": 1
+      },
+      {
+        "unitId": "kavalos-deathriders",
+        "count": 2
+      },
+      {
+        "unitId": "teratic-cohort",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "CALCULATED FEINT",
+        "timing": "Passive",
+        "effect": "No mortal damage is inflicted on friendly Cavalry units by Retreat abilities.",
+        "isPassive": true
+      },
+      {
+        "name": "KAVALOS LANCE",
+        "timing": "Once Per Turn (Army), Your Hero Phase",
+        "declare": "Pick a friendly unit to be the target.",
+        "effect": "For the rest of the turn, the target can pass across enemy models as if it had Fly."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "FEIGNED RETREAT",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "effect": "For the rest of the turn, friendly units can use Charge abilities even if they used a Retreat ability in the same turn."
+      },
+      {
+        "name": "REINFORCED CONSTRUCTS",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick a friendly unit to be the target.",
+        "effect": "The target has Ward (5+) for the rest of the turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "MIGHTY ARCHAEOSSIAN",
+        "timing": "Passive",
+        "effect": "Your general has Ward (5+).",
+        "isPassive": true
+      },
+      {
+        "name": "MURDEROUS BLADE",
+        "timing": "Passive",
+        "effect": "Your general’s Commander’s Blade has Crit (2 Hits).",
+        "isPassive": true
+      },
+      {
+        "name": "IMPERIOUS COMMANDER",
+        "timing": "Your Movement Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target.",
+        "effect": "Roll a dice. On a 3+, add 2\" to the target’s Move characteristic for the rest of the turn."
+      },
+      {
+        "name": "COLD SAVAGERY",
+        "timing": "Any Combat Phase",
+        "declare": "If your general has not charged this turn and is in combat, pick a visible friendly unit wholly within 12\" of them to be the target.",
+        "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons, including Companion weapons, for the rest of the turn."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 16
+  },
+  {
+    "id": "khainite-shadow-coven",
+    "name": "Khainite Shadow Coven",
+    "faction": "Daughters of Khaine",
+    "generalId": "slaughter-queen-cauldron",
+    "unitComposition": [
+      {
+        "unitId": "slaughter-queen-cauldron",
+        "count": 1
+      },
+      {
+        "unitId": "hag-queen",
+        "count": 1
+      },
+      {
+        "unitId": "bloodwrack-medusa",
+        "count": 1
+      },
+      {
+        "unitId": "khainite-shadowstalkers",
+        "count": 1
+      },
+      {
+        "unitId": "sisters-of-slaughter",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "SHADOWMASKED",
+        "timing": "Once Per Turn, Any Charge Phase",
+        "declare": "Pick a friendly Infantry unit that is in combat and did not charge this turn to be the target.",
+        "effect": "Subtract 1 from hit rolls and wound rolls for combat attacks that target that friendly unit for the rest of the turn."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "BLEED THEM PALE",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick a friendly Infantry unit that is in combat and did not charge this turn to be the target.",
+        "effect": "The target can move 6\" but cannot end that move in combat."
+      },
+      {
+        "name": "MURDEROUS STRIKE",
+        "timing": "Passive",
+        "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly Infantry units that charged in the same turn.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SHADOW AVATAR",
+        "timing": "Once Per Battle, Your Combat Phase",
+        "effect": "Add 1 to the Rend characteristic of your general’s melee weapons for the rest of the turn."
+      },
+      {
+        "name": "FRENZIED EXHORTATIONS",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target.",
+        "effect": "Roll a dice. On a 3+, add 1 to ward rolls for the target for the rest of the turn."
+      },
+      {
+        "name": "BOILING BLOOD",
+        "timing": "Your Shooting Phase",
+        "declare": "Pick a visible enemy unit within 12\" of your general to be the target.",
+        "effect": "Roll a dice. If the roll equals or exceeds the target’s Save characteristic, halve the target’s Move characteristic until the start of your next turn."
+      },
+      {
+        "name": "BLADED IMPACT",
+        "timing": "Any Charge Phase",
+        "declare": "If your general charged this phase, pick an enemy unit within 1\" of them to be the target.",
+        "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 32
+  },
+  {
+    "id": "hurakan-vanguard",
+    "name": "Hurakan Vanguard",
+    "faction": "Lumineth Realm-lords",
+    "generalId": "hurakan-windmage",
+    "unitComposition": [
+      {
+        "unitId": "hurakan-windmage",
+        "count": 1
+      },
+      {
+        "unitId": "hurakan-windchargers",
+        "count": 1
+      },
+      {
+        "unitId": "vanari-auralan-wardens-hurakan",
+        "count": 1
+      },
+      {
+        "unitId": "hurakan-spirit-of-the-wind",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "STORM BREWING",
+        "timing": "Deployment Phase",
+        "declare": "Pick a battlefield edge to be the target.",
+        "effect": "That battlefield edge is leeward. For the rest of the battle, each time a friendly RIDE THE HURRICANE ability is used, after that ability has been resolved, change the leeward battlefield edge to the next edge clockwise."
+      },
+      {
+        "name": "PULLED BY THE WINDS",
+        "timing": "Once Per Turn (Army), Any Movement Phase",
+        "declare": "Pick a friendly unit that is not in combat to be the target.",
+        "effect": "The target can move D6\" but must end that move closer to the leeward battlefield edge. It can pass through the combat ranges of enemy units but cannot end that move in combat.",
+        "keywords": [
+          "Ride the Hurricane"
+        ]
+      },
+      {
+        "name": "GALE FORCE",
+        "timing": "Once Per Turn (Army), Reaction: You declared an ATTACK ability",
+        "effect": "Add 1 to hit rolls for attacks made as part of that ATTACK ability if the target of that ability is closer to the leeward battlefield edge than the unit using this ability.",
+        "keywords": [
+          "Ride the Hurricane"
+        ]
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "LIFTED DEBRIS",
+        "timing": "Your Hero Phase",
+        "declare": "Pick an enemy unit that is closer to the leeward battlefield edge than the large terrain feature within friendly territory to be the target.",
+        "effect": "Roll a number of dice equal to the current battle round number. For each 3+, inflict 1 mortal damage on the target.",
+        "keywords": [
+          "Ride the Hurricane"
+        ]
+      },
+      {
+        "name": "ROARING HEADWIND",
+        "timing": "Once Per Battle (Army), Enemy Hero Phase",
+        "declare": "Pick an enemy unit to be the target.",
+        "effect": "For the rest of the turn, each time the target uses a MOVE ability, it must end that move closer to the leeward battlefield edge."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SCATTERED TO THE WINDS",
+        "timing": "Passive",
+        "effect": "Subtract 1 from the control scores of enemy units within 6\" of your general for each friendly RIDE THE HURRICANE ability used this battle round.",
+        "isPassive": true
+      },
+      {
+        "name": "WIND WHISPERER",
+        "timing": "Once Per Battle (Army), Any Hero Phase",
+        "declare": "Pick a battlefield edge to be the target.",
+        "effect": "Change the leeward battlefield edge to the target battlefield edge."
+      },
+      {
+        "name": "TEMPLE GUARDIANS",
+        "timing": "Passive",
+        "effect": "While any friendly INFANTRY units are within your general’s combat range, both your general and those INFANTRY units have WARD (5+).",
+        "isPassive": true
+      },
+      {
+        "name": "CURVED SHOTS",
+        "timing": "Passive",
+        "effect": "You can measure the range and visibility of your general’s shooting attacks from any point on the leeward battlefield edge.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 17
+  },
+  {
+    "id": "tzaangor-warflock",
+    "name": "Tzaangor Warflock",
+    "faction": "Disciples of Tzeentch",
+    "generalId": "tzaangor-shaman",
+    "unitComposition": [
+      {
+        "unitId": "tzaangor-shaman",
+        "count": 1
+      },
+      {
+        "unitId": "tzaangors-warflock",
+        "count": 1
+      },
+      {
+        "unitId": "tzaangor-enlightened",
+        "count": 1
+      },
+      {
+        "unitId": "tzaangor-skyfires",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FATED ARRIVAL",
+        "timing": "Your Movement Phase",
+        "description": "Your Tzaangor Enlightened unit is not set up during the deployment phase. Instead, from the second battle round onwards, it can use the following ability:",
+        "effect": "Set up this unit wholly within friendly territory, within 1\" of a battlefield edge and more than 6\" from all enemy units."
+      },
+      {
+        "name": "PREDICT THE FUTURE",
+        "timing": "Your Hero Phase",
+        "effect": "You can look at up to 3 cards from the top of your battle tactic deck without adding them to your hand. Then, in any order, return each card face down to either the top or the bottom of your battle tactic deck."
+      },
+      {
+        "name": "CHEAT DESTINY",
+        "timing": "Reaction: You used a command on a battle tactic card",
+        "effect": "Instead of discarding that card, return it face down to the bottom of your battle tactic deck."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "CONSTANT FLUX",
+        "timing": "Passive",
+        "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target friendly units while you are the underdog.",
+        "isPassive": true
+      },
+      {
+        "name": "ARCANE RITUALISTS",
+        "timing": "Passive",
+        "effect": "Add 1 to casting rolls for your general while they are wholly within 6\" of another friendly unit.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "PREDICTED STRIKE",
+        "timing": "Once Per Battle, Enemy Movement Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general and that is not in combat to be the target.",
+        "effect": "The target can move D6\". It cannot move through the combat ranges of enemy units or end that move in combat."
+      },
+      {
+        "name": "FOLD REALITY",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target, then make a casting roll of 2D6.",
+        "effect": "On a 6+, remove the target from the battlefield and set it up again wholly within 12\" of your general and more than 6\" from all enemy units."
+      },
+      {
+        "name": "INFERNAL GATEWAY",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible enemy unit within 18\" of your general to be the target, then make a casting roll of 2D6.",
+        "effect": "On a 5+, roll either 3 dice or a number of dice equal to the number of battle tactic cards you have discarded this battle. For each 4+, inflict 1 mortal damage on the target."
+      },
+      {
+        "name": "MUTAGENIC SORCERY",
+        "timing": "End of Any Turn",
+        "declare": "Pick a visible enemy unit within 12\" of your general to be the enemy target. Then, pick a friendly Tzaangors unit in combat with the enemy target to be the friendly target.",
+        "effect": "Roll a D3. On a 2+: Inflict an amount of mortal damage on the enemy target equal to the roll. You can return 1 slain model to the friendly target."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 17
+  },
+  {
+    "id": "bubonic-cell",
+    "name": "Bubonic Cell",
+    "faction": "Maggotkin of Nurgle",
+    "generalId": "rotbringer-sorcerer-bubonic",
+    "unitComposition": [
+      {
+        "unitId": "rotbringer-sorcerer-bubonic",
+        "count": 1
+      },
+      {
+        "unitId": "nurglings-bubonic",
+        "count": 2
+      },
+      {
+        "unitId": "beast-of-nurgle-bubonic",
+        "count": 1
+      },
+      {
+        "unitId": "rotmire-creed",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "CYCLE OF CORRUPTION",
+        "timing": "Passive",
+        "description": "If it is the first battle round, roll a dice to determine which Cycle ability can be used this battle round. If you roll a 5 or 6, roll again. If it is not the first battle round, the next Cycle ability in the sequence is used this battle round instead of any previous Cycle abilities.",
+        "effect": "1. NUMBERLESS PESTS: Subtract 1 from hit rolls for attacks that target friendly units. 2. PLAGUE OF MISERY: While enemy units are within 6\" of any friendly units, they cannot use abilities that heal or return slain models to a unit. 3. BURGEONING FILTH: Subtract 3 from the control scores of enemy units while they are in combat with any friendly units. 4. NAUSEOUS REVULSION: Subtract 1 from charge rolls for enemy units.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "CORRUPTION OF THE LAND",
+        "timing": "Once Per Turn (Army), End of Your Turn",
+        "declare": "Pick a terrain feature, then roll a dice for each enemy unit within 3\" of that terrain feature.",
+        "effect": "On a 4+, inflict D3 mortal damage on that enemy unit."
+      },
+      {
+        "name": "PUTREFIED GROUND",
+        "timing": "Once Per Battle, Enemy Hero Phase",
+        "effect": "For the rest of the turn: Subtract 1 from the Move characteristic of enemy units. Subtract 1 from run rolls for enemy units."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "UNNATURAL VITALITY",
+        "timing": "Passive",
+        "effect": "Your general has WARD (4+).",
+        "isPassive": true
+      },
+      {
+        "name": "SUBCUTANEOUS SUPPURATION",
+        "timing": "Passive",
+        "effect": "Subtract 1 from wound rolls for attacks that target your general.",
+        "isPassive": true
+      },
+      {
+        "name": "GASEOUS EMANATION",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit within your general’s combat range to be the target.",
+        "effect": "The target has STRIKE-LAST for the rest of the turn."
+      },
+      {
+        "name": "OVERRIPE DEATH’S HEADS",
+        "timing": "Your Shooting Phase",
+        "declare": "If your general is not in combat, pick a visible enemy unit within 7\" of them to be the target.",
+        "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 18
+  },
+  {
+    "id": "slasher-host",
+    "name": "Slasher Host",
+    "faction": "Nighthaunt",
+    "generalId": "knight-of-shrouds",
+    "unitComposition": [
+      {
+        "unitId": "knight-of-shrouds",
+        "count": 1
+      },
+      {
+        "unitId": "spirit-hosts",
+        "count": 3
+      },
+      {
+        "unitId": "grimghast-reapers",
+        "count": 2
+      },
+      {
+        "unitId": "chainrasps",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "WAVE OF TERROR",
+        "timing": "Any Charge Phase",
+        "declare": "Pick a friendly unit to use this ability if it charged this phase and the charge roll was 10+. Then, pick an enemy unit within 1\" of it to be the target.",
+        "effect": "The target has STRIKE-LAST this turn."
+      },
+      {
+        "name": "ETHEREAL",
+        "timing": "Passive",
+        "effect": "Ignore all modifiers to save rolls for friendly units (positive and negative).",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "DEATH STALKERS",
+        "timing": "Start of the First Battle Round",
+        "declare": "Pick an enemy unit on the battlefield.",
+        "effect": "Add 1 to the Rend characteristic of melee weapons used for attacks that target that unit."
+      },
+      {
+        "name": "CHORUS OF TERROR",
+        "timing": "Passive",
+        "effect": "Subtract 1 from hit rolls for combat attacks that target a friendly unit that charged in the same turn.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "SOULFIRE RING",
+        "timing": "End of Any Turn",
+        "effect": "If any models were slain by your general this turn, Heal (D6) your general."
+      },
+      {
+        "name": "CLOAKED IN SHADOW",
+        "timing": "Passive",
+        "effect": "No more than 1 enemy unit can target your general with attacks (shooting or combat) per phase.",
+        "isPassive": true
+      },
+      {
+        "name": "BEACON OF NAGASHIZZAR",
+        "timing": "Once Per Battle, Your Hero Phase",
+        "effect": "Return 1 slain model to each friendly unit on the battlefield."
+      },
+      {
+        "name": "SHADOW’S EDGE",
+        "timing": "Passive",
+        "effect": "Your general’s Sword of Stolen Hours has Crit (Mortal).",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 8,
+    "totalModels": 50
+  },
+  {
+    "id": "swampskulka-gang",
+    "name": "Swampskulka Gang",
+    "faction": "Orruk Warclans",
+    "generalId": "killaboss-on-great-gnashtoof",
+    "unitComposition": [
+      {
+        "unitId": "killaboss-on-great-gnashtoof",
+        "count": 1
+      },
+      {
+        "unitId": "murknob-with-belcha-banna",
+        "count": 1
+      },
+      {
+        "unitId": "man-skewer-boltboyz",
+        "count": 3
+      },
+      {
+        "unitId": "gutrippaz",
+        "count": 2
+      },
+      {
+        "unitId": "beast-skewer-killbow",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "KRULEBOYZ WAAAGH!",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick your general to use this ability, then pick another friendly unit wholly within 12\" of them to be the target.",
+        "effect": "Your general and the target have STRIKE-FIRST this phase."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "NOISY RACKET",
+        "timing": "Passive",
+        "effect": "Subtract 1 from wound rolls for attacks made by enemy units in the first battle round.",
+        "isPassive": true
+      },
+      {
+        "name": "COVERED IN MUD",
+        "timing": "Start of the First Battle Round",
+        "declare": "Pick a friendly unit to use this ability.",
+        "effect": "In this battle, that unit is not visible to enemy models that are more than 12\" away from it."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "EGOMANIAK",
+        "timing": "Passive",
+        "effect": "If any other friendly units are within your general’s combat range, before you allocate a damage point to your general, roll a dice. On a 4+, you must allocate that damage point to one of those units instead.",
+        "isPassive": true
+      },
+      {
+        "name": "MORK’S EYE PEBBLE",
+        "timing": "Once Per Battle, Enemy Movement Phase",
+        "effect": "In the next shooting phase, friendly units have Ward (5+) while they are wholly within 12\" of your general."
+      },
+      {
+        "name": "KUNNIN’ PLAN",
+        "timing": "Once Per Turn, Your Hero Phase",
+        "declare": "Pick a friendly unit wholly within 12\" of your general.",
+        "effect": "If that unit uses a RETREAT ability this turn, no mortal damage is inflicted on it and it can still use SHOOT and/or CHARGE abilities later in the turn."
+      },
+      {
+        "name": "EYE-BITER ASH",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick an enemy unit in combat with your general and roll a dice.",
+        "effect": "On a 1-4, subtract 1 from hit rolls for attacks made by that unit for the rest of the phase. On a 5+, subtract 1 from hit rolls for attacks made by that unit for the rest of the battle."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 8,
+    "totalModels": 32
+  },
+  {
+    "id": "bloodwind-legion",
+    "name": "Bloodwind Legion",
+    "faction": "Slaves to Darkness",
+    "generalId": "chaos-lord-warband",
+    "unitComposition": [
+      {
+        "unitId": "chaos-lord-warband",
+        "count": 1
+      },
+      {
+        "unitId": "chaos-knights-warband",
+        "count": 1
+      },
+      {
+        "unitId": "chaos-warriors-warband",
+        "count": 1
+      },
+      {
+        "unitId": "chaos-chariot-warband",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "EYE OF THE GODS",
+        "timing": "End of Any Phase",
+        "effect": "If a friendly HERO destroyed an enemy HERO or MONSTER, or captured an objective, roll on the Eye of the Gods table (e.g., 2-3: Stubborn Pride, 11-12: Dark Apotheosis)."
+      },
+      {
+        "name": "DARK PACTS",
+        "timing": "Your Hero Phase",
+        "effect": "Pick a friendly unit and a Chaos God (Khorne, Tzeentch, Nurgle, Slaanesh). That unit gains a benefit until your next hero phase."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "THE WILL OF CHAOS",
+        "timing": "Your Hero Phase",
+        "effect": "Pick a friendly CHAOS WARBAND unit within 12\" of your general. That unit can immediately use the ‘Run’ ability and can still charge later in the turn."
+      },
+      {
+        "name": "CHAOS REAPERS",
+        "timing": "Passive",
+        "effect": "Add 1 to hit rolls for friendly CHAOS WARBAND units while they are in combat with an enemy unit with 10 or more models.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "HELLFORGED WEAPON",
+        "timing": "Passive",
+        "effect": "Add 1 to the Attacks characteristic of your general’s melee weapons.",
+        "isPassive": true
+      },
+      {
+        "name": "CONQUEROR'S CROWN",
+        "timing": "Passive",
+        "effect": "Enemy units within 6\" of your general cannot contest objectives.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 4,
+    "totalModels": 17
+  },
+  {
+    "id": "mortisan-elite",
+    "name": "Mortisan Elite",
+    "faction": "Ossiarch Bonereapers",
+    "generalId": "mortisan-soulreaper",
+    "unitComposition": [
+      {
+        "unitId": "mortisan-soulreaper",
+        "count": 1
+      },
+      {
+        "unitId": "mortek-guard-elite",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "RELENTLESS DISCIPLINE",
+        "timing": "Passive",
+        "effect": "You gain 1 Relentless Discipline point at the start of each battle round. You can spend points to use command abilities without spending command points.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "SHIELDWALL",
+        "timing": "Passive",
+        "effect": "Friendly Mortek Guard units have +1 to save rolls.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "ARTISAN’S KEY",
+        "timing": "Your Hero Phase",
+        "effect": "Pick a friendly unit within 12\" of your general. You can return 1 slain model to that unit."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 3,
+    "totalModels": 21
+  },
+  {
+    "id": "carrion-retainers",
+    "name": "Carrion Retainers",
+    "faction": "Flesh-eater Courts",
+    "generalId": "abhorrant-archregent",
+    "unitComposition": [
+      {
+        "unitId": "abhorrant-archregent",
+        "count": 1
+      },
+      {
+        "unitId": "crypt-ghouls-retainers",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FEEDING FRENZY",
+        "timing": "Any Combat Phase",
+        "effect": "If an enemy model is destroyed by a friendly unit, that unit can immediately fight again."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "BOUNDLESS FEROCITY",
+        "timing": "Passive",
+        "effect": "Friendly Crypt Ghouls units have +1 Attacks while they have 10+ models.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "DREAD PALADIN",
+        "timing": "Passive",
+        "effect": "Your general has Ward (5+).",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 3,
+    "totalModels": 41
+  },
+  {
+    "id": "charnel-watch",
+    "name": "Charnel Watch",
+    "faction": "Flesh-eater Courts",
+    "generalId": "abhorrant-gore-squire",
+    "unitComposition": [
+      {
+        "unitId": "abhorrant-gore-squire",
+        "count": 1
+      },
+      {
+        "unitId": "crypt-horrors",
+        "count": 1
+      },
+      {
+        "unitId": "morbheg-knights",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "COURTS OF DELUSION",
+        "timing": "Start of Battle",
+        "effect": "Pick a delusion for your army (e.g., The Feast Day: re-roll hit rolls of 1)."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "KNIGHTLY ZEAL",
+        "timing": "Any Charge Phase",
+        "effect": "Friendly Morbheg Knights units can re-roll charge rolls."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "GRUESOME TROPHY",
+        "timing": "Passive",
+        "effect": "Add 1 to hit rolls for friendly units while they are within 12\" of your general.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 3,
+    "totalModels": 0
+  },
+  {
+    "id": "ironjawz-bigmob",
+    "name": "Ironjawz Bigmob",
+    "faction": "Orruk Warclans",
+    "generalId": "megaboss",
+    "unitComposition": [
+      {
+        "unitId": "megaboss",
+        "count": 1
+      },
+      {
+        "unitId": "brute-ragerz",
+        "count": 1
+      },
+      {
+        "unitId": "ardboyz-ironjawz",
+        "count": 2
+      },
+      {
+        "unitId": "brutes",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "’ERE WE GO!",
+        "timing": "Your Movement Phase",
+        "effect": "Set up this unit anywhere on the battlefield more than 6\" from all enemy units.",
+        "keywords": [
+          "Core"
+        ]
+      },
+      {
+        "name": "MIGHTY DESTROYERS",
+        "timing": "Once Per Turn (Army), Any Hero Phase",
+        "declare": "Pick a friendly unit that was not set up this turn to be the target.",
+        "effect": "The target can move up to 3\". It can move into combat. If it was in combat at the start of the move, it must end that move in combat."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "NATURAL DISASTER",
+        "timing": "Passive",
+        "effect": "If you make an unmodified charge roll of 8+ for a friendly unit, add 1 to the Attacks characteristic of that unit’s melee weapons for the rest of the turn.",
+        "isPassive": true
+      },
+      {
+        "name": "A PROPER RUCKUS",
+        "timing": "Once Per Battle, Reaction: You declared the ‘Mighty Destroyers’ ability",
+        "effect": "All friendly units on the battlefield that were not set up this turn are the targets of that ability instead."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "AMBERBONE WHETSTONE",
+        "timing": "Passive",
+        "effect": "The Rend characteristic of your general’s melee weapons is 2.",
+        "isPassive": true
+      },
+      {
+        "name": "ARMOUR OF GORK",
+        "timing": "Passive",
+        "effect": "Your general has WARD (6+).",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 34
+  },
+  {
+    "id": "yndrastas-spearhead",
+    "name": "Yndrasta’s Spearhead",
+    "faction": "Stormcast Eternals",
+    "generalId": "yndrasta",
+    "unitComposition": [
+      {
+        "unitId": "yndrasta",
+        "count": 1
+      },
+      {
+        "unitId": "knight-vexillor",
+        "count": 1
+      },
+      {
+        "unitId": "annihilators",
+        "count": 1
+      },
+      {
+        "unitId": "vanquishers",
+        "count": 2
+      },
+      {
+        "unitId": "stormstrike-chariot",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "SCIONS OF THE STORM",
+        "timing": "Deployment Phase",
+        "description": "Yndrasta and your Annihilators unit are not set up during the deployment phase. Instead, from the third battle round onwards, they can use the following ability:",
+        "effect": "LIGHTNING-STRIKE ARRIVAL: Set up this unit anywhere on the battlefield more than 6\" from all enemy units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "DRIVE THEM BACK",
+        "timing": "End of Any Turn",
+        "declare": "Pick any number of friendly units that are both contesting an objective and in combat.",
+        "effect": "Each of those units can make a pile-in move. For each unit that did so, pick an enemy unit within 1\" of it and roll a dice. On a 4+, inflict 1 mortal damage on that enemy unit."
+      },
+      {
+        "name": "DEFEND TO THE LAST",
+        "timing": "Passive",
+        "effect": "Friendly units have WARD (6+) while they are contesting an objective you control.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "THE PRIME HUNTRESS",
+        "timing": "Passive",
+        "effect": "The Damage characteristic of Thengavar (Yndrasta’s spear) is 2D6 for attacks that target a MONSTER.",
+        "isPassive": true
+      },
+      {
+        "name": "STRIKE WITH THE TEMPEST’S RAGE",
+        "timing": "Passive",
+        "effect": "Your general has STRIKE-FIRST if they charged in the same turn.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 16
+  },
+  {
+    "id": "gnawfeast-clawpack",
+    "name": "Gnawfeast Clawpack",
+    "faction": "Skaven",
+    "generalId": "clawlord-on-gnaw-beast",
+    "unitComposition": [
+      {
+        "unitId": "clawlord-on-gnaw-beast",
+        "count": 1
+      },
+      {
+        "unitId": "grey-seer-skaven",
+        "count": 1
+      },
+      {
+        "unitId": "clanrats",
+        "count": 2
+      },
+      {
+        "unitId": "warplock-jezzails",
+        "count": 1
+      },
+      {
+        "unitId": "rat-ogors",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "THE LURKING VERMINTIDE",
+        "timing": "Deployment Phase",
+        "effect": "You can set up one of your Clanrats units in reserve. It can be set up at the end of any of your movement phases wholly within 6\" of a battlefield edge and more than 6\" from enemy units."
+      },
+      {
+        "name": "GNAW-HOLES",
+        "timing": "Your Movement Phase",
+        "effect": "Pick a friendly unit that is wholly within 6\" of a battlefield edge. Remove it from the battlefield and set it up again wholly within 6\" of a different battlefield edge and more than 6\" from enemy units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "OVERWHELMING MASS",
+        "timing": "Passive",
+        "effect": "Add 1 to hit rolls for combat attacks made by friendly units while they are within 6\" of any friendly Clanrats units.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "WARPSTONE-COATED WEAPONS",
+        "timing": "Passive",
+        "effect": "Your general’s Warpstone-tipped Glaive has Crit (Mortal).",
+        "isPassive": true
+      },
+      {
+        "name": "SKURRY AWAY",
+        "timing": "Enemy Combat Phase",
+        "declare": "Pick your general to use this ability if they are in combat.",
+        "effect": "Your general can immediately use the ‘Retreat’ ability."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 48
+  },
+  {
+    "id": "sentinels-of-embergard",
+    "name": "Sentinels of Embergard",
+    "faction": "Cities of Sigmar",
+    "generalId": "jorvan-kreel",
+    "unitComposition": [
+      {
+        "unitId": "jorvan-kreel",
+        "count": 1
+      },
+      {
+        "unitId": "mallus-forgepriest",
+        "count": 1
+      },
+      {
+        "unitId": "freeguild-gallants",
+        "count": 1
+      },
+      {
+        "unitId": "freeguild-grenadiers",
+        "count": 2
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "RANGER DOCTRINES",
+        "timing": "Once Per Turn (Army), Reaction: You declared a FIGHT ability for your general or a friendly non-HERO unit wholly within 12\" of your general",
+        "effect": "Immediately after that FIGHT ability has been resolved, pick a point on the battlefield within 6\" of your general. Remove the unit using this ability from the battlefield and set it up again within 1\" of that point and not in combat."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "CLOSE-QUARTERS DRILL",
+        "timing": "Passive",
+        "effect": "Friendly units’ ranged weapons have Shoot in Combat but you must subtract 1 from hit rolls for their shooting attacks while they are in combat.",
+        "isPassive": true
+      },
+      {
+        "name": "COME AND TAKE IT, BLAGGARDS!",
+        "timing": "Passive",
+        "effect": "Add 5 to the control scores of friendly non-HERO units while they are in combat with any enemy units that have 6 or more models or a Health characteristic of 3 or more.",
+        "isPassive": true
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "THROWING KNIVES",
+        "timing": "Any Shooting Phase",
+        "declare": "Pick a visible enemy unit within 10\" of your general to be the target.",
+        "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target."
+      },
+      {
+        "name": "TRAINED RANGER",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick a friendly unit wholly within 6\" of a battlefield edge to be the target.",
+        "effect": "Remove the target from the battlefield and set it up again wholly within 3\" of a battlefield edge and more than 6\" from all enemy units."
+      },
+      {
+        "name": "HOT-BLOODED ENDURANCE",
+        "timing": "Passive",
+        "effect": "Your general can use CHARGE abilities even if they used a RUN or RETREAT ability in the same turn and no mortal damage is inflicted on them by RETREAT abilities.",
+        "isPassive": true
+      },
+      {
+        "name": "BLADE OF THE KRAKEN",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "Double the Attacks characteristic of your general’s melee weapons for the rest of the turn."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 27
+  },
+  {
+    "id": "crixxits-kill-pack",
+    "name": "Crixxit’s Kill-Pack",
+    "faction": "Skaven",
+    "generalId": "deathmaster-crixxit",
+    "unitComposition": [
+      {
+        "unitId": "deathmaster-crixxit",
+        "count": 1
+      },
+      {
+        "unitId": "deathmaster",
+        "count": 1
+      },
+      {
+        "unitId": "gutter-runners",
+        "count": 2
+      },
+      {
+        "unitId": "night-runners",
+        "count": 1
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "CLOAKED IN SHADOW",
+        "timing": "Once Per Turn (Army), Any Combat Phase",
+        "declare": "Pick a friendly HERO to use this ability. Then, pick a different friendly unit that has 2 or more models to be the target.",
+        "effect": "Make a shadow-travel roll of D6. On a 3+, remove the HERO using this ability from the battlefield and set them up again wholly within 6\" of the target. They can be set up in combat with any enemy units that are already in combat."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "WAY OF THE SKITTERING SHADE",
+        "timing": "Once Per Battle (Army), Your Movement Phase",
+        "declare": "Pick a friendly unit that is wholly within 6\" of a battlefield edge to be the target.",
+        "effect": "Remove the target from the battlefield and set it up again wholly within 3\" of a battlefield edge and more than 6\" from all enemy units."
+      },
+      {
+        "name": "WAY OF THE FIENDISH CLAW",
+        "timing": "Once Per Battle (Army), Any Combat Phase",
+        "declare": "Pick a friendly HERO to be the target.",
+        "effect": "The target has STRIKE-FIRST for the rest of the turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "MURDEROUS ACROBATICS",
+        "timing": "Passive",
+        "effect": "When your general uses the ‘Charge’ ability, they can pass through enemy models.",
+        "isPassive": true
+      },
+      {
+        "name": "MASTER OF SHADOWS",
+        "timing": "Passive",
+        "effect": "When your general uses the ‘Cloaked in Shadow’ ability, add 1 to the shadow-travel roll.",
+        "isPassive": true
+      },
+      {
+        "name": "JUST ANOTHER SHADOW",
+        "timing": "Passive",
+        "effect": "While your general is wholly within the combat range of a friendly unit that has 3 or more models, your general has Ward (4+).",
+        "isPassive": true
+      },
+      {
+        "name": "DEATH SCREECH",
+        "timing": "Any Combat Phase",
+        "declare": "Pick an enemy unit within 6\" of your general to be the target.",
+        "effect": "Roll a dice. On a 3+, for the rest of the turn, subtract 1 from hit rolls for the target’s attacks."
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 22
+  }
+]
