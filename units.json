@@ -1,0 +1,5225 @@
+[
+  {
+    "id": "abhorrant-archregent",
+    "name": "Abhorrant Archregent",
+    "keywords": [
+      "Hero",
+      "Infantry",
+      "Ward (6+)"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 6,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Gory Talons And Fangs",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Deranged Transformation",
+        "timing": "Your Hero Phase",
+        "effect": "Wielding the power of their curse, the abhorrant causes the limbs of a nearby pack to bulge and lengthen, allowing the creatures to charge forwards at a furious pace. Declare: Pick a visible friendly unit wholly within 18\" of this unit to be the target, then make a casting roll of 2D6. Eﬀect: On a 6+, until the start of your next turn, add 2\" to the target’s Move characteristic and add 1 to wound rolls for its attacks."
+      }
+    ]
+  },
+  {
+    "id": "abhorrant-gore-squire",
+    "name": "Abhorrant Gore Squire",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "akhelian-allopex",
+    "name": "Akhelian Allopex",
+    "keywords": [
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 8,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Barbed Hooks And Blades",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        },
+        {
+          "name": "Allopex’S Ferocious Bite",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "2",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Razorshell Harpoon Launcher",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "2",
+          "rend": "1",
+          "damage": "3",
+          "range": "18",
+          "ability": "Anti-Monster"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bloodthirsty Predators",
+        "effect": "Allopexes are drawn towards the scent of freshly spilt blood. Effect:  Add 1 to the Attacks characteristic of this unit’s Allopex’s Ferocious Bite if it is within 6\" of any damaged enemy units or if it is within 6\" of any enemy"
+      }
+    ]
+  },
+  {
+    "id": "akhelian-ishlaen-guard-tide",
+    "name": "Akhelian Ishlaen Guard",
+    "keywords": [
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "14",
+      "control": 1,
+      "health": 4,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Keening Blade",
+          "attacks": "1",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Whisperbow",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Biovoltaic Bar R Ier",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "The biovoltaic energy produced by Fangmora Eels is channelled by Ishlaen Guard into a crackling luminescent energy field that protects them from harm. Declare: Pick an enemy unit in combat with this unit to be the target. Effect: Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s weapons for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "akhelian-king-tide",
+    "name": "Akhelian King",
+    "keywords": [
+      "Hero",
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 7,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Akhelian Royal Weapons",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Lashing Tails",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Biovolta Ic Bl Ast",
+        "timing": "Once Per Battle, Any Charge Phase",
+        "effect": "The biovoltaic energy produced by Fangmora Eels is stored by Morrsarr Guard, ready to be discharged as a bolt of energy when the time is right. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Effect: Roll a number of dice equal to the number of models in this unit. Add 1 to each roll if there are more models in the target unit than this unit. For each 3+, inflict 1 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "akhelian-morrsarr-guard",
+    "name": "Akhelian Morrsarr Guard",
+    "keywords": [
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "14",
+      "control": 1,
+      "health": 4,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Voltspear",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Fangmora’S Fangs And Lashing Tail",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Biovoltaic Blast",
+        "timing": "Once Per Battle, Any Charge Phase",
+        "effect": "The biovoltaic energy produced by Fangmora Eels is stored by Morrsarr Guard, ready to be discharged as a bolt of force when the time is right. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target, then roll a number of dice equal to the number of models in this unit. Effect:  For each 4-5, inflict 1 mortal damage on the target. For each 6+, inflict D3 mortal damage on the target. Add 1 to each roll if there are more models in the target unit than this unit."
+      }
+    ]
+  },
+  {
+    "id": "akhelian-morrsarr-guard-tide",
+    "name": "Akhelian Morrsarr Guard",
+    "keywords": [
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "14",
+      "control": 1,
+      "health": 4,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Voltspear",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Fangmora’S Fangs And Lashing Tail",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Biovoltaic Blast",
+        "timing": "Once Per Battle, Any Charge Phase",
+        "effect": "The biovoltaic energy produced by Fangmora Eels is stored by Morrsarr Guard, ready to be discharged as a bolt of force when the time is right. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target, then roll a number of dice equal to the number of models in this unit. Effect:  For each 4-5, inflict 1 mortal damage on the target. For each 6+, inflict D3 mortal damage on the target. Add 1 to each roll if there are more models in the target unit than this unit."
+      }
+    ]
+  },
+  {
+    "id": "alchemite-warforger",
+    "name": "Alchemite Warforger",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 5,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Tongstaff",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Blazing Weapons",
+        "timing": "Your Hero Phase",
+        "effect": "The weapons of the Warforger’s allies glow red-hot with magical power. Declare: Pick a friendly unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6. Effect: On a 6+, the target’s melee weapons have Crit (Mortal) until the start of your next turn."
+      }
+    ]
+  },
+  {
+    "id": "annihilators",
+    "name": "Annihilators",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "arch-revenant",
+    "name": "Arch Revenant",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "ardboyz-ironjawz",
+    "name": "Ardboyz",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 2,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Choppa Or Stikka",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Anti-charge"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Get Stuck In, Ladz!",
+        "timing": "start of your next turn.",
+        "effect": "The roared commands issued by a Megaboss encourage the Ironjawz under their command to fight all the harder. Declare: Pick this unit or a friendly Brute  unit wholly within 12\" of this unit to be the target. Effect: Roll a dice. On a 2+, add 1 to the Attacks characteristic of the target’s melee weapons until the"
+      }
+    ]
+  },
+  {
+    "id": "arkanaut-admiral",
+    "name": "Arkanaut Admiral",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 2,
+      "health": 6,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": [
+        {
+          "name": "Masterwork Volley Pistol",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "10"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Always Take What You Are Owed",
+        "timing": "start of your next turn.",
+        "effect": "Following the decrees of the Code, the Admiral directs their /f_leet in the pursuit of pro/f_it and glory. Declare: Pick a friendly Arkanaut Company  unit wholly within 12\" of this unit to be the target. Eﬀect: Add D6 to the target’s control score until the Your Hero Phase BATTLE DAMAGED Eﬀect: While this unit has 10 or more damage points, the Attacks characteristic of its Heavy Skyhook  is 1."
+      }
+    ]
+  },
+  {
+    "id": "arkanaut-company",
+    "name": "Arkanaut Company",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "arkanaut-frigate",
+    "name": "Arkanaut Frigate",
+    "keywords": [
+      "War Machine",
+      "Fly"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 5,
+      "health": 15,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Bomb Racks",
+        "timing": "Passive",
+        "effect": "/T_his skyvessel carries a variety of bombs that can be dropped onto the battle/f_ield below to obliterate ground targets. Declare: Pick an enemy unit that this unit passed across this phase to be the target, then roll a dice. Eﬀect: On a 2+, in/f_lict D3 mortal damage on the target. Once Per Battle, Your Movement Phase"
+      }
+    ]
+  },
+  {
+    "id": "barrow-guard",
+    "name": "Barrow Guard",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 1,
+      "save": "4",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Wight Blade",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Guardians Of The King",
+        "timing": "Your Hero Phase",
+        "effect": "The Barrow Guard stand alongside the liege lord to whom they are bound. Effect: While your general is within this unit’s combat range, both this unit and your general have Ward (5+). Passive"
+      }
+    ]
+  },
+  {
+    "id": "barrow-knights",
+    "name": "Barrow Knights",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "10",
+      "control": 1,
+      "health": 3,
+      "save": "4",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Barrow Lance",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Crit (Mortal),"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Skeleton Legion",
+        "timing": "End of Any Turn",
+        "effect": "As necromantic energies blanket the battlefield, long-dead warriors stagger to their feet once more, eye sockets aglow with killing light. Effect: You can return D3 slain models to this unit."
+      }
+    ]
+  },
+  {
+    "id": "beast-of-nurgle-bubonic",
+    "name": "Beast Of Nurgle",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "beast-skewer-killbow",
+    "name": "Beast-Skewer Killbow",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 5,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Jagged Boss-Stikka",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "All Part Of Da Plan",
+        "timing": "Your Hero Phase",
+        "effect": "Kruleboyz tend to be very impressed by a Killaboss’s kunnin’ feats – so long as the boss has a plan, they are willing to face down even the most unlikely odds. Declare: Pick a friendly unit wholly within 9\" of this unit to be the target. You cannot pick this unit. Eﬀect: Add 3 to the target’s control/uni00A0score until the start of your next turn."
+      }
+    ]
+  },
+  {
+    "id": "bladegheist-revenants",
+    "name": "Bladegheist Revenants",
+    "keywords": [],
+    "stats": {
+      "move": "8",
+      "control": "8\"",
+      "health": 1,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Tomb Greatblade",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Crit (Auto-wound)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Thrashing Desperation",
+        "timing": "Passive",
+        "effect": "Only the bravest and most determined of charges can get within striking range of the veritable wall of thrashing blades that are the Bladegheist Revenants. Effect: While this unit contests an objective you control, enemy units cannot end a charge move within ½\" of this unit unless the unmodified charge roll was 5 or more."
+      }
+    ]
+  },
+  {
+    "id": "blissbarb-archers",
+    "name": "Blissbarb Archers",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Razor-Sharp Claws",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Razor-Sharp Claw And Gilded Weapon",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Light-Footed Killers",
+        "timing": "Passive",
+        "effect": "Blissbarb Archers can deliver pinpoint shots even while cavorting wildly across the battlefield. Effect:  This unit can use Shoot abilities even if it used a Run ability in the same turn."
+      }
+    ]
+  },
+  {
+    "id": "blood-knights",
+    "name": "Blood Knights",
+    "keywords": [
+      "Cavalry",
+      "Vampire"
+    ],
+    "stats": {
+      "move": "10",
+      "control": 1,
+      "health": 3,
+      "save": "3",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Templar Lance Or Templar Blade",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Nightmare’S Hooves And Teeth",
+          "attacks": "3",
+          "hit": "5",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Riders Of Ruin",
+        "timing": "Passive",
+        "effect": "Blood Knights barge through lesser foes to strike at more worthy challengers. Effect:  Models in this unit can pass across enemy Infantry  models as if this unit had Fly ."
+      }
+    ]
+  },
+  {
+    "id": "blood-stalkers",
+    "name": "Blood Stalkers",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 1,
+      "health": 2,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Scianlar",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Heartseeker Bow",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "18",
+          "ability": "Crit (Auto-wound)"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "All-Out Slaughter",
+        "timing": "Your Hero Phase",
+        "effect": "The Melusai Ironscale exhorts their warriors to commit acts of terrible bloodshed. Declare: Pick a friendly unit wholly within 12\" of this unit to be the target. You cannot pick this unit. Effect: Until the start of your next turn, add 1 to hit rolls for combat attacks made by the target."
+      },
+      {
+        "name": "Turned To Crystal",
+        "timing": "End of Any Turn",
+        "effect": "The touch of an Ironscale can permanently transmute an enemy into a crystal statue. Declare: Pick an enemy unit within 1\" of this unit to be the target and roll a dice. Effect: On a 2+, inflict 1 mortal damage on the target."
+      },
+      {
+        "name": "Heartseekers",
+        "timing": "Passive",
+        "effect": "The blood- blessed arrows loosed by these Melusai unerringly seek out the enemy’s vital organs. Effect: Shooting attacks made by this unit score critical hits on unmodified hit rolls of 5+ if this unit did not use a Move  ability in the same turn."
+      }
+    ]
+  },
+  {
+    "id": "blood-warriors",
+    "name": "Blood Warriors",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 2,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Goreaxe And Gorefist",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "No Respite",
+        "effect": "Dying as they lived, Blood Warriors devote even their final moments to killing. Effect: Each time a model in this unit is slain, you can pick an enemy unit in combat with this unit and roll a dice. On a 4+, inflict 1 mortal damage on that enemy unit."
+      }
+    ]
+  },
+  {
+    "id": "bloodreavers",
+    "name": "Bloodr E Av Ers",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Reaver Blades",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Frenzied Devotion",
+        "timing": "your general, you can return D3",
+        "effect": "When fighting in the presence of their leaders, these warriors fight until the bitter end. Effect: If this unit is within 8\" of slain models to this unit. Passive End of Any Turn"
+      }
+    ]
+  },
+  {
+    "id": "bloodwrack-medusa",
+    "name": "Bloodwr Ack Medusa",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "branchwych",
+    "name": "Branchwych",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Greenwood Scythe And Bittergrub",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "V Er Durous H A R Mon Y",
+        "timing": "Your Hero Phase",
+        "effect": "The wizard plucks reviving motes of magic from the air and uses them to renew the broken forms of fallen warriors. Declare: Pick a visible friendly unit wholly within 18\" of this unit to be the target, then make a casting roll of 2D6. Effect: On a 7+, you can return 1 slain model to the target unit. If you picked a Tree -Revenants unit, you can return D3 slain models instead of 1."
+      }
+    ]
+  },
+  {
+    "id": "brute-ragerz",
+    "name": "Brute R Agerz",
+    "keywords": [
+      "Infantry",
+      "Brute",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 3,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Brute Weapons",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Unleashed Rage",
+        "effect": "Brute Ragerz waste no time in venting their pent-up rage when they get within striking distance of the foe. Effect: This unit has Strike-first if it charged in the same turn."
+      }
+    ]
+  },
+  {
+    "id": "brutes",
+    "name": "Brutes",
+    "keywords": [
+      "Infantry",
+      "Brute"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 3,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Rager Weapons",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "2",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "chainghasts",
+    "name": "Chainghasts",
+    "keywords": [
+      "Infantry",
+      "Fly"
+    ],
+    "stats": {
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Ghastflails",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "2",
+          "damage": "1",
+          "ability": "Crit (Auto-wound)"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Ghastflails",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "2",
+          "damage": "1",
+          "range": "12",
+          "ability": "Crit (Auto-wound)"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Another Link In The Chain",
+        "effect": "Chainghasts act as conduits for Spirit Torments, ensuring all nearby Nighthaunt are invigorated by deathly energies. Effect: Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly Spirit Torments . On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly units while they are wholly within 12\" of this unit."
+      }
+    ]
+  },
+  {
+    "id": "chainrasps",
+    "name": "Chainrasps",
+    "keywords": [],
+    "stats": {
+      "move": "8",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Chilling Horde",
+        "timing": "any who face their assault.",
+        "effect": "When the enemy is frozen in fear, the Chainrasps eﬀortlessly drag to the underworlds Eﬀect: Add 1 to wound rolls for combat attacks made by this unit if it charged in the same turn. Passive Passive"
+      }
+    ]
+  },
+  {
+    "id": "chaos-chariot-warband",
+    "name": "Chaos Chariot",
+    "keywords": [],
+    "stats": {
+      "move": "10",
+      "control": 2,
+      "health": 7,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Iron-Willed Champion",
+        "timing": "Any Combat Phase",
+        "effect": "/T_his champion of Chaos demands that their warriors give no quarter. Declare: Pick a friendly unit wholly within 12\" of this unit to be the target and roll a dice. You cannot pick this unit. Eﬀect: On a 2+, add 1 to hit rolls for attacks made by the target unit this phase."
+      },
+      {
+        "name": "Swift Death",
+        "timing": "Your Charge Phase",
+        "effect": "Chaos Chariots are at their most deadly on the charge, causing devastation with their bladed wheels and hurtling mass. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target and roll a dice. Eﬀect: On a 2+, in/f_lict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "chaos-knights-warband",
+    "name": "Chaos Knights",
+    "keywords": [],
+    "stats": {
+      "move": "10",
+      "control": 1,
+      "health": 4,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "chaos-lord-warband",
+    "name": "Chaos Lord",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 6,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Reaperblade",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Favoured Of The Pantheon",
+        "timing": "Your Hero Phase",
+        "effect": "/T_he gods watch this warlord’s deeds particularly closely. Eﬀect: Roll a dice. On a 4+, you can roll on the Eye of the Gods table for this unit."
+      }
+    ]
+  },
+  {
+    "id": "chaos-warriors-warband",
+    "name": "Chaos Warriors",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 2,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Rune-Etched Halberd",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Desolation",
+        "timing": "Passive",
+        "effect": "Paragons of the Dark Gods, Chaos Warriors cut a swathe through the enemy lines, leaving nothing but blood and ruin in their wake. Eﬀect: Add 1 to wound rolls for combat attacks made by this unit that target an enemy unit that is contesting an objective you do not control.IMPALING CHARGE:  A charging Chaos Knight is capable of spitting several enemies at once with the point of their ensorcelled polearm. Eﬀect: Add 1 to the Rend characteristic of this unit’s Cursed Lances  if it charged in the same turn. Passive"
+      }
+    ]
+  },
+  {
+    "id": "clanrats",
+    "name": "Clanrats",
+    "keywords": [],
+    "stats": {
+      "move": "6",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Crew’S Teeth And Knives",
+          "attacks": "D6",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Seething Swarm",
+        "timing": "Passive",
+        "effect": "Sweeping forward in a chittering mass, Clanrats overwhelm their enemies with their seemingly limitless numbers, biting, stabbing, screeching and trampling their own fallen beneath their bloody claws. Effect: You can return D3 slain models to this unit. End of Any Turn"
+      }
+    ]
+  },
+  {
+    "id": "clawlord-on-gnaw-beast",
+    "name": "Cl Awlor D On Gnaw-Beast",
+    "keywords": [
+      "Hero",
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "9",
+      "control": 2,
+      "health": 7,
+      "save": "4",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Warpforged Halberd",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Gnaw-Beast’S Chisel Fangs",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Ratling Pistol",
+          "attacks": "D6",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "range": "10",
+          "ability": "Crit (Auto-wound),"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Will Of The Horned Rat",
+        "effect": "None among the Skaven clans may defy the commands of a Grey Seer – openly, at least… Declare: Pick a friendly unit wholly within 13\" of this unit to be the target, then roll a dice. Effect: On a 3+, add the roll to the target’s control score until the start of your next turn."
+      }
+    ]
+  },
+  {
+    "id": "claws-of-karanak",
+    "name": "Claws Of Karanak",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Weapons Of The Hunt",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Crit (2 Hits)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Pack Hunters",
+        "effect": "The howls of the Flesh Hounds sends these killers into a blood-mad frenzy. Declare: Pick an enemy unit in combat with both this unit and a friendly Flesh Hounds  unit to be the target. Effect: For the rest of the turn, this unit’s combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+."
+      }
+    ]
+  },
+  {
+    "id": "crypt-ghouls-retainers",
+    "name": "Crypt Ghouls Retainers",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "crypt-horrors",
+    "name": "Crypt Horrors",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "darkoath-fellriders",
+    "name": "Darkoath Fellriders",
+    "keywords": [
+      "Cavalry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 3,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Raider Weapons",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Glorious Death",
+        "timing": "Passive",
+        "effect": "Ever keen to earn the favour of their tribe, when the eyes of the fiercest fighters are upon them, these warriors will not go down without a fight. Effect: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight  ability has been resolved."
+      }
+    ]
+  },
+  {
+    "id": "darkoath-marauders",
+    "name": "Darkoath Mar Auders",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Fellrider Blades",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Warsteed’S Hooves",
+          "attacks": "2",
+          "hit": "5",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Swift Attackers",
+        "timing": "Passive",
+        "effect": "As they close in on the enemy at frightening speed, these skilled horsemen are nigh impossible to hit with missile fire. Effect: Subtract 1 from hit rolls for shooting attacks that target this unit."
+      }
+    ]
+  },
+  {
+    "id": "darkoath-savagers",
+    "name": "Da R Koath Savager S",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Darkoath Weapons",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Visions Of Glory",
+        "timing": "Your Hero Phase",
+        "effect": "Godspeakers use their powers of divination to scry the future and see what glory awaits their kin. Effect: If this unit includes a Godspeaker , roll 8 dice. For each 4+, until the start of your next turn, you can re-roll 1 hit roll, 1 wound roll, 1 run roll or 1 save roll for this unit. Your Hero Phase 1 model in this unit is a Godspeaker."
+      }
+    ]
+  },
+  {
+    "id": "darkoath-warqueen",
+    "name": "Darkoath Warqueen",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 5,
+      "save": "5",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Rune-Etched Axe",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Oath Of Supremacy",
+        "timing": "your general to be the target.",
+        "effect": "By the will of the gods, this warrior leads her barbarous horde into the lands of the enemy, allowing none to oppose them. Declare: Pick a friendly unit wholly within 12\" of Effect: Until the start of your next turn, add 1 to hit rolls for attacks made by the target."
+      }
+    ]
+  },
+  {
+    "id": "deathmaster",
+    "name": "Deathmaster",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "7",
+      "control": 2,
+      "health": 5,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Weeping Blade",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Shadow Y Killers",
+        "timing": "Passive",
+        "effect": "Ulguan illusions and other tools of misdirection shroud Deathmasters in perpetual darkness, keeping them from harm. Effect: If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends. 5+ 6+"
+      }
+    ]
+  },
+  {
+    "id": "deathmaster-crixxit",
+    "name": "Deathmaster Crixxit",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "7",
+      "control": 2,
+      "health": 6,
+      "save": "5",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "The Blades Of Thirteen Cuts",
+          "attacks": "13",
+          "hit": "2",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Go-Go, Hunt Them Down",
+        "timing": "Your Hero Phase",
+        "effect": "Crixxit dispatches his Gutter Runners to pounce on unsuspecting prey. Declare: Pick a visible friendly Gutter Runners  unit wholly within 12\" of this unit to be the target. Then, roll a dice. Effect: On a 3+, add 1 to charge rolls for the target for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "deathrattle-skeletons",
+    "name": "Deathrattle Skeletons",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 1,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Ancient Weapon",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Skeleton Legion",
+        "timing": "Passive",
+        "effect": "As necromantic energies blanket the battlefield, long-dead warriors stagger to their feet once more, eye sockets aglow with killing light. Effect:  For each slain model from this unit, make a legion roll  of D6. For each 5+, return 1 slain model to this unit. Any Combat Phase"
+      }
+    ]
+  },
+  {
+    "id": "deathrattle-skeletons-tomb-host",
+    "name": "Deathrattle Skeletons",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 1,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Ancient Weapon",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Skeleton Legion",
+        "timing": "Passive",
+        "effect": "As necromantic energies blanket the battlefield, long-dead warriors stagger to their feet once more, eye sockets aglow with killing light. Effect:  For each slain model from this unit, make a legion roll  of D6. For each 5+, return 1 slain model to this unit. Any Combat Phase"
+      }
+    ]
+  },
+  {
+    "id": "dominator-engine",
+    "name": "Dominator Engine",
+    "keywords": [],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 10,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Horns And Pummelling Strikes",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Immolation Cannons",
+          "attacks": "5",
+          "hit": "2",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3",
+          "range": "8",
+          "ability": "Shoot in Combat"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Daemonic Strength",
+        "timing": "Passive",
+        "effect": "When empowered with a surplus of daemonic energy, Dominator Engines are made faster and deadlier still. Effect: For each daemonic power point this unit has: •  Add 1\" to its Move characteristic. •  Add 1 to the Attacks characteristic of its weapons. Passive"
+      }
+    ]
+  },
+  {
+    "id": "doomfire-warlocks",
+    "name": "Doomfire Warlocks",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Paired Sciansá",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Crit (Auto-wound)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Doomfire",
+        "effect": "The Doomfire Warlocks hurl bolts of blazing black flame at their foes. Declare: Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6. Effect:  On a 6+, inflict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "dreadblade-harrows",
+    "name": "Dreadblade Harrows",
+    "keywords": [],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 1,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Scythed Limbs",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Crit (Auto-wound)"
+        },
+        {
+          "name": "Dreadblade",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Crit (Auto-wound)"
+        },
+        {
+          "name": "And Teeth",
+          "attacks": "3",
+          "hit": "5",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Crit (Auto-wound),"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "dreadscythe-harridans",
+    "name": "Dreadscythe Harridans",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "endrinmaster-dirigible",
+    "name": "Endrinmaster With Dirigible Suit",
+    "keywords": [
+      "Hero",
+      "Infantry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 8,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Upgraded Aethermatic Saw",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "3",
+          "rend": "2",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Aethercannon",
+          "attacks": "1",
+          "hit": "3",
+          "wound": "3",
+          "rend": "2",
+          "damage": "3",
+          "range": "18"
+        },
+        {
+          "name": "Dirigible Suit Weapon Battery",
+          "attacks": "6",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Endrinmaster Extraordinaire",
+        "timing": "Your Hero Phase",
+        "effect": "This Endrinmaster’s rig bristles with tools and gizmos that allow them to perform battlefield repairs with great haste. Declare: Pick a friendly unit with the Fly keyword that is wholly within 12\" of this unit to be the target. Effect: Roll a D3. On a 2+, Heal (X) the target where X is equal to the roll."
+      }
+    ]
+  },
+  {
+    "id": "endrinriggers",
+    "name": "Endrinriggers",
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 2,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Aethermatic Saw",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Anti-charge"
+        },
+        {
+          "name": "Gun Butt",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Rapid Fire Rivet Gun",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "10",
+          "ability": "Shoot in Combat"
+        },
+        {
+          "name": "Skyrigger Heavy Weapon",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "range": "15",
+          "ability": "Anti-Monster"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Cloudweaving Skyfarers",
+        "timing": "Any Combat Phase",
+        "effect": "It is not only the Kharadron’s vessels that prowl the skies: one-duardin endrinsphere harnesses grant their wearers the power of flight, making them manoeuvrable troops indeed. Effect: Roll a dice. On a 3+, this unit can use the ‘Normal Move’ ability as if it were your movement phase. Enemy Movement Phase•  1 model is armed with a Rapid Fire Rivet Gun and Aethermatic Saw. •  1 model is armed with an Aethermatic Volley Gun and Gun Butt. •  1 model is armed with a Skyrigger Heavy Weapon (Grapnel Launcher, Skyhook or Drill Launcher) and Gun Butt."
+      }
+    ]
+  },
+  {
+    "id": "flamers-of-tzeentch",
+    "name": "Flamers Of Tzeentch",
+    "keywords": [],
+    "stats": {
+      "move": "9",
+      "control": 1,
+      "health": 1,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Lamprey Bite",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        },
+        {
+          "name": "Savage Blade And Vicious Beak",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Long-Planned Strike",
+        "effect": "Tzaangors are fearsome agents of change on the attack, pushing their long- planned assault into enemy territory with impressive skill and strength. Effect:  While this unit is wholly within enemy territory, its"
+      },
+      {
+        "name": "Capricious Wyrdflame",
+        "timing": "Passive",
+        "effect": "The lurid fires of change spread as though they were possessed of a malign, mischievous sentience. Add 1 to hit rolls for attacks made by this unit if the target unit has 5 or more models. Passive"
+      }
+    ]
+  },
+  {
+    "id": "flesh-hounds",
+    "name": "Flesh Hounds",
+    "keywords": [
+      "Beast",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 1,
+      "health": 2,
+      "save": "6",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Blood-Dark Claws",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Unflagging Hunters",
+        "timing": "Passive",
+        "effect": "When blood is scented, nothing will keep a Flesh Hound from its prey. Effect: Add 1 to charge rolls for this unit."
+      }
+    ]
+  },
+  {
+    "id": "freeguild-cavalier-marshal",
+    "name": "Freeguild Ca Valier-Marshal",
+    "keywords": [
+      "Hero",
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "10",
+      "control": 2,
+      "health": 7,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Master-Forged Longsword",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Warhorse’S Steel-Shod Hooves",
+          "attacks": "2",
+          "hit": "5",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Dragoon Pistol",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "10",
+          "ability": "Shoot in Combat"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Decisive Commander",
+        "timing": "Your Hero Phase",
+        "effect": "In the face of the oncoming enemy, Freeguild Marshals employ rousing oratory to inspire their soldiers to stand strong in the name of Sigmar. Declare: Pick a friendly Freeguild Steelhelms  unit wholly within 12\" of this unit to be the target and roll a dice. Effect: On a 2+, pick 1: On Your Feet!: If the target unit is not in combat, you can return D3 slain models to it. Yield No Quarter!: Add 3 to the target unit’s control score until the start of your next turn."
+      }
+    ]
+  },
+  {
+    "id": "freeguild-cavaliers",
+    "name": "Freeguild Cavaliers",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "10",
+      "control": 1,
+      "health": 3,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Cavalier Weapon",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Warhorse’S Steel-Shod Hooves",
+          "attacks": "2",
+          "hit": "5",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Consecrate The Land",
+        "timing": "Your Movement Phase",
+        "effect": "Bellowing Sigmarite hymns, the Battle Priest who accompanies the Steelhelms purges the taint of Chaos from the land and consecrates it in the name of the God-King. Declare: If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice. Effect:  On a 3+, that objective is considered by you to be consecrated . Friendly units have Ward (6+) while they are contesting a consecrated objective. If your opponent gains control of a consecrated objective, it is no longer consecrated."
+      }
+    ]
+  },
+  {
+    "id": "freeguild-fusiliers",
+    "name": "Freeguild Fusiliers",
+    "keywords": [
+      "Infantry",
+      "Castelite",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Hunting Weapons",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Trailhound’S Ferocious Bite",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Hunting Crossbow",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "15"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Expert Trackers",
+        "effect": "These soldiers are tasked with scouting ahead of the main advance. Effect: This unit can use the ‘Normal Move’ ability as if it were your movement phase. Deployment Phase"
+      }
+    ]
+  },
+  {
+    "id": "freeguild-gallants",
+    "name": "Freeguild Gallants",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 2,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Grenadier Bardiche",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Ruin-Sweeper Arsenal",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "1",
+          "range": "10"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Unbreachable Will",
+        "timing": "Any Combat Phase",
+        "effect": "Having each survived punishing trials, Freeguild Gallants break before no foe. Declare: If this unit has not charged this turn, pick an enemy unit in combat with it to be the target. Effect: For the rest of the turn, subtract 1 from the Rend characteristic of the target’s weapons for attacks that target this unit. Once Per Turn (Army), End of Any Turn"
+      }
+    ]
+  },
+  {
+    "id": "freeguild-grenadiers",
+    "name": "Freeguild Grenadiers",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Weapons Of Gallantry",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Cinder And Ash",
+        "effect": "Freeguild Grenadiers carry specialised gear to reduce dug-in enemies to a panicked, screaming bonfire of melting flesh and charred hair. Declare: Pick up to 1 terrain feature contested by this unit and up to 1 objective contested by this unit, then pick any enemy units also contesting them to be the targets. Effect: Roll a dice for each target. On a 3+, inflict 1 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "freeguild-steelhelms",
+    "name": "Freeguild Steelhelms",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Freeguild Weapon",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Devastating Charge",
+        "timing": "Any Charge Phase",
+        "effect": "Thundering across the battlefield, the Cavaliers build up momentum before smashing deep into the enemy’s ranks, laying about themselves with blade, axe, hammer and flail. Declare: If this unit charged this phase, pick an enemy unit in combat with it to be the target and roll a dice. Effect:  On a 2+, inflict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "fusil-major-ogor-warhulk",
+    "name": "Fusil-Major On Ogor Warhulk",
+    "keywords": [
+      "Hero",
+      "Infantry",
+      "Castelite"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 8,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Warhulk’S Mace",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Long-Fusil",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "24"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Mark Targets",
+        "effect": "Experts in ballistics, Fusil-Majors can direct the fire of nearby Castelite formations to eliminate priority targets. Declare: Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target. Effect: Add 1 to hit rolls for shooting attacks made by friendly"
+      }
+    ]
+  },
+  {
+    "id": "gnoblar-scraplauncher",
+    "name": "Gnoblar Scr Aplauncher",
+    "keywords": [],
+    "stats": {
+      "move": "9",
+      "control": 2,
+      "health": 9,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Scrappers’ Stabbers",
+          "attacks": "7",
+          "hit": "5",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Rhinox’S Sharp Horns",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "2",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "No Slacking!",
+        "effect": "The Icebrow Hunter that leads the Mantrappers gets his followers in line with a menacing snort. Declare: Pick a friendly Infantry  unit wholly within 12\" of this unit. Effect: Roll a dice On a 3+, add the result to the target’s control score until the start of your next turn."
+      },
+      {
+        "name": "Rain Of Scrap",
+        "timing": "Passive Your Hero Phase",
+        "effect": "Salvaged weapons and shards of metal rain down upon the enemy, forcing them to take cover or dodge out of the way. Declare: Pick an enemy unit that had any models slain this turn by this unit’s shooting attacks to be the target. Effect: Subtract 1 from hit rolls for the target’s attacks for the rest of the turn. Your Shooting Phase"
+      }
+    ]
+  },
+  {
+    "id": "gnoblars",
+    "name": "Gnoblars",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Motley Assortment Of Weapons",
+          "attacks": "1",
+          "hit": "5",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Sharp Stuff",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1",
+          "range": "8"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Down To The Ironguts",
+        "timing": "Passive",
+        "effect": "It is not often that a mawtribe’s battleline falters, but if it does, the Tyrant will call upon their Ironguts to turn the battle back in their favour. Effect: Ignore negative modifiers to this unit’s control score. NO SHORTAGE OF"
+      }
+    ]
+  },
+  {
+    "id": "gossamid-archers",
+    "name": "Gossamid Archers",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "grey-seer-skaven",
+    "name": "Grey Seer",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Warpstone Staff",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Wither",
+        "timing": "Your Hero Phase",
+        "effect": "The Grey Seer hurls a glowing green globe of magical energy at the foe. Anyone touched by the globe starts to shrivel and wither away. Declare: Pick a visible enemy unit within 13\" of this unit to be the target, then make a casting roll of 2D6. Effect: On a 6+, inflict D3 mortal damage on the target. Your Hero Phase"
+      },
+      {
+        "name": "Cornered Rat",
+        "effect": "A Clawlord in fear for their life fights with rabid ferocity. Effect: While this unit is damaged, add 3 to the Attacks characteristic of its Warpforged Halberd ."
+      }
+    ]
+  },
+  {
+    "id": "grimghast-reapers",
+    "name": "Grimghast Reapers",
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Ward (6+)"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 1,
+      "health": 1,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Slasher Scythe",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Reaped Like Corn",
+        "effect": "/T_he scythes wielded by these ghostly warriors can be swung in great sweeping arcs, cutting down whole ranks of enemy warriors. Eﬀect: Combat attacks made by this unit score critical/uni00A0hits on unmodi/f_ied hit rolls of 5+ if the target unit has 5 or more models."
+      }
+    ]
+  },
+  {
+    "id": "grundstok-gunhauler",
+    "name": "Grundstok Gunhauler",
+    "keywords": [
+      "War Machine",
+      "Fly"
+    ],
+    "stats": {
+      "move": "14",
+      "control": 2,
+      "health": 10,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Boarding Weapons",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Sky Ordnance",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "2",
+          "damage": "3",
+          "range": "15"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Gunhauler Overwatch",
+        "effect": "At the last moment, the Gunhauler’s crew loose a hasty fusillade at a charging group of foes. Declare: Pick an enemy unit that charged this turn and is in combat with this unit to be the target. Effect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+      }
+    ]
+  },
+  {
+    "id": "grundstok-thunderers",
+    "name": "Grundstok Thunderers",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 2,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Gun Butt",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Aethershot Rifle",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "18"
+        },
+        {
+          "name": "Decksweeper",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "range": "10",
+          "ability": "Shoot in Combat"
+        },
+        {
+          "name": "Aethercannon",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bewilderblast Rounds",
+        "timing": "any damage points allocated to it this",
+        "effect": "These specialist rounds emit a riot of light and sound, severely disrupting the targets’ cohesion. Declare: Pick an enemy unit that had phase by this unit’s shooting attacks to be the target. Effect: Subtract D6 from the target’s control score for the rest of the turn. Once Per Battle (Army), Any Shooting Phase"
+      }
+    ]
+  },
+  {
+    "id": "gutrippaz",
+    "name": "Gutrippaz",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "gutter-runners",
+    "name": "Gutter Runners",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "7",
+      "control": 1,
+      "health": 1,
+      "save": "6",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Eshin Specialist Blades",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Bomb Rats",
+        "timing": "Once Per Turn (Army), Your Charge Phase",
+        "effect": "Many Gutter Runners are experts in the use of improvised explosives, using skittering Bomb Rats to rush the enemy and detonate amongst them in a burst of warpstone-fuelled fury. Declare: You can only use this ability if this unit has a Bomb Rat token. Pick an enemy unit within 9\" of this unit to be the target. Then, roll a dice. Effect: On a 3+, inflict 1 mortal damage on the target. On a 1-2, remove this unit’s Bomb Rat token from the battlefield. 6+SAV E CONTROL MOVE HEALTH"
+      }
+    ]
+  },
+  {
+    "id": "hag-queen",
+    "name": "Hag Queen",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "hunters-of-huanchi",
+    "name": "Hunters Of Huanchi",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "hurakan-spirit-of-the-wind",
+    "name": "Hurakan Spirit Of The Wind",
+    "keywords": [
+      "Monster",
+      "Fly"
+    ],
+    "stats": {
+      "move": "18",
+      "control": 5,
+      "health": 5,
+      "save": "5",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Swirling Shards",
+          "attacks": "6",
+          "hit": "2",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Bow Of The Wind’S Vengeance",
+          "attacks": "4",
+          "hit": "2",
+          "wound": "3",
+          "rend": "2",
+          "damage": "2",
+          "range": "15"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Eye Of The Storm",
+        "timing": "Passive",
+        "effect": "The Spirit of the Wind surrounds itself with a powerful cyclone that obscures nearby allies and disrupts the attacks of their enemies. Effect: Subtract 1 from hit rolls for attacks that target friendly units while they are wholly within 6\" of this unit. Your Hero Phase"
+      }
+    ]
+  },
+  {
+    "id": "hurakan-windchargers",
+    "name": "Hurakan Windchargers",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "14",
+      "control": 1,
+      "health": 3,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Warden Pike And Blade",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Anti-charge (+1 Rend),"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Leap Into The Storm",
+        "effect": "Windchargers can leap great heights and ride the winds to a more advantageous position. Effect: If this unit is not in combat, remove it from the battlefield and set it up again wholly within 3\" of the leeward battlefield edge and more than 6\" from all enemy units."
+      }
+    ]
+  },
+  {
+    "id": "hurakan-windmage",
+    "name": "Hur Akan Windmage",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Infantry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 5,
+      "save": "8"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Aspiragillum",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Windblast Vortex",
+          "attacks": "1",
+          "hit": "2",
+          "wound": "3",
+          "rend": "2",
+          "damage": "D3",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Hurricane Winds",
+        "timing": "Any Shooting Phase",
+        "effect": "The arrows of the Spirits of the Wind are followed by a blast of wind, throwing enemies to the ground. Declare: Pick an enemy unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target. Effect: Roll a dice. On a 3+, the target has Strike-last for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "infernal-cohort",
+    "name": "Infernal Cohort",
+    "keywords": [],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 1,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Artillerist Weapons",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Torrent Of Ruinous Energy",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "range": "30"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Calculated Trajectory",
+        "effect": "The warhosts of the Chaos Duardin revel in overwhelming their foes with excessive, punishing firepower. Effect: Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit with 5 or more models that is more than 12\" from this unit."
+      },
+      {
+        "name": "Ruinous Bombardment",
+        "timing": "Passive Once Per Turn (Army), Your Shooting Phase",
+        "effect": "Those who survive the initial unmaking wave of raw Chaos energy laid down by a Tormentor Bombard are left addled and disoriented. Declare: If this unit used a Shoot  ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6\" of the target equal to the number of daemonic power points this unit has to be additional targets. Effect: Roll a dice for each target. On a 3+, subtract 3 from the target’s control score for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "ironguts",
+    "name": "Ironguts",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 4,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Irongut Weapon",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Volunteers",
+        "timing": "End of Any Turn",
+        "effect": "When your choices are potentially dying at the hands of the enemy or being eaten alive by a hungry ogor, most Gnoblars are willing to take their chances with the enemy. Effect: You can return D3 models to this unit."
+      }
+    ]
+  },
+  {
+    "id": "ironweld-great-cannon",
+    "name": "Ironweld Great Cannon",
+    "keywords": [],
+    "stats": {
+      "move": "3",
+      "control": 2,
+      "health": 8,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Crew’S Tools And Sidearms",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Great Cannon: Cannonball",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "D3+2",
+          "range": "24"
+        },
+        {
+          "name": "Great Cannon: Grapeshot",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Shot And Shell",
+        "timing": "Passive",
+        "effect": "The engineers of the Ironweld Arsenal have developed different ammunition for the Great Cannon to fire. Effect: Each time this unit uses a Shoot  ability, choose either the Cannonball or Grapeshot  weapon characteristics for all the attacks it makes with its Great Cannon. The Cannonball can only be chosen if this unit has not used a Move ability that turn."
+      }
+    ]
+  },
+  {
+    "id": "isharann-soulscryer",
+    "name": "Isharann Soulscryer",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Abyssal Touch",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "D3"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Scryfish Shoal",
+          "attacks": "8",
+          "hit": "5",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1",
+          "range": "10",
+          "ability": "Shoot in Combat,"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Ritual Of The Creeping Mist",
+        "timing": "Your Hero Phase",
+        "effect": "This ritual beckons the chilling fogs of the ethersea to blind the enemy. Declare: Pick a visible friendly unit wholly within 12\" of this unit to be the target, then roll a dice. Effect:  On a 4+, until the start of your next turn, the target unit cannot be targeted by shooting attacks unless the attacking model is within its combat range."
+      }
+    ]
+  },
+  {
+    "id": "jorvan-kreel",
+    "name": "Jorvan Kreel",
+    "keywords": [],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Ranger Blades",
+          "attacks": "6",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Veteran Skirmishers",
+        "timing": "Your Hero Phase",
+        "effect": "Kreel has trained his ragtag soldiers well, emphasising speed and surety of foot over headlong sprints. Declare: Pick a friendly unit wholly within 12\" of this unit to be the target. Effect: Roll a dice. On a 3+, for the rest of the turn, add 2\" to the target’s Move characteristic but it cannot use Run  abilities."
+      }
+    ]
+  },
+  {
+    "id": "kairic-acolytes",
+    "name": "Kairic Acolytes",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Cursed Blade",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Sorcerous Bolts",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Gestalt Sorcery",
+        "timing": "Your Shooting Phase",
+        "effect": "Through combined worship, a cult of Acolytes can swell their arcane power to new levels of ferocity. Declare: Make a casting roll of 2D6. Effect:  On a 6+, add 1 to the Rend characteristic of this unit’s Sorcerous Bolts this phase."
+      }
+    ]
+  },
+  {
+    "id": "karanak",
+    "name": "Karanak",
+    "keywords": [
+      "Hero",
+      "Beast"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 2,
+      "health": 7,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Savage Maws And Goreslick Claws",
+          "attacks": "6",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Anti-Hero"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Stalk The Prey",
+        "effect": "Karanak’s quarry is relentlessly and mercilessly run to the ground. Effect: This unit can move D6\". It cannot end that move in combat unless it was in combat at the start of that move and, if there is an enemy quarry  on the battlefield, it must end that move closer to the quarry ."
+      }
+    ]
+  },
+  {
+    "id": "kavalos-deathriders",
+    "name": "Kavalos Deathriders",
+    "keywords": [
+      "Cavalry",
+      "Keywords"
+    ],
+    "stats": {
+      "move": "10",
+      "control": 1,
+      "health": 3,
+      "save": "4",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "khainite-shadowstalkers",
+    "name": "Khainite Shadowstalkers",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "killaboss-on-great-gnashtoof",
+    "name": "Killaboss",
+    "keywords": [],
+    "stats": {
+      "move": "10",
+      "control": 2,
+      "health": 10,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Skewered",
+        "timing": "Passive",
+        "effect": "Beast-skewer bolts are designed to in/f_lict horrendous wounds on monstrous quarry. Eﬀect: /T_he Damage characteristic of this unit’s Beast-skewer Bolts is 6 instead of D6 if the target is a M/o.sc/n.sc/s.sc/t.sc/e.sc/r.sc."
+      }
+    ]
+  },
+  {
+    "id": "knight-of-shrouds",
+    "name": "Knight Of Shrouds",
+    "keywords": [
+      "Hero",
+      "Infantry",
+      "Fly",
+      "Ward (6+)"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 2,
+      "health": 5,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Sword Of Stolen Hours",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "4",
+          "rend": "3+",
+          "damage": "1",
+          "ability": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Discorporate",
+        "timing": "Your Hero Phase",
+        "effect": "/T_his spectral overseer gives the order for their warriors to /f_licker between the realms of the living and dead. Declare: Pick a friendly unit wholly within 9\" of this unit to be the target. Eﬀect: Until the start of your next turn, the target has W/a.sc /r.sc /d.sc (/five.taboldstyle+)."
+      }
+    ]
+  },
+  {
+    "id": "knight-vexillor",
+    "name": "Knight -Vexillor",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": "4\"",
+      "health": 5,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Celestial Greatsword",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Force Of A Falling Star",
+        "effect": "As Annihilators build up momentum, their charge turns the shockwave of their arrival into a deadly bludgeoning assault. Declare: If this unit charged this phase and the unmodi/f_ied charge roll was 8+, pick an enemy unit within 1\" of it to be the target. Eﬀect: /T_he target has S/t.sc/r.sc/i.sc/k.sc/e.sc-/l.sc/a.sc/s.sc/t.sc this turn."
+      }
+    ]
+  },
+  {
+    "id": "kurnoth-hunters",
+    "name": "Kurnoth Hunters",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 5,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Enchanted Blade",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Everqueen",
+        "effect": "Kurnoth Hunters can channel a fraction of their goddess’s divine power through those sites that resonate with the realmroots. Effect: While this unit is contesting an objective, friendly"
+      }
+    ]
+  },
+  {
+    "id": "liege-kavalos",
+    "name": "Li Ege-K Ava Los",
+    "keywords": [
+      "Beast",
+      "Reinforcements"
+    ],
+    "stats": {
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "loonboss",
+    "name": "Loonboss",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 5,
+      "save": "4",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Moon-Slicer",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "magister-on-disc",
+    "name": "Magister On Disc Of Tzeentch",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "14",
+      "control": 2,
+      "health": 6,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Warpsteel Sword",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "D3"
+        },
+        {
+          "name": "Disc’S Teeth And Horns",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Tzeentchian Runestaff",
+          "attacks": "1",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "D3",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Bolt Of Change",
+        "timing": "any models are slain by this ability, you can pick a friendly",
+        "effect": "The Magister hurls a coruscating bolt of energy at the foe, causing their flesh to run like wax and remould into a form more pleasing to Tzeentch. Declare: Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6. Effect:  On a 6+, inflict D3 mortal damage on the target. If Tzaangors unit wholly within 18\" of this unit and return 1 slain model to that Tzaangors unit. Your Hero Phase"
+      }
+    ]
+  },
+  {
+    "id": "mallus-forgepriest",
+    "name": "Mallus Forgepriest",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "man-skewer-boltboyz",
+    "name": "Man-Skewer Boltboyz",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": "5\"",
+      "health": 5,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Murknob Cleaver",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Breath Of The Mire-Drakes",
+        "effect": "Belcha-bannas are typically built around the severed tongue of a mire-drake, creatures so vile that even a/f_ter death, their remains belch forth clouds of soul-shrivelling gas. Declare: Roll a dice for each enemy unit in combat with this unit. Eﬀect: On a 1, nothing happens. On a 2-5, in/f_lict 1 mortal damage on that enemy unit. On a 6, in/f_lict D3 mortal damage on that unit."
+      }
+    ]
+  },
+  {
+    "id": "mantrappers",
+    "name": "Mantrappers",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 5,
+      "health": 7,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Frost Sabre’S Fangs",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Companion"
+        },
+        {
+          "name": "Culling Knife",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "2",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Mantrapper Crossbow",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "2",
+          "rend": "1",
+          "damage": "D3",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Staying Useful",
+        "effect": "The Hunter’s companions are handy spotters and trackers Effect: While any of this unit’s Gnoblar or Frost Sabre tokens are on the battlefield, this unit has Wa r d (5+). Each time you make a successful ward roll for this unit, remove 1 of this unit’s tokens from the battlefield. If this unit’s Frost Sabre token has been removed, it can no longer attack with its Frost Sabre’s Fangs."
+      }
+    ]
+  },
+  {
+    "id": "megaboss",
+    "name": "Megaboss",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 2,
+      "health": 8,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Boss-Choppa",
+          "attacks": "8",
+          "hit": "4",
+          "wound": "2",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Shield Bash",
+        "timing": "Any Combat Phase",
+        "effect": "The shields carried by Ardboyz are great slabs of iron festooned with spikes and metal teeth, making them deadly weapons in their own right. Declare: Pick an enemy unit within 1\" of this unit to be the target. Effect: Make a shield bash roll of D6 for each model in this unit that is within 3\" of the target. For each 6, inflict 1 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "melusai-ironscale",
+    "name": "Melusai Ironscale",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 2,
+      "health": 6,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Keldrisaíth",
+          "attacks": "6",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Keldrisaíth",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": []
+  },
+  {
+    "id": "mighty-skullcrushers",
+    "name": "Mighty Skullcrushers",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 2,
+      "health": 5,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Bloodglaive",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Juggernaut’S Brazen Hooves",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Blood Sacrifice",
+        "timing": "Your Hero Phase",
+        "effect": "The Slaughterpriest answers their god’s call for blood by sacrificing one of their own. Declare: Pick a friendly unit within this unit’s combat range to be the target. Effect:  Roll a dice. On a 2+, inflict D3 mortal damage on the target and you gain 1 blood tithe point . Your Hero Phase"
+      },
+      {
+        "name": "Brass Stampede",
+        "timing": "Your Charge Phase",
+        "effect": "Nothing can stop the thunderous onset of Khorne’s Juggernauts once they have scented the blood of the foe. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target, then roll a dice. Effect:  On a 2+, inflict 1 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "moonclan-stabbas",
+    "name": "Moonclan Stabbas",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Stabba",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "morbheg-knights",
+    "name": "Morbheg Knights",
+    "keywords": [
+      "Cavalry",
+      "Fly",
+      "Ward (6+)"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 4,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Grisly Lance",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Victory Feast",
+        "timing": "any mortal damage being in/f_licted",
+        "effect": "A Varghulf rampages through the enemy’s ranks at will, its wounds sealing with unholy rapidity as it guzzles the /f_lesh of the savaged foe. Eﬀect: If any models were slain by this unit this turn, Heal (D6)  this unit, and this unit can immediately use the ‘Retreat’ ability without on it. End of Any Turn"
+      }
+    ]
+  },
+  {
+    "id": "mortek-guard-elite",
+    "name": "Mortek Guard Elite",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "mortisan-soulreaper",
+    "name": "Mortisan Soulreaper",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "murknob-with-belcha-banna",
+    "name": "Murknob",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "6"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Scare Taktikz",
+        "timing": "Any Combat Phase",
+        "effect": "Gutrippaz use all manner of means to unnerve and intimidate their foes. Eﬀect: Roll a dice. On a 3+, subtract 1 from hit rolls for attacks that target this unit this phase. /T_his ability has no eﬀect on attacks made by H/e.sc/r.sc/o.sc/e.sc/s.sc. PICK ’EM OFF: Boltboyz prefer to remain stationary to /f_ire carefully aimed shots. Eﬀect: Add 1 to hit rolls for this unit’s shooting attacks if has not used a M/o.sc/v.sc/e.sc ability this turn. Any Combat Phase Passive"
+      }
+    ]
+  },
+  {
+    "id": "namarti-reavers-tide",
+    "name": "Na M A Rti R E Av Er S",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "7",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Helsabre",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        },
+        {
+          "name": "Fangmora’S Fangs And Lashing Tail",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "namarti-thralls",
+    "name": "Namarti Thralls",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Lanmari",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Anti-Infantry"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Sweeping Blows",
+        "timing": "Passive",
+        "effect": "Lanmari can cut through weaker opponents as an Allopex cuts through a shoal of Scryfish, or they can be used to inflict grievous wounds on larger enemies. Effect:  Add 1 to the Damage characteristic of this unit’s Lanmari  for attacks that target an enemy Monster ."
+      }
+    ]
+  },
+  {
+    "id": "night-runners",
+    "name": "Night Runners",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "7",
+      "control": 1,
+      "health": 1,
+      "save": "6",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Poisoned Blades",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Slings And Poisoned Stars",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "range": "10",
+          "ability": "Crit (Auto-wound),"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Smoke Bombs",
+        "timing": "Once Per Turn (Army),",
+        "effect": "The Clans Eshin use smoke bombs to cause confusion and disorientate the enemy. Declare: This unit can only use this ability if it is in combat. Roll a dice. Effect: On a 4+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase. Any Combat Phase 6+"
+      }
+    ]
+  },
+  {
+    "id": "nurglings-bubonic",
+    "name": "Nurglings Bubonic",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "plaguebearers",
+    "name": "Plaguebearers",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 2,
+      "save": "6",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Plaguesword",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Cloud Of Flies",
+        "timing": "Passive",
+        "effect": "Plaguebearer tallybands are surrounded at all times by blinding swarms of daemon-flies. Effect: Subtract 1 from hit rolls for shooting attacks that target this unit."
+      }
+    ]
+  },
+  {
+    "id": "pusgoyle-blightlord",
+    "name": "Pusgoyle Blightlord",
+    "keywords": [
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 2,
+      "health": 8,
+      "save": "4",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Blighted Scythe",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "2",
+          "damage": "1"
+        },
+        {
+          "name": "Rot Fly’S Mouthparts And Sting",
+          "attacks": "6",
+          "hit": "4",
+          "wound": "2",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "putrid-blightkings",
+    "name": "Putrid Blightkings",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 1,
+      "health": 3,
+      "save": "3",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Blighted Weapon",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Relentless Attackers",
+        "timing": "End of Any Turn",
+        "effect": "Blightkings grind through the battlelines of lesser foes, shattering their morale and hacking down the stunned survivors with contemptuous ease. Declare: Pick an enemy Infantry unit in combat with this unit to be the target and roll a dice for each model in this unit that is within the target unit’s combat range. Effect: For each roll that exceeds the target’s Health characteristic, inflict 1 mortal damage on it."
+      }
+    ]
+  },
+  {
+    "id": "rat-ogors",
+    "name": "Rat Ogors",
+    "keywords": [],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 1,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Rusty Blade",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Claws, Blades And Fangs",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "revenant-seekers",
+    "name": "5 4+ Revenant Seekers",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "rockgut-troggoths",
+    "name": "Rockgut Troggoths",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "4",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Massive Stone Maul",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "3"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Throwin’ Boulders",
+          "attacks": "1",
+          "hit": "5",
+          "wound": "2",
+          "rend": "2",
+          "damage": "D3",
+          "range": "10"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Regeneration",
+        "timing": "Start of Any Turn",
+        "effect": "Troggoths are able to regrow injured flesh almost as quickly as it is harmed. Effect: Heal (D3) this unit."
+      },
+      {
+        "name": "Netters",
+        "timing": "Any Combat Phase",
+        "effect": "Moonclan grots use throwing nets to capture Cave Squigs and entangle their foes. Declare: Pick an enemy Infantry  unit in combat with this unit to be the target. Effect: Roll a dice. On a 2+, subtract 1 from hit rolls for attacks made by the target unit this phase."
+      }
+    ]
+  },
+  {
+    "id": "rotbringer-sorcerer-bubonic",
+    "name": "Rotbringer Sorcerer Bubonic",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "rotmire-creed",
+    "name": "Rotmire Creed",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "saurus-warriors",
+    "name": "Saurus Warriors",
+    "keywords": [],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 1,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Nerve-Shredding Screeches",
+        "timing": "Any Shooting Phase",
+        "effect": "The shrill cries of a Terrawing flock can cause disarray across the enemy line. Declare: Pick an enemy unit in combat with this unit to be the target. Effect: Roll a dice. On a 4+, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn. Any Combat Phase"
+      }
+    ]
+  },
+  {
+    "id": "scinari-cathallar",
+    "name": "Scinari Cathallar",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "screamers-of-tzeentch",
+    "name": "Screamers Of Tzeentch",
+    "keywords": [],
+    "stats": {
+      "move": "14",
+      "control": "6\"",
+      "health": 1,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Flaming Maws",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Wyrdflame",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "D3",
+          "range": "12"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Slashing Fins",
+        "timing": "Your Movement Phase",
+        "effect": "Screamers swoop from discoloured skies to slash at their foes, performing fly-by attacks and effortless manoeuvres. Declare: Pick an enemy unit that any models in this unit passed across this phase to be the target, then roll a dice for each model in this unit that did so. Effect:  For each 4+, inflict 1 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "shardspeaker-of-slaanesh",
+    "name": "Shardspeaker Of Slaanesh",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Haze Staff",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "sisters-of-slaughter",
+    "name": "Sisters Of Slaughter",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 6,
+      "save": "8"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Bloodwrack Spear",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Exsanguinating Glare",
+        "effect": "The Bloodwrack Medusa’s eyes blaze with pure hatred and her victim’s blood explodes violently from every pore. Declare: If this unit is in combat, pick an enemy unit in combat with it to be the target. Otherwise, pick a visible enemy unit within 12\" of it to be the target. Effect: Roll a dice. On a 3+, inflict 1 mortal damage on the target. Then, if any enemy models were slain by that mortal damage, inflict an additional 1 mortal damage on the target."
+      },
+      {
+        "name": "Shadow Leap",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "effect": "Shadowstalkers can vanish and reappear at will as they navigate the Umbral Web. Effect: Remove this unit from the battlefield and set it up again on the battlefield more than 6\" from all enemy units."
+      }
+    ]
+  },
+  {
+    "id": "skywardens",
+    "name": "Skywardens",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "slaangor-fiendbloods",
+    "name": "Slaangor Fiendbloods",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Sybarite Blade",
+          "attacks": "1",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Blissbarb Bow",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Slaughter At Any Cost",
+        "effect": "When stirred by the excesses of battle, Fiendbloods waste no time in hunting down their victims. Declare: This unit can use this ability if any damage points were allocated to it this turn. Effect:  This unit can use the ‘Normal Move’ ability as if it were your movement phase. Enemy Shooting Phase"
+      }
+    ]
+  },
+  {
+    "id": "slaughter-queen-cauldron",
+    "name": "Slaughter Queen",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "slaughterpriest",
+    "name": "Slaughterpriest",
+    "keywords": [
+      "Hero",
+      "Priest",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 6,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Hackblade And Wrath-Hammer",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Blood Boil",
+        "effect": "Spitting ritualistic words of wrath into the air, the Slaughterpriest turns the blood coursing through the veins of the enemy red-hot, burning them from the inside out. Declare: Pick a visible enemy unit within 16\" of this unit to be the target, then make a chanting roll of D6. Effect:  On a 4+, inflict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "slickblade-seekers",
+    "name": "Slickblade Seekers",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 4,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Slickblade Glaive",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Exalted Steed’S Poisoned Tongue",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Vision Of Damnation",
+        "timing": "Your Hero Phase",
+        "effect": "The sorcerer conjures a vision of excess so intense that reality itself shimmers and distorts. Declare: Make a casting roll of 2D6. Effect:  On a 6+, roll 6 dice. For each 4+, you receive 1 depravity point ."
+      },
+      {
+        "name": "Unrivalled Velocity",
+        "timing": "Passive",
+        "effect": "Slickblade Seekers are obsessed with high-speed kills, tearing towards the foe with relentless haste. Effect:  You can re-roll charge rolls for this unit."
+      }
+    ]
+  },
+  {
+    "id": "snarlboss",
+    "name": "Snarlboss",
+    "keywords": [
+      "Hero",
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 5,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Boss Loppa",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Snarlfang’S Slavering Jaws",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "2",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "I Got Dis, Boss",
+        "timing": "Passive",
+        "effect": "Wolfgitz look out for their Snarlboss in battle, if only because it makes knifin’ him later easier once he’s let his guard down. Effect: While a friendly Snarlboss  is within this unit’s combat range, both this unit and that Snarlboss  have Ward (5+). GREAT SNARLIN’ HOWL:  The howls of this boss’s Snarlfang Alpha drive its pack into a frenzy. Declare: Pick this unit and another friendly unit within this unit’s combat range to be the targets. Effect: Roll a dice. On a 3+, add 1 to the Rend characteristic and the Attacks characteristic of the targets’ Companion melee weapons for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "snarlpack-cavalry",
+    "name": "Snarlpack Cavalry",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 3,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Pointy Skewas",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Charge (+1 Damage)"
+        },
+        {
+          "name": "Giant Snarlfang’S Jaws",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "2",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Careening Destruction",
+        "effect": "Lurching uncontrollably across the battlefield at death-defying speed, Sunsteala Wheelas careen straight through their enemies leaving behind trails of devastation. Effect: This unit can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy Infantry  unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "spawn-of-chotec",
+    "name": "Spawn Of Chotec",
+    "keywords": [
+      "Beast",
+      "Skink"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 8,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Fiery Maw",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "2",
+          "damage": "3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Glob Of Flame Acid",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "D3+3",
+          "range": "16",
+          "ability": "Companion"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Savage Bellow",
+        "timing": "Passive",
+        "effect": "The Sunblood looses a fearsome bellow, inspiring a fearsome savagery in his warriors. Declare: Pick a visible friendly unit wholly within 12\" of this unit to be the target and roll a dice. Effect: On a 3+, the target’s weapons have Crit (2 Hits) for the rest of the turn, including Companion  weapons. Passive Your Hero Phase The models in this unit are 1 Sunblood and 2 Saurus Bodyguard. Each model is armed with Celestite Weapons. This unit’s Venomites are a token."
+      }
+    ]
+  },
+  {
+    "id": "spirit-hosts",
+    "name": "Spirit Hosts",
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Ward (6+)"
+    ],
+    "stats": {
+      "move": "8",
+      "control": 1,
+      "health": 3,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Drawn To War",
+        "timing": "Passive",
+        "effect": "When the champions of the Nighthaunt muster their processions for battle, Spirit/uni00A0Hosts /f_lock to join their cause, serving as useful fodder for the enemy. Eﬀect: Your general has W/a.sc/r.sc/d.sc (/four.taboldstyle+) while they are within 1\" of this unit."
+      }
+    ]
+  },
+  {
+    "id": "spirit-torment",
+    "name": "Spirit Torment",
+    "keywords": [
+      "Hero",
+      "Infantry",
+      "Fly"
+    ],
+    "stats": {
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Shacklegheist Chains",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Crit (Auto-wound)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Captured Soul Energy",
+        "effect": "The Spirit Torment of a Cursed Shacklehorde uses the souls captured in their padlock to imbue their minions with deathly might. Declare: Pick a friendly unit wholly within 12\" of this unit to be the target. Effect: Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "spiterider-lancers",
+    "name": "Spiterider Lancers",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "spoilpox-scrivener",
+    "name": "Spoilpox Scrivener",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 2,
+      "health": 5,
+      "save": "5",
+      "ward": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Distended Maw",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Disgusting Sneezes",
+          "attacks": "D6",
+          "hit": "2",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "range": "7",
+          "ability": "Shoot in Combat"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Wrack And Ruin",
+        "timing": "Any Charge Phase",
+        "effect": "Mortal Maggotkin who ride Rot Flies act as brutal linebreakers, using their sheer bulk to smash enemy formations asunder. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target and roll a dice. Effect:  On a 2+, inflict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "squig-hoppers",
+    "name": "Squig Hoppers",
+    "keywords": [
+      "Cavalry",
+      "Fly"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Slitta",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Squig’S Fang-Filled Gob",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Boing! Boing! Boing!",
+        "timing": "Any Movement Phase",
+        "effect": "Squig Hoppers can cause considerable damage simply by bouncing on top of their foes as they make their way across the battlefield. Declare: Pick an enemy unit that any models in this unit passed across this phase to be the target, then roll a dice for each model in this unit that did so. Effect:  For each 4+, inflict 1 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "stormstrike-chariot",
+    "name": "Stormstrike Chariot",
+    "keywords": [],
+    "stats": {
+      "move": "10",
+      "control": 2,
+      "health": 10,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Azyr Unleashed",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "/T_he impact of a Stormstrike Chariot on the charge can obliterate even the most durable of shieldwalls. Declare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target and roll a dice. Eﬀect: On a 2+, in/f_lict D3 mortal damage on the target. Any Charge Phase"
+      }
+    ]
+  },
+  {
+    "id": "sunblood-pack",
+    "name": "Sunblood Pack",
+    "keywords": [
+      "Hero",
+      "Infantry",
+      "Saurus"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 3,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Celestite Weapons",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Scaled Protectors",
+        "effect": "The saurus bodyguard know no other purpose than to follow and protect their Sunblood leader until their dying breath. Effect: While this unit includes a Sunblood , ignore the first damage point that would be allocated to this unit each phase and add 1 to this unit’s control score."
+      }
+    ]
+  },
+  {
+    "id": "sunsteala-wheelas",
+    "name": "Sunsteala Wheelas",
+    "keywords": [],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 6,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Wheela Slicers And Stabbin’ Stikka",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Snarlfangs’ Slavering Jaws",
+          "attacks": "4",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "2",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Grot Bow",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1",
+          "range": "15"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Frazzleburned Scrap",
+        "timing": "Passive",
+        "effect": "After the boss, Snarlpack Cavalry often get first dibs on loot, and they have an eye for the scrap and wotsits with the best light-absorbing properties. In battle, they have learned how to unleash these energies from their weapons at just the right moment, dazzling the enemy as their charge hits home. Effect: This unit has Strike first if it charged in the same turn."
+      }
+    ]
+  },
+  {
+    "id": "teratic-cohort",
+    "name": "Ter Atic Cohort",
+    "keywords": [
+      "Hero",
+      "Cavalry"
+    ],
+    "stats": {
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "terrawings",
+    "name": "Ter R Awings",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": "8\"",
+      "health": 1,
+      "save": "2"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Star-Venom",
+        "effect": "The blowdarts used by the Hunters of Huanchi are coated in deadly toxins. Declare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Dartpipes  to be the target. Effect: Roll a dice. On a 2+, subtract 1 from wound rolls for the target’s combat attacks for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "tormentor-bombard",
+    "name": "Tormentor Bombard",
+    "keywords": [],
+    "stats": {
+      "move": "4",
+      "control": 2,
+      "health": 8,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Hashutite Spear",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Anti-charge"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Strike The Gongs",
+        "effect": "Borne by straining hobgrots, these gongs are holy relics to the servants of Hashut. Effect: This unit’s Gong Carrier (if any) is a token. You can remove its Gong Carrier from the battlefield and return D3 slain models to this unit."
+      },
+      {
+        "name": "Daemonic Resilience",
+        "timing": "Once Per Battle, Any Hero Phase Passive",
+        "effect": "Spitting contempt from between their tusks, these duardin refuse to show the slightest shred of weakness. Effect: Apply the effect below that corresponds with the number of daemonic power points (DPP) this unit has: DPP Effect 1  This unit has Wa r d (6+). 2  This unit has Wa r d (5+). 3  This unit has Ward (5+) and you ignore the first damage point allocated to this unit in each phase."
+      }
+    ]
+  },
+  {
+    "id": "tree-revenants",
+    "name": "Tree-Revenants",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 1,
+      "health": 2,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Vicious Claws",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Kurnoth Greatbow",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Martial Memories",
+        "timing": "Any Combat Phase",
+        "effect": "Tree- Revenants can draw on centuries of experience when they go to war. Effect: Pick 1 of the following effects to apply to this unit this phase: Memories of War: Add 1 to hit rolls for attacks made by this unit. Memories of Peace: Add 1 to save rolls for this unit."
+      }
+    ]
+  },
+  {
+    "id": "treelord",
+    "name": "Treelord",
+    "keywords": [
+      "Monster"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 5,
+      "health": 14,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Sweeping Blows",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "2",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Massive Impaling Talons",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "2",
+          "rend": "2",
+          "damage": "3"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Strangleroots",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "2",
+          "rend": "1",
+          "damage": "2",
+          "range": "10",
+          "ability": "Shoot in Combat"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Groundshaker",
+        "timing": "Any Combat Phase",
+        "effect": "The earth quakes as the Treelord stamps down hard, shaking the enemy’s wits. Declare: Pick an enemy unit in combat with this unit to be the target, then roll a dice. Effect: On a 4+, the target has Strike-last  this phase. BATTLE DAMAGED Effect: While this unit has 10 or more damage points, the Attacks characteristic of its Massive Impaling Talons is 1. Passive"
+      }
+    ]
+  },
+  {
+    "id": "tzaangor-enlightened",
+    "name": "Tzaangor Enlightened",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "tzaangor-shaman",
+    "name": "Tzaangor Shaman",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Vicious Beak",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        },
+        {
+          "name": "Disc’S Teeth And Horns",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Deliver On Fate",
+        "timing": "Passive",
+        "effect": "When on the back foot, the Enlightened use the knowledge they have of their enemy’s past battles to predict their movements, taking great satisfaction in running their destined prey to ground. Effect: Add 1 to charge rolls for this unit while you are the underdog. Cavalry, Fly"
+      }
+    ]
+  },
+  {
+    "id": "tzaangor-skyfires",
+    "name": "Tzaangor Skyfires",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Savage Blades And Vicious Beak",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Destined Qua R Ry",
+        "timing": "Your Shooting Phase",
+        "effect": "Skyfires often select a target to utterly obliterate and erase from the tapestry of fate. Declare: Pick an enemy unit that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target. Effect: Add 1 to hit rolls for combat attacks made by friendly units that target that enemy unit for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "tzaangors",
+    "name": "Tzaangors",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Bow Stave And Vicious Beak",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Disc’S Teeth And Horns",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Arrow Of Fate",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": []
+  },
+  {
+    "id": "tzaangors-warflock",
+    "name": "Tzaangors",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Bow Stave And Vicious Beak",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Disc’S Teeth And Horns",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "D3",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Arrow Of Fate",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": []
+  },
+  {
+    "id": "vampire-lord",
+    "name": "Vampire Lord",
+    "keywords": [
+      "Hero",
+      "Wizard",
+      "Infantry",
+      "Vampire"
+    ],
+    "stats": {
+      "move": "6",
+      "control": 2,
+      "health": 5,
+      "save": "3",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Dynastic War-Relic",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Vile Transference",
+        "timing": "Your Hero Phase",
+        "effect": "The Vampire Lord siphons the animus from nearby enemies and uses it to rejuvenate their ageless form. Declare: Pick a visible enemy unit within 6\" of this unit to be the target, then make a casting roll of 2D6. Effect:  On a 6+, roll a number of dice equal to the target’s Health characteristic. For each 5+, inflict 1 mortal damage on the target and Heal (1) this unit."
+      }
+    ]
+  },
+  {
+    "id": "vanari-auralan-sentinels",
+    "name": "Vanari Auralan Sentinels",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Moonfire Flask",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "effect": "The High Warden carries a flask filled with a burning silvery liquid that can be hurled at the incoming enemy. Declare: Pick an enemy unit in combat with this unit and that charged this turn to be the target, then roll a dice. Effect:  On a 2+, inflict D3 mortal damage on the target."
+      }
+    ]
+  },
+  {
+    "id": "vanari-auralan-wardens",
+    "name": "Vanari Auralan Wardens",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Lofted Shots",
+        "timing": "Your Shooting Phase",
+        "effect": "To strike a distant target, these warriors point their bows to the sky before launching a volley up high. Effect:  Until the end of the phase, add 6\" to the Range characteristic of this unit’s Auralan Bows  but subtract 1 from hit rolls for this unit’s shooting attacks."
+      }
+    ]
+  },
+  {
+    "id": "vanari-auralan-wardens-hurakan",
+    "name": "Vanari Auralan Wardens",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Lofted Shots",
+        "timing": "Your Shooting Phase",
+        "effect": "To strike a distant target, these warriors point their bows to the sky before launching a volley up high. Effect:  Until the end of the phase, add 6\" to the Range characteristic of this unit’s Auralan Bows  but subtract 1 from hit rolls for this unit’s shooting attacks."
+      }
+    ]
+  },
+  {
+    "id": "vanari-bladelords",
+    "name": "Vanari Bladelords",
+    "keywords": [],
+    "stats": {
+      "move": "6",
+      "control": 1,
+      "health": 2,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Darkness Of The Soul",
+        "timing": "Your Hero Phase",
+        "effect": "Cathallars wield the negative energy locked in aetherquartz as a weapon. Declare: Pick an enemy unit within 12\" of this unit to be the target, then roll a dice. Effect: On a 3+, subtract D6 from the control score of the target unit this turn."
+      },
+      {
+        "name": "Swordmasters",
+        "effect": "Vanari Bladelords adopt different fighting styles depending upon the nature of their opponents. Effect: Each time this unit uses a Fight  ability, you must pick either the Perfect Strike or Flurry of Blows  weapon characteristics for all the attacks it makes with its Sunmetal Greatblade. In addition: Do not use the attack sequence for an attack made with Perfect Strike . Instead, roll a dice. On a 2+, inflict 1 mortal damage on the target unit."
+      },
+      {
+        "name": "Guardians",
+        "timing": "Passive",
+        "effect": "Bladelords are tasked with protecting the Scinari from harm. Effect: While your general is wholly within this unit’s combat range, both this unit and your general have Wa r d (5+). Passive"
+      }
+    ]
+  },
+  {
+    "id": "vanquishers",
+    "name": "Va Nqu Ish E R S",
+    "keywords": [],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "6"
+    },
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Banner Of The Reforged",
+        "effect": "When a Banner of Apotheosis is planted, its energies heal /f_lesh and restore armour. Declare: Pick a friendly unit wholly within 12\" of this unit to be the target. Eﬀect: Heal (D3) the target. In addition, add 3 to that unit’s control score until the start of your next turn."
+      },
+      {
+        "name": "Lightning Strikes",
+        "timing": "Any Charge Phase",
+        "effect": "Vanquishers utilise a stance that allows them to make a /f_lurry of rapid strikes against a numerous foe. Eﬀect: Add 1 to the Damage characteristic of this unit’s Celestial Greatswords for attacks that target an enemy unit that has 5 or more models. Your Hero Phase Passive I/n.sc/f.sc/a.sc/n.sc/t.sc/r.sc/y.sc"
+      }
+    ]
+  },
+  {
+    "id": "vargheists",
+    "name": "Vargheists",
+    "keywords": [
+      "Infantry",
+      "Vampire",
+      "Fly"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 4,
+      "save": "5",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Murderous Fangs And Talons",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Crit (2 Hits)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "The Scent Of Gore",
+        "effect": "The taste of hot blood on the tongue sends these abominations into a killing mania. Effect:  Add 1 to wound rolls for attacks made by this unit that target a damaged unit."
+      }
+    ]
+  },
+  {
+    "id": "war-despot",
+    "name": "War Despot",
+    "keywords": [],
+    "stats": {
+      "move": "4",
+      "control": 2,
+      "health": 6,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Daemonflame Glaive",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Black-Hearted Conqueror",
+        "effect": "Those sworn to serve beneath a Despot must offer them conquest and tribute or suffer the consequences… Effect: While this unit has any daemonic power points, friendly units with 0 daemonic power points count as having 1 daemonic power point while they are wholly within 6\" of and visible to this unit. For each daemonic power point this unit has, add 3\" to the range of this ability."
+      }
+    ]
+  },
+  {
+    "id": "warplock-jezzails",
+    "name": "Warplock Jezzails",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [],
+      "ranged": []
+    },
+    "abilities": []
+  },
+  {
+    "id": "wight-king",
+    "name": "Wight King",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "4",
+      "control": 2,
+      "health": 5,
+      "save": "3",
+      "ward": "6"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Baleful Tomb Blade",
+          "attacks": "5",
+          "hit": "4",
+          "wound": "3",
+          "rend": "1",
+          "damage": "2",
+          "ability": "Crit (Mortal)"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "King Of Shambling Bones",
+        "effect": "In the presence of their sovereign, the footsoldiers of the Deathrattle kingdoms assume a sliver of their former warlike vigour. Declare: Pick a friendly Deathrattle  unit wholly within 12\" of this unit to be the target. Effect: Roll a dice. On a 2+, add 1 to hit rolls for combat attacks made by the target for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "wildercorps-hunters",
+    "name": "Wildercorps Hunters",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Bayonet",
+          "attacks": "1",
+          "hit": "4",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Fusil-Cannon",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Blackpowder Squire",
+        "timing": "Passive",
+        "effect": "When ammunition runs low, Blackpowder Squires bring fresh supplies to the line and relay orders. Effect: While this unit has a Blackpowder Squire  token, this unit’s ranged weapons have Shoot in Combat ."
+      }
+    ]
+  },
+  {
+    "id": "witch-aelves",
+    "name": "Witch Aelves",
+    "keywords": [],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Cursed Scimitar",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        },
+        {
+          "name": "Dark Steed’S Vicious Bite",
+          "attacks": "2",
+          "hit": "5",
+          "wound": "3",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Doomfire Crossbow",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "4",
+          "rend": "-",
+          "damage": "1",
+          "range": "10"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Frenzied Fervour",
+        "timing": "Your Hero Phase",
+        "effect": "Witch Aelves hurl themselves at the enemy with no fear of death, cutting down foes in a whirlwind of blades. Effect:  Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn. Passive"
+      }
+    ]
+  },
+  {
+    "id": "wolfgit-retinue",
+    "name": "Wolfgit Retinue",
+    "keywords": [
+      "Cavalry"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 1,
+      "health": 2,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Stabbin’ Stikka",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1"
+        },
+        {
+          "name": "Snarlfang’S Slavering Jaws",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "3",
+          "rend": "-",
+          "damage": "2",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Grot Bow",
+          "attacks": "2",
+          "hit": "4",
+          "wound": "5",
+          "rend": "-",
+          "damage": "1",
+          "range": "15"
+        }
+      ]
+    },
+    "abilities": []
+  },
+  {
+    "id": "yndrasta",
+    "name": "Yndrasta The Celestial Spear",
+    "keywords": [
+      "Hero",
+      "Fly",
+      "Ward (6+)"
+    ],
+    "stats": {
+      "move": "12",
+      "control": 2,
+      "health": 8,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Stormstrike Axe",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Great Stormbow",
+          "attacks": "2",
+          "hit": "3",
+          "wound": "3",
+          "rend": "1",
+          "damage": "1",
+          "range": "18"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Champion Of Sigmar",
+        "effect": "Forged by Sigmar’s own hand, Yndrasta is protected by a divine aura so potent that swords and arrows simply rebound oﬀ her. Eﬀect: /T_his unit has W/a.sc /r.sc /d.sc (/five.taboldstyle+) this phase."
+      }
+    ]
+  }
+]
