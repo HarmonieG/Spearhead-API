@@ -7,19 +7,23 @@
     "unitComposition": [
       {
         "unitId": "spoilpox-scrivener",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#spoilpox-scrivener"
       },
       {
         "unitId": "pusgoyle-blightlord",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#pusgoyle-blightlord"
       },
       {
         "unitId": "putrid-blightkings",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#putrid-blightkings"
       },
       {
         "unitId": "plaguebearers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#plaguebearers"
       }
     ],
     "battleTraits": [
@@ -92,19 +96,23 @@
     "unitComposition": [
       {
         "unitId": "vampire-lord",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#vampire-lord"
       },
       {
         "unitId": "deathrattle-skeletons",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#deathrattle-skeletons"
       },
       {
         "unitId": "blood-knights",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#blood-knights"
       },
       {
         "unitId": "vargheists",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#vargheists"
       }
     ],
     "battleTraits": [
@@ -173,19 +181,23 @@
     "unitComposition": [
       {
         "unitId": "fusil-major-ogor-warhulk",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#fusil-major-ogor-warhulk"
       },
       {
         "unitId": "alchemite-warforger",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#alchemite-warforger"
       },
       {
         "unitId": "freeguild-fusiliers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#freeguild-fusiliers"
       },
       {
         "unitId": "wildercorps-hunters",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#wildercorps-hunters"
       }
     ],
     "battleTraits": [
@@ -248,19 +260,23 @@
     "unitComposition": [
       {
         "unitId": "wight-king",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#wight-king"
       },
       {
         "unitId": "barrow-guard",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#barrow-guard"
       },
       {
         "unitId": "barrow-knights",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#barrow-knights"
       },
       {
         "unitId": "deathrattle-skeletons-tomb-host",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#deathrattle-skeletons-tomb-host"
       }
     ],
     "battleTraits": [
@@ -330,15 +346,18 @@
     "unitComposition": [
       {
         "unitId": "karanak",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#karanak"
       },
       {
         "unitId": "flesh-hounds",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#flesh-hounds"
       },
       {
         "unitId": "claws-of-karanak",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#claws-of-karanak"
       }
     ],
     "battleTraits": [
@@ -404,19 +423,23 @@
     "unitComposition": [
       {
         "unitId": "isharann-soulscryer",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#isharann-soulscryer"
       },
       {
         "unitId": "akhelian-morrsarr-guard",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#akhelian-morrsarr-guard"
       },
       {
         "unitId": "akhelian-allopex",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#akhelian-allopex"
       },
       {
         "unitId": "namarti-thralls",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#namarti-thralls"
       }
     ],
     "battleTraits": [
@@ -494,19 +517,23 @@
     "unitComposition": [
       {
         "unitId": "akhelian-king-tide",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#akhelian-king-tide"
       },
       {
         "unitId": "akhelian-morrsarr-guard-tide",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#akhelian-morrsarr-guard-tide"
       },
       {
         "unitId": "akhelian-ishlaen-guard-tide",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#akhelian-ishlaen-guard-tide"
       },
       {
         "unitId": "namarti-reavers-tide",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#namarti-reavers-tide"
       }
     ],
     "battleTraits": [
@@ -568,19 +595,23 @@
     "unitComposition": [
       {
         "unitId": "freeguild-cavalier-marshal",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#freeguild-cavalier-marshal"
       },
       {
         "unitId": "freeguild-steelhelms",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#freeguild-steelhelms"
       },
       {
         "unitId": "freeguild-cavaliers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#freeguild-cavaliers"
       },
       {
         "unitId": "ironweld-great-cannon",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#ironweld-great-cannon"
       }
     ],
     "battleTraits": [
@@ -643,19 +674,23 @@
     "unitComposition": [
       {
         "unitId": "shardspeaker-of-slaanesh",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#shardspeaker-of-slaanesh"
       },
       {
         "unitId": "blissbarb-archers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#blissbarb-archers"
       },
       {
         "unitId": "slickblade-seekers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#slickblade-seekers"
       },
       {
         "unitId": "slaangor-fiendbloods",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#slaangor-fiendbloods"
       }
     ],
     "battleTraits": [
@@ -735,19 +770,23 @@
     "unitComposition": [
       {
         "unitId": "darkoath-warqueen",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#darkoath-warqueen"
       },
       {
         "unitId": "darkoath-savagers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#darkoath-savagers"
       },
       {
         "unitId": "darkoath-fellriders",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#darkoath-fellriders"
       },
       {
         "unitId": "darkoath-marauders",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#darkoath-marauders"
       }
     ],
     "battleTraits": [
@@ -810,19 +849,23 @@
     "unitComposition": [
       {
         "unitId": "mantrappers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#mantrappers"
       },
       {
         "unitId": "ironguts",
-        "count": 3
+        "count": 3,
+        "unitLink": "./units.json#ironguts"
       },
       {
         "unitId": "gnoblars",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#gnoblars"
       },
       {
         "unitId": "gnoblar-scraplauncher",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#gnoblar-scraplauncher"
       }
     ],
     "battleTraits": [
@@ -890,19 +933,23 @@
     "unitComposition": [
       {
         "unitId": "scinari-cathallar",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#scinari-cathallar"
       },
       {
         "unitId": "vanari-auralan-sentinels",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#vanari-auralan-sentinels"
       },
       {
         "unitId": "vanari-auralan-wardens",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#vanari-auralan-wardens"
       },
       {
         "unitId": "vanari-bladelords",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#vanari-bladelords"
       }
     ],
     "battleTraits": [
@@ -988,19 +1035,23 @@
     "unitComposition": [
       {
         "unitId": "snarlboss",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#snarlboss"
       },
       {
         "unitId": "wolfgit-retinue",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#wolfgit-retinue"
       },
       {
         "unitId": "snarlpack-cavalry",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#snarlpack-cavalry"
       },
       {
         "unitId": "sunsteala-wheelas",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#sunsteala-wheelas"
       }
     ],
     "battleTraits": [
@@ -1061,19 +1112,23 @@
     "unitComposition": [
       {
         "unitId": "melusai-ironscale",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#melusai-ironscale"
       },
       {
         "unitId": "blood-stalkers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#blood-stalkers"
       },
       {
         "unitId": "doomfire-warlocks",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#doomfire-warlocks"
       },
       {
         "unitId": "witch-aelves",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#witch-aelves"
       }
     ],
     "battleTraits": [
@@ -1135,23 +1190,28 @@
     "unitComposition": [
       {
         "unitId": "spirit-torment",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#spirit-torment"
       },
       {
         "unitId": "chainghasts",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#chainghasts"
       },
       {
         "unitId": "bladegheist-revenants",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#bladegheist-revenants"
       },
       {
         "unitId": "dreadscythe-harridans",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#dreadscythe-harridans"
       },
       {
         "unitId": "dreadblade-harrows",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#dreadblade-harrows"
       }
     ],
     "battleTraits": [
@@ -1221,19 +1281,23 @@
     "unitComposition": [
       {
         "unitId": "war-despot",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#war-despot"
       },
       {
         "unitId": "dominator-engine",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#dominator-engine"
       },
       {
         "unitId": "tormentor-bombard",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#tormentor-bombard"
       },
       {
         "unitId": "infernal-cohort",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#infernal-cohort"
       }
     ],
     "battleTraits": [
@@ -1294,19 +1358,23 @@
     "unitComposition": [
       {
         "unitId": "loonboss",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#loonboss"
       },
       {
         "unitId": "moonclan-stabbas",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#moonclan-stabbas"
       },
       {
         "unitId": "squig-hoppers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#squig-hoppers"
       },
       {
         "unitId": "rockgut-troggoths",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#rockgut-troggoths"
       }
     ],
     "battleTraits": [
@@ -1376,19 +1444,23 @@
     "unitComposition": [
       {
         "unitId": "slaughterpriest",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#slaughterpriest"
       },
       {
         "unitId": "blood-warriors",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#blood-warriors"
       },
       {
         "unitId": "bloodreavers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#bloodreavers"
       },
       {
         "unitId": "mighty-skullcrushers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#mighty-skullcrushers"
       }
     ],
     "battleTraits": [
@@ -1463,23 +1535,28 @@
     "unitComposition": [
       {
         "unitId": "magister-on-disc",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#magister-on-disc"
       },
       {
         "unitId": "flamers-of-tzeentch",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#flamers-of-tzeentch"
       },
       {
         "unitId": "screamers-of-tzeentch",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#screamers-of-tzeentch"
       },
       {
         "unitId": "tzaangors",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#tzaangors"
       },
       {
         "unitId": "kairic-acolytes",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#kairic-acolytes"
       }
     ],
     "battleTraits": [
@@ -1542,19 +1619,23 @@
     "unitComposition": [
       {
         "unitId": "endrinmaster-dirigible",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#endrinmaster-dirigible"
       },
       {
         "unitId": "grundstok-thunderers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#grundstok-thunderers"
       },
       {
         "unitId": "grundstok-gunhauler",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#grundstok-gunhauler"
       },
       {
         "unitId": "endrinriggers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#endrinriggers"
       }
     ],
     "battleTraits": [
@@ -1617,19 +1698,23 @@
     "unitComposition": [
       {
         "unitId": "arkanaut-admiral",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#arkanaut-admiral"
       },
       {
         "unitId": "arkanaut-company",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#arkanaut-company"
       },
       {
         "unitId": "skywardens",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#skywardens"
       },
       {
         "unitId": "arkanaut-frigate",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#arkanaut-frigate"
       }
     ],
     "battleTraits": [
@@ -1690,23 +1775,28 @@
     "unitComposition": [
       {
         "unitId": "sunblood-pack",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#sunblood-pack"
       },
       {
         "unitId": "saurus-warriors",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#saurus-warriors"
       },
       {
         "unitId": "hunters-of-huanchi",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#hunters-of-huanchi"
       },
       {
         "unitId": "terrawings",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#terrawings"
       },
       {
         "unitId": "spawn-of-chotec",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#spawn-of-chotec"
       }
     ],
     "battleTraits": [
@@ -1776,19 +1866,23 @@
     "unitComposition": [
       {
         "unitId": "branchwych",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#branchwych"
       },
       {
         "unitId": "tree-revenants",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#tree-revenants"
       },
       {
         "unitId": "kurnoth-hunters",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#kurnoth-hunters"
       },
       {
         "unitId": "treelord",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#treelord"
       }
     ],
     "battleTraits": [
@@ -1857,19 +1951,23 @@
     "unitComposition": [
       {
         "unitId": "arch-revenant",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#arch-revenant"
       },
       {
         "unitId": "gossamid-archers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#gossamid-archers"
       },
       {
         "unitId": "spiterider-lancers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#spiterider-lancers"
       },
       {
         "unitId": "revenant-seekers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#revenant-seekers"
       }
     ],
     "battleTraits": [
@@ -1942,15 +2040,18 @@
     "unitComposition": [
       {
         "unitId": "liege-kavalos",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#liege-kavalos"
       },
       {
         "unitId": "kavalos-deathriders",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#kavalos-deathriders"
       },
       {
         "unitId": "teratic-cohort",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#teratic-cohort"
       }
     ],
     "battleTraits": [
@@ -2019,23 +2120,28 @@
     "unitComposition": [
       {
         "unitId": "slaughter-queen-cauldron",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#slaughter-queen-cauldron"
       },
       {
         "unitId": "hag-queen",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#hag-queen"
       },
       {
         "unitId": "bloodwrack-medusa",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#bloodwrack-medusa"
       },
       {
         "unitId": "khainite-shadowstalkers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#khainite-shadowstalkers"
       },
       {
         "unitId": "sisters-of-slaughter",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#sisters-of-slaughter"
       }
     ],
     "battleTraits": [
@@ -2098,19 +2204,23 @@
     "unitComposition": [
       {
         "unitId": "hurakan-windmage",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#hurakan-windmage"
       },
       {
         "unitId": "hurakan-windchargers",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#hurakan-windchargers"
       },
       {
         "unitId": "vanari-auralan-wardens-hurakan",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#vanari-auralan-wardens-hurakan"
       },
       {
         "unitId": "hurakan-spirit-of-the-wind",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#hurakan-spirit-of-the-wind"
       }
     ],
     "battleTraits": [
@@ -2194,19 +2304,23 @@
     "unitComposition": [
       {
         "unitId": "tzaangor-shaman",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#tzaangor-shaman"
       },
       {
         "unitId": "tzaangors-warflock",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#tzaangors-warflock"
       },
       {
         "unitId": "tzaangor-enlightened",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#tzaangor-enlightened"
       },
       {
         "unitId": "tzaangor-skyfires",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#tzaangor-skyfires"
       }
     ],
     "battleTraits": [
@@ -2280,19 +2394,23 @@
     "unitComposition": [
       {
         "unitId": "rotbringer-sorcerer-bubonic",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#rotbringer-sorcerer-bubonic"
       },
       {
         "unitId": "nurglings-bubonic",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#nurglings-bubonic"
       },
       {
         "unitId": "beast-of-nurgle-bubonic",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#beast-of-nurgle-bubonic"
       },
       {
         "unitId": "rotmire-creed",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#rotmire-creed"
       }
     ],
     "battleTraits": [
@@ -2356,19 +2474,23 @@
     "unitComposition": [
       {
         "unitId": "knight-of-shrouds",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#knight-of-shrouds"
       },
       {
         "unitId": "spirit-hosts",
-        "count": 3
+        "count": 3,
+        "unitLink": "./units.json#spirit-hosts"
       },
       {
         "unitId": "grimghast-reapers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#grimghast-reapers"
       },
       {
         "unitId": "chainrasps",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#chainrasps"
       }
     ],
     "battleTraits": [
@@ -2436,23 +2558,28 @@
     "unitComposition": [
       {
         "unitId": "killaboss-on-great-gnashtoof",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#killaboss-on-great-gnashtoof"
       },
       {
         "unitId": "murknob-with-belcha-banna",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#murknob-with-belcha-banna"
       },
       {
         "unitId": "man-skewer-boltboyz",
-        "count": 3
+        "count": 3,
+        "unitLink": "./units.json#man-skewer-boltboyz"
       },
       {
         "unitId": "gutrippaz",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#gutrippaz"
       },
       {
         "unitId": "beast-skewer-killbow",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#beast-skewer-killbow"
       }
     ],
     "battleTraits": [
@@ -2515,19 +2642,23 @@
     "unitComposition": [
       {
         "unitId": "chaos-lord-warband",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#chaos-lord-warband"
       },
       {
         "unitId": "chaos-knights-warband",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#chaos-knights-warband"
       },
       {
         "unitId": "chaos-warriors-warband",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#chaos-warriors-warband"
       },
       {
         "unitId": "chaos-chariot-warband",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#chaos-chariot-warband"
       }
     ],
     "battleTraits": [
@@ -2582,11 +2713,13 @@
     "unitComposition": [
       {
         "unitId": "mortisan-soulreaper",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#mortisan-soulreaper"
       },
       {
         "unitId": "mortek-guard-elite",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#mortek-guard-elite"
       }
     ],
     "battleTraits": [
@@ -2625,11 +2758,13 @@
     "unitComposition": [
       {
         "unitId": "abhorrant-archregent",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#abhorrant-archregent"
       },
       {
         "unitId": "crypt-ghouls-retainers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#crypt-ghouls-retainers"
       }
     ],
     "battleTraits": [
@@ -2668,15 +2803,18 @@
     "unitComposition": [
       {
         "unitId": "abhorrant-gore-squire",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#abhorrant-gore-squire"
       },
       {
         "unitId": "crypt-horrors",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#crypt-horrors"
       },
       {
         "unitId": "morbheg-knights",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#morbheg-knights"
       }
     ],
     "battleTraits": [
@@ -2714,19 +2852,23 @@
     "unitComposition": [
       {
         "unitId": "megaboss",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#megaboss"
       },
       {
         "unitId": "brute-ragerz",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#brute-ragerz"
       },
       {
         "unitId": "ardboyz-ironjawz",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#ardboyz-ironjawz"
       },
       {
         "unitId": "brutes",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#brutes"
       }
     ],
     "battleTraits": [
@@ -2785,23 +2927,28 @@
     "unitComposition": [
       {
         "unitId": "yndrasta",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#yndrasta"
       },
       {
         "unitId": "knight-vexillor",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#knight-vexillor"
       },
       {
         "unitId": "annihilators",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#annihilators"
       },
       {
         "unitId": "vanquishers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#vanquishers"
       },
       {
         "unitId": "stormstrike-chariot",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#stormstrike-chariot"
       }
     ],
     "battleTraits": [
@@ -2853,23 +3000,28 @@
     "unitComposition": [
       {
         "unitId": "clawlord-on-gnaw-beast",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#clawlord-on-gnaw-beast"
       },
       {
         "unitId": "grey-seer-skaven",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#grey-seer-skaven"
       },
       {
         "unitId": "clanrats",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#clanrats"
       },
       {
         "unitId": "warplock-jezzails",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#warplock-jezzails"
       },
       {
         "unitId": "rat-ogors",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#rat-ogors"
       }
     ],
     "battleTraits": [
@@ -2919,19 +3071,23 @@
     "unitComposition": [
       {
         "unitId": "jorvan-kreel",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#jorvan-kreel"
       },
       {
         "unitId": "mallus-forgepriest",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#mallus-forgepriest"
       },
       {
         "unitId": "freeguild-gallants",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#freeguild-gallants"
       },
       {
         "unitId": "freeguild-grenadiers",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#freeguild-grenadiers"
       }
     ],
     "battleTraits": [
@@ -2993,19 +3149,23 @@
     "unitComposition": [
       {
         "unitId": "deathmaster-crixxit",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#deathmaster-crixxit"
       },
       {
         "unitId": "deathmaster",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#deathmaster"
       },
       {
         "unitId": "gutter-runners",
-        "count": 2
+        "count": 2,
+        "unitLink": "./units.json#gutter-runners"
       },
       {
         "unitId": "night-runners",
-        "count": 1
+        "count": 1,
+        "unitLink": "./units.json#night-runners"
       }
     ],
     "battleTraits": [
