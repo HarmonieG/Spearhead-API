@@ -3220,5 +3220,155 @@
     "isLatest": true,
     "totalUnits": 5,
     "totalModels": 22
+  },
+  {
+    "id": "saga-axeband",
+    "name": "Saga Axeband",
+    "faction": "Fyreslayers",
+    "generalId": "battlesmith",
+    "unitComposition": [
+      {
+        "unitId": "battlesmith",
+        "count": 1,
+        "unitLink": "./units.json#battlesmith"
+      },
+      {
+        "unitId": "hearthguard-berzerkers",
+        "count": 1,
+        "unitLink": "./units.json#hearthguard-berzerkers"
+      },
+      {
+        "unitId": "vulkite-berzerkers",
+        "count": 4,
+        "unitLink": "./units.json#vulkite-berzerkers"
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "AWAKEN THE RUNES",
+        "timing": "Once Per Battle Round, Start of Your Turn",
+        "declare": "Pick 1 ur-gold rune, then make an activation roll of D6. Each ur-gold rune can only be activated once per battle.",
+        "effect": "On a 1-5, the rune's standard effect applies. On a 6, the rune's enhanced effect applies as well. Effects last until the start of your next turn. Rune of Fury: Standard add 1 to hit rolls for combat attacks made by friendly units; Enhanced also add 1 to the Attacks characteristic of friendly melee weapons. Rune of Searing Heat: Standard add 1 to Rend for friendly melee weapons; Enhanced also add 1 to Damage. Rune of Fiery Determination: Standard friendly units have Ward (5+); Enhanced also add 1 to save rolls for friendly units. Rune of Relentless Zeal: Standard add 2\" to the Move characteristic of friendly units; Enhanced also add 2 to charge rolls for friendly units."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "MAGMIC TUNNELS",
+        "timing": "Once Per Battle, Start of the First Battle Round",
+        "effect": "Pick up to 2 friendly units. Remove them from the battlefield and set them up again anywhere on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "FYRESTEEL THROWING AXES",
+        "timing": "Once Per Turn (Army), Your Shooting Phase",
+        "declare": "Pick any number of friendly units that are not in combat and are within 10\" of any enemy units.",
+        "effect": "For each of those units, pick a visible enemy unit within 10\" of it and roll a dice. On a 4+, inflict D3 mortal damage on that enemy unit."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "TOO STUBBORN TO DIE",
+        "timing": "Start of Any Turn",
+        "effect": "Heal (D3) your general."
+      },
+      {
+        "name": "HORN OF GRIMNIR",
+        "timing": "Your Hero Phase",
+        "declare": "Pick your general to use this ability if they are not in combat.",
+        "effect": "Roll a dice for each friendly unit on the battlefield that has any slain models. On a 3+, you can return 1 slain model to that unit."
+      },
+      {
+        "name": "SPIRIT OF GRIMNIR",
+        "timing": "Passive",
+        "effect": "You can re-roll activation rolls you make for the 'Ur-gold Runes' ability (see Battle Traits).",
+        "isPassive": true
+      },
+      {
+        "name": "POWERFUL PRESENCE",
+        "timing": "Passive",
+        "effect": "Add 3 to your general's control score.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 0
+  },
+  {
+    "id": "wallsmasher-stomp",
+    "name": "Wallsmasher Stomp",
+    "faction": "Sons of Behemat",
+    "generalId": "mancrusher-gargant",
+    "unitComposition": [
+      {
+        "unitId": "mancrusher-gargant",
+        "count": 3,
+        "unitLink": "./units.json#mancrusher-gargant"
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "BULLSTOMPER",
+        "timing": "Passive",
+        "effect": "Your general has the HERO keyword (in addition to the MONSTER keyword) but does not have the REINFORCEMENTS keyword.",
+        "isPassive": true
+      },
+      {
+        "name": "BELLOWING ROAR",
+        "timing": "Any Combat Phase",
+        "declare": "Pick a friendly unit to use this ability, pick an enemy unit in combat with it to be the target, then roll a dice.",
+        "effect": "On a 2+, subtract 1 from hit rolls for attacks made by the target unit this phase."
+      },
+      {
+        "name": "'GRAB THOSE ROCKS AND CHUCK 'EM!'",
+        "timing": "Your Hero Phase",
+        "declare": "Pick your general to use this ability, then pick another friendly unit wholly within 12\" of them.",
+        "effect": "Add 1 to the Attacks characteristic of that unit's Throwin' Rocks this turn."
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "FOE-CHOMPERS",
+        "timing": "Passive",
+        "effect": "Each time an enemy model is slain by a friendly unit's 'Stuff 'Em In Me Bag' ability, Heal (D3) that unit.",
+        "isPassive": true
+      },
+      {
+        "name": "EARTH-SHAKING CHARGE",
+        "timing": "Once Per Phase (Army), Any Charge Phase",
+        "declare": "Pick a friendly unit that charged this phase to use this ability, then roll a dice for each enemy unit in combat with it.",
+        "effect": "On a 3+, that enemy unit has STRIKE-LAST this turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "MONSTROUSLY TOUGH",
+        "timing": "Passive",
+        "effect": "Your general has a Health characteristic of 15 instead of 12.",
+        "isPassive": true
+      },
+      {
+        "name": "EXTRA-BIG BAG",
+        "timing": "Passive",
+        "effect": "When your general uses their 'Stuff 'Em In Me Bag' ability, you can pick 2 enemy units instead of 1 (roll for each).",
+        "isPassive": true
+      },
+      {
+        "name": "FURIOUSLY TERRITORIAL",
+        "timing": "Passive",
+        "effect": "Add 1 to hit rolls for attacks made by your general that target an enemy unit that is contesting an objective you do not control.",
+        "isPassive": true
+      },
+      {
+        "name": "LANKY GIT",
+        "timing": "Passive",
+        "effect": "When you make a charge roll for your general, roll 3D6 instead of 2D6.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 3,
+    "totalModels": 0
   }
 ]
