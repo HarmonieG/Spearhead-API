@@ -12,17 +12,27 @@
       },
       {
         "unitId": "pusgoyle-blightlord",
-        "count": 2,
+        "count": 1,
+        "unitLink": "./units.json#pusgoyle-blightlord"
+      },
+      {
+        "unitId": "pusgoyle-blightlord",
+        "count": 1,
         "unitLink": "./units.json#pusgoyle-blightlord"
       },
       {
         "unitId": "putrid-blightkings",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#putrid-blightkings"
       },
       {
         "unitId": "plaguebearers",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#plaguebearers"
+      },
+      {
+        "unitId": "plaguebearers",
+        "count": 5,
         "unitLink": "./units.json#plaguebearers"
       }
     ],
@@ -86,7 +96,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 28
+    "totalModels": 18
   },
   {
     "id": "bloodcrave-hunt",
@@ -101,17 +111,22 @@
       },
       {
         "unitId": "deathrattle-skeletons",
-        "count": 2,
+        "count": 10,
+        "unitLink": "./units.json#deathrattle-skeletons"
+      },
+      {
+        "unitId": "deathrattle-skeletons",
+        "count": 10,
         "unitLink": "./units.json#deathrattle-skeletons"
       },
       {
         "unitId": "blood-knights",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#blood-knights"
       },
       {
         "unitId": "vargheists",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#vargheists"
       }
     ],
@@ -191,12 +206,17 @@
       },
       {
         "unitId": "freeguild-fusiliers",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#freeguild-fusiliers"
+      },
+      {
+        "unitId": "freeguild-fusiliers",
+        "count": 5,
         "unitLink": "./units.json#freeguild-fusiliers"
       },
       {
         "unitId": "wildercorps-hunters",
-        "count": 1,
+        "count": 11,
         "unitLink": "./units.json#wildercorps-hunters"
       }
     ],
@@ -250,7 +270,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 33
+    "totalModels": 23
   },
   {
     "id": "deathrattle-tomb-host",
@@ -265,17 +285,22 @@
       },
       {
         "unitId": "barrow-guard",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#barrow-guard"
       },
       {
         "unitId": "barrow-knights",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#barrow-knights"
       },
       {
         "unitId": "deathrattle-skeletons-tomb-host",
-        "count": 2,
+        "count": 10,
+        "unitLink": "./units.json#deathrattle-skeletons-tomb-host"
+      },
+      {
+        "unitId": "deathrattle-skeletons-tomb-host",
+        "count": 10,
         "unitLink": "./units.json#deathrattle-skeletons-tomb-host"
       }
     ],
@@ -336,7 +361,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 56
+    "totalModels": 36
   },
   {
     "id": "fangs-of-the-blood-god",
@@ -351,12 +376,17 @@
       },
       {
         "unitId": "flesh-hounds",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#flesh-hounds"
+      },
+      {
+        "unitId": "flesh-hounds",
+        "count": 5,
         "unitLink": "./units.json#flesh-hounds"
       },
       {
         "unitId": "claws-of-karanak",
-        "count": 1,
+        "count": 8,
         "unitLink": "./units.json#claws-of-karanak"
       }
     ],
@@ -428,7 +458,7 @@
       },
       {
         "unitId": "akhelian-morrsarr-guard",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#akhelian-morrsarr-guard"
       },
       {
@@ -438,7 +468,12 @@
       },
       {
         "unitId": "namarti-thralls",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#namarti-thralls"
+      },
+      {
+        "unitId": "namarti-thralls",
+        "count": 5,
         "unitLink": "./units.json#namarti-thralls"
       }
     ],
@@ -507,7 +542,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 25
+    "totalModels": 15
   },
   {
     "id": "akhelian-tide-guard",
@@ -522,17 +557,17 @@
       },
       {
         "unitId": "akhelian-morrsarr-guard-tide",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#akhelian-morrsarr-guard-tide"
       },
       {
         "unitId": "akhelian-ishlaen-guard-tide",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#akhelian-ishlaen-guard-tide"
       },
       {
         "unitId": "namarti-reavers-tide",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#namarti-reavers-tide"
       }
     ],
@@ -600,12 +635,17 @@
       },
       {
         "unitId": "freeguild-steelhelms",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#freeguild-steelhelms"
+      },
+      {
+        "unitId": "freeguild-steelhelms",
+        "count": 5,
         "unitLink": "./units.json#freeguild-steelhelms"
       },
       {
         "unitId": "freeguild-cavaliers",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#freeguild-cavaliers"
       },
       {
@@ -664,7 +704,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 27
+    "totalModels": 17
   },
   {
     "id": "blades-of-the-lurid-dream",
@@ -679,17 +719,22 @@
       },
       {
         "unitId": "blissbarb-archers",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#blissbarb-archers"
+      },
+      {
+        "unitId": "blissbarb-archers",
+        "count": 5,
         "unitLink": "./units.json#blissbarb-archers"
       },
       {
         "unitId": "slickblade-seekers",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#slickblade-seekers"
       },
       {
         "unitId": "slaangor-fiendbloods",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#slaangor-fiendbloods"
       }
     ],
@@ -760,7 +805,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 29
+    "totalModels": 19
   },
   {
     "id": "darkoath-raiders",
@@ -775,17 +820,17 @@
       },
       {
         "unitId": "darkoath-savagers",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#darkoath-savagers"
       },
       {
         "unitId": "darkoath-fellriders",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#darkoath-fellriders"
       },
       {
         "unitId": "darkoath-marauders",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#darkoath-marauders"
       }
     ],
@@ -854,12 +899,22 @@
       },
       {
         "unitId": "ironguts",
-        "count": 3,
+        "count": 2,
+        "unitLink": "./units.json#ironguts"
+      },
+      {
+        "unitId": "ironguts",
+        "count": 2,
+        "unitLink": "./units.json#ironguts"
+      },
+      {
+        "unitId": "ironguts",
+        "count": 4,
         "unitLink": "./units.json#ironguts"
       },
       {
         "unitId": "gnoblars",
-        "count": 1,
+        "count": 12,
         "unitLink": "./units.json#gnoblars"
       },
       {
@@ -923,7 +978,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 34
+    "totalModels": 22
   },
   {
     "id": "glittering-phalanx",
@@ -938,17 +993,22 @@
       },
       {
         "unitId": "vanari-auralan-sentinels",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#vanari-auralan-sentinels"
+      },
+      {
+        "unitId": "vanari-auralan-sentinels",
+        "count": 5,
         "unitLink": "./units.json#vanari-auralan-sentinels"
       },
       {
         "unitId": "vanari-auralan-wardens",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#vanari-auralan-wardens"
       },
       {
         "unitId": "vanari-bladelords",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#vanari-bladelords"
       }
     ],
@@ -1025,7 +1085,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 36
+    "totalModels": 26
   },
   {
     "id": "snarlpack-huntaz",
@@ -1040,17 +1100,27 @@
       },
       {
         "unitId": "wolfgit-retinue",
-        "count": 1,
+        "count": 2,
         "unitLink": "./units.json#wolfgit-retinue"
       },
       {
         "unitId": "snarlpack-cavalry",
-        "count": 2,
+        "count": 3,
+        "unitLink": "./units.json#snarlpack-cavalry"
+      },
+      {
+        "unitId": "snarlpack-cavalry",
+        "count": 3,
         "unitLink": "./units.json#snarlpack-cavalry"
       },
       {
         "unitId": "sunsteala-wheelas",
-        "count": 2,
+        "count": 1,
+        "unitLink": "./units.json#sunsteala-wheelas"
+      },
+      {
+        "unitId": "sunsteala-wheelas",
+        "count": 1,
         "unitLink": "./units.json#sunsteala-wheelas"
       }
     ],
@@ -1102,7 +1172,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 12
+    "totalModels": 11
   },
   {
     "id": "heartflayer-troupe",
@@ -1116,19 +1186,24 @@
         "unitLink": "./units.json#melusai-ironscale"
       },
       {
-        "unitId": "blood-stalkers",
-        "count": 1,
-        "unitLink": "./units.json#blood-stalkers"
-      },
-      {
-        "unitId": "doomfire-warlocks",
-        "count": 1,
-        "unitLink": "./units.json#doomfire-warlocks"
+        "unitId": "witch-aelves",
+        "count": 5,
+        "unitLink": "./units.json#witch-aelves"
       },
       {
         "unitId": "witch-aelves",
-        "count": 2,
+        "count": 5,
         "unitLink": "./units.json#witch-aelves"
+      },
+      {
+        "unitId": "doomfire-warlocks",
+        "count": 5,
+        "unitLink": "./units.json#doomfire-warlocks"
+      },
+      {
+        "unitId": "blood-stalkers",
+        "count": 5,
+        "unitLink": "./units.json#blood-stalkers"
       }
     ],
     "battleTraits": [
@@ -1180,7 +1255,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 31
+    "totalModels": 21
   },
   {
     "id": "cursed-shacklehorde",
@@ -1195,22 +1270,32 @@
       },
       {
         "unitId": "chainghasts",
-        "count": 1,
+        "count": 2,
         "unitLink": "./units.json#chainghasts"
       },
       {
         "unitId": "bladegheist-revenants",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#bladegheist-revenants"
+      },
+      {
+        "unitId": "bladegheist-revenants",
+        "count": 5,
         "unitLink": "./units.json#bladegheist-revenants"
       },
       {
         "unitId": "dreadscythe-harridans",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#dreadscythe-harridans"
+      },
+      {
+        "unitId": "dreadscythe-harridans",
+        "count": 5,
         "unitLink": "./units.json#dreadscythe-harridans"
       },
       {
         "unitId": "dreadblade-harrows",
-        "count": 1,
+        "count": 2,
         "unitLink": "./units.json#dreadblade-harrows"
       }
     ],
@@ -1271,7 +1356,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 7,
-    "totalModels": 45
+    "totalModels": 25
   },
   {
     "id": "helforge-host",
@@ -1296,7 +1381,12 @@
       },
       {
         "unitId": "infernal-cohort",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#infernal-cohort"
+      },
+      {
+        "unitId": "infernal-cohort",
+        "count": 5,
         "unitLink": "./units.json#infernal-cohort"
       }
     ],
@@ -1348,7 +1438,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 23
+    "totalModels": 13
   },
   {
     "id": "bad-moon-madmob",
@@ -1363,17 +1453,27 @@
       },
       {
         "unitId": "moonclan-stabbas",
-        "count": 2,
+        "count": 10,
+        "unitLink": "./units.json#moonclan-stabbas"
+      },
+      {
+        "unitId": "moonclan-stabbas",
+        "count": 10,
         "unitLink": "./units.json#moonclan-stabbas"
       },
       {
         "unitId": "squig-hoppers",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#squig-hoppers"
+      },
+      {
+        "unitId": "squig-hoppers",
+        "count": 5,
         "unitLink": "./units.json#squig-hoppers"
       },
       {
         "unitId": "rockgut-troggoths",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#rockgut-troggoths"
       }
     ],
@@ -1434,7 +1534,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 54
+    "totalModels": 34
   },
   {
     "id": "bloodbound-gore-pilgrims",
@@ -1449,17 +1549,22 @@
       },
       {
         "unitId": "blood-warriors",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#blood-warriors"
+      },
+      {
+        "unitId": "blood-warriors",
+        "count": 5,
         "unitLink": "./units.json#blood-warriors"
       },
       {
         "unitId": "bloodreavers",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#bloodreavers"
       },
       {
         "unitId": "mighty-skullcrushers",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#mighty-skullcrushers"
       }
     ],
@@ -1540,22 +1645,27 @@
       },
       {
         "unitId": "flamers-of-tzeentch",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#flamers-of-tzeentch"
       },
       {
         "unitId": "screamers-of-tzeentch",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#screamers-of-tzeentch"
       },
       {
         "unitId": "tzaangors",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#tzaangors"
+      },
+      {
+        "unitId": "tzaangors",
+        "count": 5,
         "unitLink": "./units.json#tzaangors"
       },
       {
         "unitId": "kairic-acolytes",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#kairic-acolytes"
       }
     ],
@@ -1609,7 +1719,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 37
+    "totalModels": 27
   },
   {
     "id": "grundstok-trailblazers",
@@ -1624,7 +1734,7 @@
       },
       {
         "unitId": "grundstok-thunderers",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#grundstok-thunderers"
       },
       {
@@ -1634,7 +1744,7 @@
       },
       {
         "unitId": "endrinriggers",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#endrinriggers"
       }
     ],
@@ -1703,18 +1813,8 @@
       },
       {
         "unitId": "arkanaut-company",
-        "count": 2,
+        "count": 5,
         "unitLink": "./units.json#arkanaut-company"
-      },
-      {
-        "unitId": "skywardens",
-        "count": 1,
-        "unitLink": "./units.json#skywardens"
-      },
-      {
-        "unitId": "arkanaut-frigate",
-        "count": 1,
-        "unitLink": "./units.json#arkanaut-frigate"
       }
     ],
     "battleTraits": [
@@ -1764,8 +1864,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 5,
-    "totalModels": 25
+    "totalUnits": 2,
+    "totalModels": 6
   },
   {
     "id": "sunblooded-prowlers",
@@ -1779,18 +1879,33 @@
         "unitLink": "./units.json#sunblood-pack"
       },
       {
+        "unitId": "sunblood-pack",
+        "count": 1,
+        "unitLink": "./units.json#sunblood-pack"
+      },
+      {
         "unitId": "saurus-warriors",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#saurus-warriors"
+      },
+      {
+        "unitId": "saurus-warriors",
+        "count": 5,
         "unitLink": "./units.json#saurus-warriors"
       },
       {
         "unitId": "hunters-of-huanchi",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#hunters-of-huanchi"
+      },
+      {
+        "unitId": "hunters-of-huanchi",
+        "count": 5,
         "unitLink": "./units.json#hunters-of-huanchi"
       },
       {
         "unitId": "terrawings",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#terrawings"
       },
       {
@@ -1855,8 +1970,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 7,
-    "totalModels": 45
+    "totalUnits": 8,
+    "totalModels": 26
   },
   {
     "id": "bitterbark-copse",
@@ -1870,19 +1985,19 @@
         "unitLink": "./units.json#branchwych"
       },
       {
-        "unitId": "tree-revenants",
-        "count": 1,
-        "unitLink": "./units.json#tree-revenants"
-      },
-      {
-        "unitId": "kurnoth-hunters",
-        "count": 1,
-        "unitLink": "./units.json#kurnoth-hunters"
-      },
-      {
         "unitId": "treelord",
         "count": 1,
         "unitLink": "./units.json#treelord"
+      },
+      {
+        "unitId": "kurnoth-hunters",
+        "count": 3,
+        "unitLink": "./units.json#kurnoth-hunters"
+      },
+      {
+        "unitId": "tree-revenants",
+        "count": 5,
+        "unitLink": "./units.json#tree-revenants"
       }
     ],
     "battleTraits": [
@@ -1956,17 +2071,17 @@
       },
       {
         "unitId": "gossamid-archers",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#gossamid-archers"
       },
       {
         "unitId": "spiterider-lancers",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#spiterider-lancers"
       },
       {
         "unitId": "revenant-seekers",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#revenant-seekers"
       }
     ],
@@ -2045,12 +2160,17 @@
       },
       {
         "unitId": "kavalos-deathriders",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#kavalos-deathriders"
+      },
+      {
+        "unitId": "kavalos-deathriders",
+        "count": 5,
         "unitLink": "./units.json#kavalos-deathriders"
       },
       {
         "unitId": "teratic-cohort",
-        "count": 1,
+        "count": 8,
         "unitLink": "./units.json#teratic-cohort"
       }
     ],
@@ -2110,7 +2230,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 4,
-    "totalModels": 16
+    "totalModels": 19
   },
   {
     "id": "khainite-shadow-coven",
@@ -2135,12 +2255,17 @@
       },
       {
         "unitId": "khainite-shadowstalkers",
-        "count": 1,
+        "count": 9,
         "unitLink": "./units.json#khainite-shadowstalkers"
       },
       {
         "unitId": "sisters-of-slaughter",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#sisters-of-slaughter"
+      },
+      {
+        "unitId": "sisters-of-slaughter",
+        "count": 5,
         "unitLink": "./units.json#sisters-of-slaughter"
       }
     ],
@@ -2194,7 +2319,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 32
+    "totalModels": 22
   },
   {
     "id": "hurakan-vanguard",
@@ -2209,12 +2334,12 @@
       },
       {
         "unitId": "hurakan-windchargers",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#hurakan-windchargers"
       },
       {
         "unitId": "vanari-auralan-wardens-hurakan",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#vanari-auralan-wardens-hurakan"
       },
       {
@@ -2309,17 +2434,17 @@
       },
       {
         "unitId": "tzaangors-warflock",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#tzaangors-warflock"
       },
       {
         "unitId": "tzaangor-enlightened",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#tzaangor-enlightened"
       },
       {
         "unitId": "tzaangor-skyfires",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#tzaangor-skyfires"
       }
     ],
@@ -2399,7 +2524,12 @@
       },
       {
         "unitId": "nurglings-bubonic",
-        "count": 2,
+        "count": 3,
+        "unitLink": "./units.json#nurglings-bubonic"
+      },
+      {
+        "unitId": "nurglings-bubonic",
+        "count": 3,
         "unitLink": "./units.json#nurglings-bubonic"
       },
       {
@@ -2409,7 +2539,7 @@
       },
       {
         "unitId": "rotmire-creed",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#rotmire-creed"
       }
     ],
@@ -2484,12 +2614,22 @@
       },
       {
         "unitId": "grimghast-reapers",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#grimghast-reapers"
+      },
+      {
+        "unitId": "grimghast-reapers",
+        "count": 5,
         "unitLink": "./units.json#grimghast-reapers"
       },
       {
         "unitId": "chainrasps",
-        "count": 2,
+        "count": 10,
+        "unitLink": "./units.json#chainrasps"
+      },
+      {
+        "unitId": "chainrasps",
+        "count": 10,
         "unitLink": "./units.json#chainrasps"
       }
     ],
@@ -2547,8 +2687,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 8,
-    "totalModels": 50
+    "totalUnits": 6,
+    "totalModels": 34
   },
   {
     "id": "swampskulka-gang",
@@ -2573,7 +2713,12 @@
       },
       {
         "unitId": "gutrippaz",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#gutrippaz"
+      },
+      {
+        "unitId": "gutrippaz",
+        "count": 5,
         "unitLink": "./units.json#gutrippaz"
       },
       {
@@ -2631,8 +2776,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 8,
-    "totalModels": 32
+    "totalUnits": 6,
+    "totalModels": 16
   },
   {
     "id": "bloodwind-legion",
@@ -2646,19 +2791,24 @@
         "unitLink": "./units.json#chaos-lord-warband"
       },
       {
-        "unitId": "chaos-knights-warband",
-        "count": 1,
-        "unitLink": "./units.json#chaos-knights-warband"
-      },
-      {
-        "unitId": "chaos-warriors-warband",
-        "count": 1,
-        "unitLink": "./units.json#chaos-warriors-warband"
-      },
-      {
         "unitId": "chaos-chariot-warband",
         "count": 1,
         "unitLink": "./units.json#chaos-chariot-warband"
+      },
+      {
+        "unitId": "chaos-warriors-warband",
+        "count": 5,
+        "unitLink": "./units.json#chaos-warriors-warband"
+      },
+      {
+        "unitId": "chaos-warriors-warband",
+        "count": 5,
+        "unitLink": "./units.json#chaos-warriors-warband"
+      },
+      {
+        "unitId": "chaos-knights-warband",
+        "count": 5,
+        "unitLink": "./units.json#chaos-knights-warband"
       }
     ],
     "battleTraits": [
@@ -2702,7 +2852,7 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 4,
+    "totalUnits": 5,
     "totalModels": 17
   },
   {
@@ -2718,7 +2868,12 @@
       },
       {
         "unitId": "mortek-guard-elite",
-        "count": 2,
+        "count": 10,
+        "unitLink": "./units.json#mortek-guard-elite"
+      },
+      {
+        "unitId": "mortek-guard-elite",
+        "count": 10,
         "unitLink": "./units.json#mortek-guard-elite"
       }
     ],
@@ -2760,11 +2915,6 @@
         "unitId": "abhorrant-archregent",
         "count": 1,
         "unitLink": "./units.json#abhorrant-archregent"
-      },
-      {
-        "unitId": "crypt-ghouls-retainers",
-        "count": 2,
-        "unitLink": "./units.json#crypt-ghouls-retainers"
       }
     ],
     "battleTraits": [
@@ -2792,8 +2942,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 3,
-    "totalModels": 41
+    "totalUnits": 1,
+    "totalModels": 1
   },
   {
     "id": "charnel-watch",
@@ -2808,13 +2958,8 @@
       },
       {
         "unitId": "crypt-horrors",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#crypt-horrors"
-      },
-      {
-        "unitId": "morbheg-knights",
-        "count": 1,
-        "unitLink": "./units.json#morbheg-knights"
       }
     ],
     "battleTraits": [
@@ -2841,8 +2986,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 3,
-    "totalModels": 0
+    "totalUnits": 2,
+    "totalModels": 4
   },
   {
     "id": "ironjawz-bigmob",
@@ -2857,17 +3002,22 @@
       },
       {
         "unitId": "brute-ragerz",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#brute-ragerz"
       },
       {
         "unitId": "ardboyz-ironjawz",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#ardboyz-ironjawz"
+      },
+      {
+        "unitId": "ardboyz-ironjawz",
+        "count": 5,
         "unitLink": "./units.json#ardboyz-ironjawz"
       },
       {
         "unitId": "brutes",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#brutes"
       }
     ],
@@ -2917,7 +3067,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 34
+    "totalModels": 19
   },
   {
     "id": "yndrastas-spearhead",
@@ -2937,18 +3087,18 @@
       },
       {
         "unitId": "annihilators",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#annihilators"
       },
       {
         "unitId": "vanquishers",
-        "count": 2,
+        "count": 5,
         "unitLink": "./units.json#vanquishers"
       },
       {
-        "unitId": "stormstrike-chariot",
-        "count": 1,
-        "unitLink": "./units.json#stormstrike-chariot"
+        "unitId": "vanquishers",
+        "count": 5,
+        "unitLink": "./units.json#vanquishers"
       }
     ],
     "battleTraits": [
@@ -2989,8 +3139,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 6,
-    "totalModels": 16
+    "totalUnits": 5,
+    "totalModels": 15
   },
   {
     "id": "gnawfeast-clawpack",
@@ -3010,17 +3160,17 @@
       },
       {
         "unitId": "clanrats",
-        "count": 2,
+        "count": 10,
         "unitLink": "./units.json#clanrats"
       },
       {
-        "unitId": "warplock-jezzails",
-        "count": 1,
-        "unitLink": "./units.json#warplock-jezzails"
+        "unitId": "clanrats",
+        "count": 10,
+        "unitLink": "./units.json#clanrats"
       },
       {
         "unitId": "rat-ogors",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#rat-ogors"
       }
     ],
@@ -3060,8 +3210,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 6,
-    "totalModels": 48
+    "totalUnits": 5,
+    "totalModels": 25
   },
   {
     "id": "sentinels-of-embergard",
@@ -3081,12 +3231,17 @@
       },
       {
         "unitId": "freeguild-gallants",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#freeguild-gallants"
       },
       {
         "unitId": "freeguild-grenadiers",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#freeguild-grenadiers"
+      },
+      {
+        "unitId": "freeguild-grenadiers",
+        "count": 5,
         "unitLink": "./units.json#freeguild-grenadiers"
       }
     ],
@@ -3139,7 +3294,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 5,
-    "totalModels": 27
+    "totalModels": 17
   },
   {
     "id": "crixxits-kill-pack",
@@ -3159,13 +3314,23 @@
       },
       {
         "unitId": "gutter-runners",
-        "count": 2,
+        "count": 5,
+        "unitLink": "./units.json#gutter-runners"
+      },
+      {
+        "unitId": "gutter-runners",
+        "count": 5,
         "unitLink": "./units.json#gutter-runners"
       },
       {
         "unitId": "night-runners",
-        "count": 1,
+        "count": 10,
         "unitLink": "./units.json#night-runners"
+      },
+      {
+        "unitId": "gutter-runners",
+        "count": 1,
+        "unitLink": "./units.json#gutter-runners"
       }
     ],
     "battleTraits": [
@@ -3218,8 +3383,8 @@
     ],
     "version": "1",
     "isLatest": true,
-    "totalUnits": 5,
-    "totalModels": 22
+    "totalUnits": 6,
+    "totalModels": 23
   },
   {
     "id": "saga-axeband",
@@ -3234,12 +3399,27 @@
       },
       {
         "unitId": "hearthguard-berzerkers",
-        "count": 1,
+        "count": 5,
         "unitLink": "./units.json#hearthguard-berzerkers"
       },
       {
         "unitId": "vulkite-berzerkers",
-        "count": 4,
+        "count": 5,
+        "unitLink": "./units.json#vulkite-berzerkers"
+      },
+      {
+        "unitId": "vulkite-berzerkers",
+        "count": 5,
+        "unitLink": "./units.json#vulkite-berzerkers"
+      },
+      {
+        "unitId": "vulkite-berzerkers",
+        "count": 5,
+        "unitLink": "./units.json#vulkite-berzerkers"
+      },
+      {
+        "unitId": "vulkite-berzerkers",
+        "count": 5,
         "unitLink": "./units.json#vulkite-berzerkers"
       }
     ],
@@ -3292,7 +3472,7 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 6,
-    "totalModels": 0
+    "totalModels": 26
   },
   {
     "id": "wallsmasher-stomp",
@@ -3302,7 +3482,17 @@
     "unitComposition": [
       {
         "unitId": "mancrusher-gargant",
-        "count": 3,
+        "count": 1,
+        "unitLink": "./units.json#mancrusher-gargant"
+      },
+      {
+        "unitId": "mancrusher-gargant",
+        "count": 1,
+        "unitLink": "./units.json#mancrusher-gargant"
+      },
+      {
+        "unitId": "mancrusher-gargant",
+        "count": 1,
         "unitLink": "./units.json#mancrusher-gargant"
       }
     ],
@@ -3369,6 +3559,6 @@
     "version": "1",
     "isLatest": true,
     "totalUnits": 3,
-    "totalModels": 0
+    "totalModels": 3
   }
 ]
