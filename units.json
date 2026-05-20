@@ -2073,6 +2073,163 @@
     ]
   },
   {
+    "id": "freeguild-marshal-and-relic-envoy",
+    "name": "Freeguild Marshal And Relic Envoy",
+    "keywords": [
+      "Hero",
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 5,
+      "save": "3"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Master-Forged Weapon",
+          "attacks": "5",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": [
+        {
+          "name": "Duelling Pistols",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1",
+          "range": "10",
+          "ability": "Shoot in Combat"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Marshal's Orders",
+        "timing": "Your Hero Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of this unit to be the target.",
+        "effect": "Remove this unit's Relic Envoy token from the battlefield, then give it to the target."
+      },
+      {
+        "name": "Relic Envoy",
+        "timing": "Passive",
+        "effect": "While a friendly unit other than this unit has the Relic Envoy token, add 1 to wound rolls for that unit's combat attacks. If this unit is destroyed, remove the Relic Envoy token from the battlefield.",
+        "isPassive": true
+      }
+    ]
+  },
+  {
+    "id": "pontifex-zenestra-matriarch-of-the-great-wheel",
+    "name": "Pontifex Zenestra, Matriarch Of The Great Wheel",
+    "keywords": [
+      "Hero",
+      "Priest",
+      "Infantry",
+      "Ward (4+)"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 9,
+      "save": "5"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Sceptre Of The Wheel",
+          "attacks": "3",
+          "hit": "4",
+          "wound": "4",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Vessel Of Sigmar",
+        "timing": "Your Hero Phase",
+        "declare": "Pick up to 3 visible friendly or enemy units to be the targets.",
+        "effect": "Roll a D3 for each target. On a 2+: If it is a friendly target, it has Ward (5+) until the start of your next turn. If it is an enemy target, inflict an amount of mortal damage on it equal to the roll."
+      }
+    ]
+  },
+  {
+    "id": "freeguild-command-corps-arch-knight-and-retinue",
+    "name": "Freeguild Command Corps Arch-Knight And Retinue",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 2,
+      "health": 2,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Command Weapons",
+          "attacks": "3",
+          "hit": "3",
+          "wound": "4",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Talented Champions",
+        "timing": "Once Per Turn, Reaction: You used a command",
+        "effect": "After that command has been resolved, return the card to your hand."
+      }
+    ]
+  },
+  {
+    "id": "freeguild-command-corps-whisperblade",
+    "name": "Freeguild Command Corps Whisperblade",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {
+      "move": "5",
+      "control": 1,
+      "health": 1,
+      "save": "4"
+    },
+    "weapons": {
+      "melee": [
+        {
+          "name": "Enchanted Rapier",
+          "attacks": "4",
+          "hit": "3",
+          "wound": "4",
+          "rend": "2",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Forewarned Is Forearmed",
+        "timing": "Passive",
+        "effect": "While it is your turn, this unit has Strike-first.",
+        "isPassive": true
+      }
+    ]
+  },
+  {
     "id": "fusil-major-ogor-warhulk",
     "name": "Fusil-Major On Ogor Warhulk",
     "keywords": [

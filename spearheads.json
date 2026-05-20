@@ -3297,6 +3297,100 @@
     "totalModels": 17
   },
   {
+    "id": "zenestras-zealots",
+    "name": "Zenestra’s Zealots",
+    "faction": "Cities of Sigmar",
+    "generalId": "freeguild-marshal-and-relic-envoy",
+    "unitComposition": [
+      {
+        "unitId": "freeguild-marshal-and-relic-envoy",
+        "count": 1,
+        "unitLink": "./units.json#freeguild-marshal-and-relic-envoy"
+      },
+      {
+        "unitId": "pontifex-zenestra-matriarch-of-the-great-wheel",
+        "count": 1,
+        "unitLink": "./units.json#pontifex-zenestra-matriarch-of-the-great-wheel"
+      },
+      {
+        "unitId": "freeguild-command-corps-whisperblade",
+        "count": 1,
+        "unitLink": "./units.json#freeguild-command-corps-whisperblade"
+      },
+      {
+        "unitId": "freeguild-command-corps-arch-knight-and-retinue",
+        "count": 1,
+        "unitLink": "./units.json#freeguild-command-corps-arch-knight-and-retinue"
+      },
+      {
+        "unitId": "freeguild-steelhelms",
+        "count": 5,
+        "unitLink": "./units.json#freeguild-steelhelms"
+      },
+      {
+        "unitId": "freeguild-steelhelms",
+        "count": 5,
+        "unitLink": "./units.json#freeguild-steelhelms"
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FIERCE ZEALOTS",
+        "timing": "Passive",
+        "effect": "Add 3 to the control scores of friendly Freeguild Steelhelms units.",
+        "isPassive": true
+      },
+      {
+        "name": "SUDDEN AMBUSH",
+        "timing": "Your Movement Phase",
+        "effect": "Set up this unit within 6\" of an enemy unit and not in combat."
+      },
+      {
+        "name": "LADY OF THE WHEEL",
+        "timing": "Passive",
+        "effect": "Each time a friendly model is slain by a combat attack, roll a number of dice equal to that model’s Health characteristic. For each 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+        "isPassive": true
+      }
+    ],
+    "regimentAbilities": [
+      {
+        "name": "STAND FAST, COMRADES",
+        "timing": "Once Per Battle, Your Hero Phase",
+        "declare": "Pick a visible friendly non-Hero unit wholly within 12\" of your general to be the target.",
+        "effect": "The target has Ward (4+) until the start of the next battle round."
+      },
+      {
+        "name": "STEP TO IT!",
+        "timing": "Once Per Turn, Reaction: You declared a Run ability for a non-Hero unit wholly within 12\" of your general",
+        "effect": "Do not make a run roll as part of that Run ability. Instead, add 6\" to that non-Hero unit’s Move characteristic to determine the distance each model in that unit can move as part of that Run ability."
+      },
+      {
+        "name": "ARDENT DEMAND",
+        "timing": "Any Combat Phase",
+        "declare": "Pick a visible friendly non-Hero unit wholly within 12\" of your general to be the target.",
+        "effect": "Add 1 to hit rolls for the target’s combat attacks for the rest of the turn."
+      }
+    ],
+    "enhancements": [
+      {
+        "name": "FERVENT RUSH",
+        "timing": "Once Per Turn (Army), Your Movement Phase",
+        "declare": "Pick a friendly unit to use this ability.",
+        "effect": "This unit can use Charge abilities this turn even if it used a Run ability in the same turn."
+      },
+      {
+        "name": "DEVOUT COMMANDER",
+        "timing": "Passive",
+        "effect": "Add 1 to the Attacks characteristic and the Rend characteristic of your general’s Master-forged Weapon.",
+        "isPassive": true
+      }
+    ],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 6,
+    "totalModels": 14
+  },
+  {
     "id": "crixxits-kill-pack",
     "name": "Crixxit’s Kill-Pack",
     "faction": "Skaven",
