@@ -623,6 +623,94 @@
     "totalModels": 17
   },
   {
+    "id": "epicurean-revellers",
+    "name": "Epicurean Revellers",
+    "faction": "Hedonites of Slaanesh",
+    "generalId": "thricefold-discord",
+    "unitComposition": [
+      {
+        "unitId": "thricefold-discord",
+        "count": 1,
+        "unitLink": "./units.json#thricefold-discord"
+      },
+      {
+        "unitId": "fiends",
+        "count": 3,
+        "unitLink": "./units.json#fiends"
+      },
+      {
+        "unitId": "daemonettes",
+        "count": 10,
+        "unitLink": "./units.json#daemonettes"
+      },
+      {
+        "unitId": "daemonettes",
+        "count": 10,
+        "unitLink": "./units.json#daemonettes"
+      },
+      {
+        "unitId": "seekers",
+        "count": 5,
+        "unitLink": "./units.json#seekers"
+      }
+    ],
+    "battleTraits": [
+      {
+        "name": "FAVOUR MOST FICKLE",
+        "timing": "Start of Battle Round",
+        "effect": "The following effects apply based on the number of friendly units on the battlefield. These effects are not cumulative: 5 or more units: Add 2 to the Control characteristic of friendly units. 4 units: Add 1 to hit rolls and wound rolls for friendly units’ combat attacks, including attacks made with Companion weapons. 3 units: Add 1 to run rolls and charge rolls for friendly units. 2 units: Friendly units have Ward (5+). 1 unit: Add 2 to the Attacks characteristic of friendly units’ melee weapons, including Companion weapons."
+      },
+      {
+        "name": "DAEMONIC ONSLAUGHT",
+        "timing": "Once Per Battle, Deployment Phase",
+        "declare": "Pick a friendly Seekers or Fiends unit wholly within 12\" of your general to be the target.",
+        "effect": "The target can use the 'Normal Move' ability as if it were your movement phase."
+      },
+      {
+        "name": "HIGH COURTIERS",
+        "timing": "Passive",
+        "effect": "While your general is wholly within the combat range of a friendly Daemonettes unit, both units have Ward (5+).",
+        "isPassive": true
+      },
+      {
+        "name": "IRRESISTIBLE SOUL-MUSK",
+        "timing": "Once Per Battle, Your Movement Phase",
+        "declare": "Pick a visible friendly Seekers or Fiends unit wholly within 12\" of your general to be the target.",
+        "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 6\" from all enemy units."
+      },
+      {
+        "name": "TWISTED GRACE",
+        "timing": "Passive",
+        "effect": "When your general makes a pile-in move, if they charged in the same turn, add D6\" to the distance they can move.",
+        "isPassive": true
+      },
+      {
+        "name": "BRINGERS OF DEGRADATION",
+        "timing": "Passive",
+        "effect": "When players are alternating picking units to use a Fight ability, when it is your turn to pick a unit, you can pick 2 friendly Daemonettes units instead of 1 unit. Resolve the second Fight ability immediately after the first.",
+        "isPassive": true
+      },
+      {
+        "name": "EXCESS OF VIOLENCE",
+        "timing": "Once Per Battle, Any Combat Phase",
+        "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target.",
+        "effect": "The target’s melee weapons, including Companion weapons, have Crit (2 Hits) until the start of your next turn."
+      },
+      {
+        "name": "DISPENSERS OF FAVOUR",
+        "timing": "Your Hero Phase",
+        "declare": "Pick up to X different friendly units wholly within 12\" of this unit to be the targets, where X is the number of models in this unit. Then, make a casting roll of 2D6.",
+        "effect": "On a 6+, apply the relevant effect to each target: Daemonettes: The target’s weapons have Anti‑charge (+1 Rend) until the start of your next turn. Seekers: Add 2\" to the target’s Move characteristic until the start of your next turn. Fiends: Add 1 to hit rolls for the target’s combat attacks until the start of your next turn."
+      }
+    ],
+    "regimentAbilities": [],
+    "enhancements": [],
+    "version": "1",
+    "isLatest": true,
+    "totalUnits": 5,
+    "totalModels": 31
+  },
+  {
     "id": "castelite-company",
     "name": "Castelite Company",
     "faction": "Cities of Sigmar",
