@@ -5379,4 +5379,129 @@
       }
     ]
   }
+  ,
+  {
+    "id": "thricefold-discord",
+    "name": "Thricefold Discord",
+    "keywords": [
+      "Hero",
+      "Wizard"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Thricefold Arsenal",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Thricefold Court",
+        "timing": "Passive",
+        "effect": "Each model in this unit is treated as an individual unit when determining the effect of the 'Favour Most Fickle' battle trait."
+      }
+    ]
+  },
+  {
+    "id": "fiends",
+    "name": "Fiends",
+    "keywords": [
+      "Beast",
+      "Ward (6+)"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Deadly Pincers and Barbed Stinger",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Soporific Musk",
+        "timing": "Passive / Declare",
+        "effect": "If not in combat, pick a visible enemy unit within 9\" to be the target. If in combat pick the enemy unit in combat; roll a dice: on a 4+, the target has Strike-last for the rest of the turn."
+      }
+    ]
+  },
+  {
+    "id": "daemonettes",
+    "name": "Daemonettes",
+    "keywords": [
+      "Infantry"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Piercing Claws",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Lithe and Swift",
+        "timing": "Passive",
+        "effect": "If this unit charged in the same turn, add 1 to the Attacks characteristic of its Piercing Claws."
+      }
+    ]
+  },
+  {
+    "id": "seekers",
+    "name": "Seekers",
+    "keywords": [
+      "Infantry",
+      "Reinforcements"
+    ],
+    "stats": {},
+    "weapons": {
+      "melee": [
+        {
+          "name": "Agonising Claws",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1"
+        },
+        {
+          "name": "Steed’s Poisoned Tongue",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "ability": "Companion"
+        }
+      ],
+      "ranged": []
+    },
+    "abilities": [
+      {
+        "name": "Quicksilver Speed",
+        "timing": "Passive",
+        "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead."
+      }
+    ]
+  }
 ]
