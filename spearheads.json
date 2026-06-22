@@ -630,7 +630,7 @@
     "unitComposition": [
       {
         "unitId": "thricefold-discord",
-        "count": 1,
+        "count": 3,
         "unitLink": "./units.json#thricefold-discord"
       },
       {
