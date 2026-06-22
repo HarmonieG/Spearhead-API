@@ -1,1 +1,5 @@
-warscrolls/
+*
+!.gitignore
+!README.md
+!units.json
+!spearheads.json
